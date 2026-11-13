@@ -1,0 +1,11 @@
+parts/
+stills/
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.npy
+*.jpg
+*.png
+info.txt
+__pycache__/
