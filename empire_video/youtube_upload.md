@@ -58,7 +58,7 @@ british empire, how the british empire ruled the world, british empire documenta
 - **Category:** Education
 - **Audience:** "No, it's not made for kids".
 - **Language:** English
-- **Altered or synthetic content:** the narration is an AI (TTS) voice, so mark "Yes".
+- **Narration:** none. The video uses only on-screen text, background music and sound effects.
 - **End screen:** the last ~8 seconds are the end card ("Thanks for watching"). Add a "Subscribe" element plus a playlist.
 - **Playlist:** "Empires Explained"
 - **Best upload time for a USA audience:** Thursday to Sunday, 12 to 3 PM EST (history audiences watch more at weekends).

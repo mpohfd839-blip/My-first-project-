@@ -360,23 +360,14 @@ bed = music * .9 + sfx
 wet = oaconvolve(bed, ir)[:N]
 bed = bed * .75 + wet * .45
 
-# narration + ducking
-raw = subprocess.run(["ffmpeg", "-v", "error", "-i", "narration.wav", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
-nar = np.frombuffer(raw, np.float32).astype(np.float64)
-narr = np.zeros(N); narr[:min(N, len(nar))] = nar[:N]
-envn = np.abs(narr)
-k = int(.3 * SR)
-envs = np.convolve((envn > .02).astype(float)[::32], np.ones(k // 32) / (k // 32), mode="same")
-envs = np.interp(np.arange(N), np.arange(len(envs)) * 32, envs)
-bed *= (1 - .45 * np.clip(envs, 0, 1))
-rn = np.sqrt(np.mean(narr[narr != 0] ** 2)); rb = np.sqrt(np.mean(bed ** 2))
-bed *= rn * .3 / rb
-mix = narr + bed
+# music + sfx only (no narration)
+bed = bed / (np.sqrt(np.mean(bed ** 2)) + 1e-9) * 0.16
+mix = bed
 fo = int(3 * SR); mix[-fo:] *= np.linspace(1, 0, fo)
 mix = np.tanh(mix * 1.05) / np.tanh(1.05)
 # light stereo widening of the bed
 L_ = mix + 0.0
-st = np.stack([mix + bed * .05, mix - bed * .05], 1)
+st = np.stack([mix + wet[:N] * .03, mix - wet[:N] * .03], 1)
 pcm = (np.clip(st, -1, 1) * 32767).astype(np.int16)
 with wave.open("final_audio_raw.wav", "wb") as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes())

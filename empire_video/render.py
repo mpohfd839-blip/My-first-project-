@@ -80,6 +80,39 @@ def subscribe_overlay_center(img, tt):
     d.text((x + 410, y), "SUBSCRIBED" if subd else "SUBSCRIBE", font=font(CINZEL9, 36), fill=(255, 255, 255), anchor="mm")
 
 
+@functools.lru_cache(maxsize=128)
+def wrap_text(text, maxw, size):
+    from core import GARAI
+    f = font(GARAI, size)
+    d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    lines, cur = [], ""
+    for w in text.split():
+        tryl = (cur + " " + w).strip()
+        if d.textlength(tryl, font=f) > maxw and cur:
+            lines.append(cur); cur = w
+        else:
+            cur = tryl
+    lines.append(cur)
+    return tuple(lines)
+
+
+def story_line(img, b, t, speech, dur):
+    from core import GARAI
+    size = 42
+    lines = wrap_text(b["text"], 1500, size)
+    k = ease((t - 0.35) / 0.6) * (1 - ease((t - (dur - 0.35)) / 0.3))
+    if k <= 0:
+        return
+    p = PAL[b["pal"]]
+    d = ImageDraw.Draw(img)
+    y0 = H - 150 - (len(lines) - 1) * 50
+    pl = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(pl).rectangle([0, y0 - 30, W, H - 92], fill=p["edge"] + (int(110 * k),))
+    img.alpha_composite(pl.filter(__import__("PIL.ImageFilter", fromlist=["x"]).GaussianBlur(18)) if False else pl)
+    for i, ln in enumerate(lines):
+        d.text((W / 2, y0 + i * 50), ln, font=font(GARAI, size), fill=p["ink"] + (int(245 * k),), anchor="mm")
+
+
 rs = np.random.RandomState(9)
 GRAIN = [np.kron((rs.randn(OH // 2, OW // 2) * 5).astype(np.float32), np.ones((2, 2), np.float32))[..., None] for _ in range(6)]
 
@@ -110,6 +143,7 @@ def render_frame(fi):
             draw_headline(img, b["head"], pal, t, hx, hy, size, "center" if mode == "center" else "left", b.get("cap", ""))
         elif b.get("cap"):
             pass
+        story_line(img, b, t, s["speech_end"] - s["start"], dur)
         hud(img, pal, b.get("chap", ""), b["year"], b.get("metric"), t, gt / TOTAL)
         if s["i"] == 8 and 0.8 < t < 7:
             subscribe_overlay(img, t - 0.8)
