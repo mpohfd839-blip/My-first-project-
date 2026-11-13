@@ -1,0 +1,196 @@
+# "How the British Empire Ruled the World" - narration beats + visual spec.
+# head: headline text; words in [brackets] get the accent colour. "|" = line break.
+def B(text, pal, head, art, year, metric=None, cap="", sfx=(), mood=None, **kw):
+    d = dict(text=text, pal=pal, head=head, art=art, year=year, metric=metric, cap=cap, sfx=list(sfx), mood=mood)
+    d.update(kw)
+    return d
+
+UK = ["United Kingdom"]
+S1763 = UK + ["Canada", "Jamaica", "Bahamas"]
+S1820 = S1763 + ["India", "Pakistan", "Bangladesh", "Sri Lanka", "Guyana", "Trinidad and Tobago", "Ireland", "Belize"]
+S1860 = S1820 + ["Australia", "New Zealand", "South Africa", "Myanmar", "Gambia", "Sierra Leone", "Malaysia"]
+S1900 = S1860 + ["Egypt", "Sudan", "S. Sudan", "Nigeria", "Ghana", "Kenya", "Uganda", "Zambia", "Zimbabwe", "Botswana", "Malawi",
+                 "Lesotho", "eSwatini", "Somaliland", "Cyprus", "Fiji", "Brunei", "Papua New Guinea", "Solomon Is.", "Falkland Is."]
+S1920 = S1900 + ["Iraq", "Israel", "Palestine", "Jordan", "Tanzania", "Namibia", "Kuwait", "Qatar", "United Arab Emirates", "Oman", "Yemen"]
+GONE_1947 = ["India", "Pakistan", "Bangladesh", "Myanmar", "Sri Lanka", "Israel", "Palestine", "Jordan", "Iraq", "Ireland", "Egypt"]
+S1950 = [c for c in S1920 if c not in GONE_1947]
+GONE_1965 = ["Ghana", "Nigeria", "Malaysia", "Sudan", "S. Sudan", "Kenya", "Uganda", "Tanzania", "Zambia", "Malawi", "Sierra Leone",
+             "Gambia", "Cyprus", "Jamaica", "Trinidad and Tobago", "Somaliland", "Kuwait", "Botswana", "Lesotho", "Guyana"]
+S1970 = [c for c in S1950 if c not in GONE_1965 and c not in ("Canada", "Australia", "New Zealand", "South Africa", "Namibia")]
+S1997 = UK + ["Falkland Is."]
+
+BEATS = [
+    # ===================== COLD OPEN =====================
+    B("In the year 1600, England was a small, damp island on the edge of Europe.", "ink",
+      "A SMALL, DAMP|[ISLAND].", "island", "AD 1600", 0.2, cap="POPULATION · ~4 MILLION", sfx=["wind", "drone"], mood=1, chap="PROLOGUE"),
+    B("It had no great army. It had no gold mines. Its people numbered about four million.", "ink",
+      "NO ARMY.|NO GOLD.", "island", "AD 1600", 0.2, cap="ENGLAND · KINGDOM OF ELIZABETH I", chap="PROLOGUE"),
+    B("Three hundred years later, that same island ruled a quarter of all the land on Earth.", "ink",
+      "A [QUARTER]|OF THE EARTH.", "map", "AD 1920", 24.0, stage="S1920", grow_from="UK", cap="35.5 MILLION KM² · 1 IN 5 HUMANS", sfx=["boom", "riser"], mood=3, chap="PROLOGUE"),
+    B("More than four hundred million people. One in every five human beings alive.", "ink",
+      "[412,000,000]|SUBJECTS.", "counter", "AD 1920", 24.0, count=(0, 412000000), cap="POPULATION OF THE BRITISH EMPIRE · 1920", chap="PROLOGUE"),
+    B("It was the largest empire in human history. So how did a tiny island pull it off?", "ink",
+      "THE LARGEST EMPIRE|IN [HISTORY].", "globe", "AD 1920", 24.0, stage="S1920", chap="PROLOGUE"),
+    B("The answer is not one thing. It is ships, money, machines, and a ruthless talent for dividing people.", "ink",
+      "SHIPS. MONEY.|MACHINES. [DIVISION].", "four", "AD 1920", 24.0, sfx=["hit4"], chap="PROLOGUE"),
+    B("This is how the British Empire ruled the world.", "gold",
+      "HOW THE BRITISH EMPIRE|[RULED THE WORLD].", "title", "1600 — 1997", None, sfx=["boom", "brass"], mood=4, chap=""),
+
+    # ===================== I. THE COMPANY =====================
+    B("It did not begin with a king, or a war. It began with a company.", "parch",
+      "IT BEGAN WITH|A [COMPANY].", "chapter", "AD 1600", 0.2, num="I", chtitle="THE COMPANY", sfx=["page", "chapter"], mood=0, chap="I · THE COMPANY"),
+    B("On the last day of the year 1600, Queen Elizabeth the First signed a charter for a group of London merchants.", "parch",
+      "31 DECEMBER|[1600].", "charter", "AD 1600", 0.2, cap="ROYAL CHARTER · THE EAST INDIA COMPANY", sfx=["quill"], chap="I · THE COMPANY"),
+    B("They called themselves the Governor and Company of Merchants of London, trading into the East Indies.", "parch",
+      "THE EAST INDIA|[COMPANY].", "charter", "AD 1600", 0.2, seal=True, cap="125 SHAREHOLDERS · £72,000 CAPITAL", sfx=["seal"], chap="I · THE COMPANY"),
+    B("Their goal was simple. Pepper. Cloves. Nutmeg. Silk. In Europe, spices were worth more than their weight in silver.", "parch",
+      "WORTH MORE THAN|[SILVER].", "spices", "AD 1601", 0.2, cap="NUTMEG · 1 POUND = A HOUSE IN LONDON", sfx=["coins"], chap="I · THE COMPANY"),
+    B("In 1608, the Company's ships reached Surat, on India's west coast. They came to trade, and they asked politely for permission.", "parch",
+      "THEY [ASKED]|PERMISSION.", "map_india", "AD 1608", 0.2, stage_india=0, cap="SURAT · THE FIRST FACTORY · 1613", sfx=["waves"], chap="I · THE COMPANY"),
+    B("For a hundred years, they were just one group of foreign merchants among many, competing with the Dutch, the Portuguese, and the French.", "parch",
+      "ONE MERCHANT|AMONG [MANY].", "four", "AD 1650", 0.3, flags=True, cap="DUTCH VOC · PORTUGUESE · FRENCH", chap="I · THE COMPANY"),
+    B("The Company sold shares to investors, so that one lost ship would not ruin anyone. It was one of the first great corporations in history.", "parch",
+      "ONE OF THE FIRST|[CORPORATIONS].", "chart_shares", "AD 1657", 0.3, cap="JOINT-STOCK · PERMANENT CAPITAL 1657", chap="I · THE COMPANY"),
+    B("And over the next two centuries, this company would grow its own private army of two hundred and sixty thousand soldiers.", "parch",
+      "A PRIVATE ARMY OF|[260,000].", "soldiers", "AD 1803", 4.0, cap="TWICE THE SIZE OF THE BRITISH ARMY", sfx=["march"], mood=2, chap="I · THE COMPANY"),
+    B("Twice the size of the British Army itself. A company, with soldiers, a navy, and the power to make war.", "parch",
+      "A COMPANY THAT|[MADE WAR].", "soldiers", "AD 1803", 4.0, more=True, chap="I · THE COMPANY"),
+
+    # ===================== II. RULE THE WAVES =====================
+    B("But trade across the oceans needed one thing above all else. Control of the sea.", "navy",
+      "RULE THE|[WAVES].", "chapter", "AD 1650", 1.0, num="II", chtitle="RULE THE WAVES", sfx=["chapter", "waves"], mood=0, chap="II · RULE THE WAVES"),
+    B("Britain was an island. It could not be invaded easily. So instead of a huge army, it poured its money into ships.", "navy",
+      "NOT AN ARMY.|[A NAVY].", "ship", "AD 1700", 2.0, cap="ROYAL NAVY · 'THE WOODEN WALLS'", sfx=["waves", "creak"], chap="II · RULE THE WAVES"),
+    B("A single first-rate warship carried one hundred guns, and took two thousand oak trees to build.", "navy",
+      "100 GUNS.|[2,000] OAK TREES.", "ship_guns", "AD 1765", 3.0, cap="HMS VICTORY · LAUNCHED 1765", chap="II · RULE THE WAVES"),
+    B("The navy also needed sailors who could find their way across empty oceans. Britain invested in clocks, charts, and science.", "navy",
+      "CLOCKS. CHARTS.|[SCIENCE].", "compass", "AD 1761", 3.0, cap="HARRISON'S CHRONOMETER · LONGITUDE SOLVED", sfx=["tick"], chap="II · RULE THE WAVES"),
+    B("In the Seven Years' War, Britain defeated France across the globe, and took Canada and control of trade in India.", "navy",
+      "THE SEVEN YEARS'|[WAR].", "map", "AD 1763", 6.0, stage="S1763", cap="TREATY OF PARIS · 1763", sfx=["cannon"], mood=2, chap="II · RULE THE WAVES"),
+    B("Then, in 1805, off the coast of Spain, Admiral Nelson destroyed the combined fleets of France and Spain at Trafalgar.", "navy",
+      "[TRAFALGAR].", "fleet", "AD 1805", 9.0, cap="21 OCTOBER 1805 · 27 SHIPS VS 33", sfx=["cannon", "cannon2"], mood=3, chap="II · RULE THE WAVES"),
+    B("Nelson died in the battle. But for the next hundred years, no navy on Earth could challenge Britain at sea.", "navy",
+      "100 YEARS OF|[NO RIVAL].", "fleet", "AD 1805", 9.0, calm=True, cap="'ENGLAND EXPECTS THAT EVERY MAN WILL DO HIS DUTY'", chap="II · RULE THE WAVES"),
+    B("Britain even made it official policy. Its navy had to be larger than the next two navies in the world, combined.", "navy",
+      "BIGGER THAN THE|NEXT [TWO] COMBINED.", "chart_navy", "AD 1889", 20.0, cap="NAVAL DEFENCE ACT · TWO-POWER STANDARD", chap="II · RULE THE WAVES"),
+    B("In 1770, Captain James Cook charted the east coast of Australia, and claimed it for Britain.", "navy",
+      "CAPTAIN [COOK].", "ship", "AD 1770", 6.0, cap="HMS ENDEAVOUR · BOTANY BAY", sfx=["waves", "creak"], chap="II · RULE THE WAVES"),
+    B("Eighteen years later, the First Fleet arrived, carrying convicts. Britain turned an entire continent into a prison.", "navy",
+      "A CONTINENT|AS A [PRISON].", "map", "AD 1788", 7.0, stage="S1820", add=["Australia"], cap="THE FIRST FLEET · 26 JANUARY 1788", sfx=["chains"], chap="II · RULE THE WAVES"),
+    B("Whoever controlled the sea controlled trade. And whoever controlled trade, controlled the world.", "navy",
+      "CONTROL THE SEA.|CONTROL [THE WORLD].", "routes", "AD 1850", 15.0, stage="S1860", sfx=["riser"], chap="II · RULE THE WAVES"),
+
+    # ===================== III. THE JEWEL =====================
+    B("And the richest prize of all was India.", "green",
+      "THE JEWEL IN|THE [CROWN].", "chapter", "AD 1757", 5.0, num="III", chtitle="THE JEWEL", sfx=["chapter", "sitar"], mood=0, chap="III · THE JEWEL"),
+    B("In 1700, India produced nearly a quarter of everything the world made. Its cotton and silk were the finest anywhere.", "green",
+      "[25%] OF THE|WORLD'S ECONOMY.", "chart_gdp", "AD 1700", 3.0, cap="MUGHAL INDIA · SHARE OF WORLD GDP", chap="III · THE JEWEL"),
+    B("But the Mughal Empire was breaking apart into rival kingdoms. And the Company saw its chance.", "green",
+      "AN EMPIRE|[BREAKING APART].", "crack", "AD 1740", 4.0, cap="DECLINE OF MUGHAL POWER", sfx=["crack"], chap="III · THE JEWEL"),
+    B("In 1757, at the Battle of Plassey, Robert Clive defeated the Nawab of Bengal. Not mainly with guns, but with bribes.", "green",
+      "[PLASSEY].", "battle", "AD 1757", 5.0, cap="23 JUNE 1757 · 3,000 VS 50,000", sfx=["cannon", "march"], mood=2, chap="III · THE JEWEL"),
+    B("Clive secretly paid the Nawab's own commander to switch sides. The battle was won before it began.", "green",
+      "WON BEFORE|IT [BEGAN].", "coins_hand", "AD 1757", 5.0, cap="MIR JAFAR · THE BETRAYAL", sfx=["coins"], chap="III · THE JEWEL"),
+    B("Soon, the Company was collecting the taxes of Bengal, one of the richest regions on Earth. A trading company had become a government.", "green",
+      "A COMPANY BECAME|A [GOVERNMENT].", "map_india", "AD 1765", 6.0, stage_india=1, cap="DIWANI OF BENGAL · 1765", chap="III · THE JEWEL"),
+    B("Over the next century, it swallowed kingdom after kingdom, until it ruled almost the entire subcontinent.", "green",
+      "KINGDOM AFTER|[KINGDOM].", "map_india", "AD 1856", 10.0, stage_india=2, cap="DOCTRINE OF LAPSE · ANNEXATIONS", sfx=["thud_seq"], chap="III · THE JEWEL"),
+    B("In 1857, Indian soldiers rose up in a great rebellion. It was crushed with terrible violence.", "crimson",
+      "[1857].", "fire", "AD 1857", 10.0, cap="THE INDIAN REBELLION", sfx=["boom", "fire"], mood=3, chap="III · THE JEWEL"),
+    B("Britain shut down the East India Company, and in 1858, the Crown took direct control. Queen Victoria would become Empress of India.", "crimson",
+      "THE [RAJ].", "crown", "AD 1858", 11.0, cap="GOVERNMENT OF INDIA ACT · 1858", sfx=["brass"], mood=4, chap="III · THE JEWEL"),
+
+    # ===================== IV. STEAM, STEEL & WIRE =====================
+    B("While Britain conquered abroad, something even more powerful was happening at home.", "gold",
+      "STEAM, STEEL|& [WIRE].", "chapter", "AD 1760", 6.0, num="IV", chtitle="STEAM, STEEL & WIRE", sfx=["chapter"], mood=0, chap="IV · MACHINES"),
+    B("The Industrial Revolution. Coal, steam engines, and factories that could make cloth faster than a thousand hands.", "gold",
+      "THE INDUSTRIAL|[REVOLUTION].", "factory", "AD 1800", 8.0, cap="MANCHESTER · 'COTTONOPOLIS'", sfx=["factory"], chap="IV · MACHINES"),
+    B("Britain bought raw cotton cheaply from its colonies, turned it into cloth in its mills, and sold it back to them at a profit.", "gold",
+      "BUY [CHEAP].|SELL [BACK].", "cycle", "AD 1830", 9.0, cap="RAW COTTON → MILLS → GLOBAL MARKETS", sfx=["whoosh"], chap="IV · MACHINES"),
+    B("India, once the world's great cloth maker, became a buyer of British cloth. Its own weavers were ruined.", "gold",
+      "THE WORLD'S WEAVER,|[RUINED].", "chart_cloth", "AD 1850", 15.0, cap="INDIAN SHARE OF WORLD MANUFACTURING", mood=1, chap="IV · MACHINES"),
+    B("Then came the railways. By 1900, Britain had built forty thousand kilometres of track across India alone.", "gold",
+      "[40,000] KM|OF TRACK.", "train", "AD 1900", 20.0, cap="INDIAN RAILWAYS · BY 1900", sfx=["train"], mood=0, chap="IV · MACHINES"),
+    B("Railways moved goods to the ports. And they moved soldiers to wherever trouble began, in days instead of months.", "gold",
+      "DAYS, NOT|[MONTHS].", "train", "AD 1900", 20.0, fast=True, chap="IV · MACHINES"),
+    B("And then came the telegraph. Undersea cables wrapped the planet. A message from London could reach Bombay in minutes.", "gold",
+      "WEEKS BECAME|[MINUTES].", "cables", "AD 1870", 18.0, stage="S1860", cap="LONDON → BOMBAY CABLE · 1870", sfx=["morse"], chap="IV · MACHINES"),
+    B("By 1902, a chain of British cables circled the whole Earth, touching only British land. They called it the All Red Line.", "gold",
+      "THE ALL [RED] LINE.", "cables", "AD 1902", 22.0, stage="S1900", full=True, cap="A GLOBAL NETWORK · 1902", sfx=["morse"], chap="IV · MACHINES"),
+    B("In 1875, Britain bought control of the new Suez Canal. The trip from London to India was cut by thousands of kilometres.", "gold",
+      "THE SUEZ|[CANAL].", "suez", "AD 1875", 18.0, cap="LONDON → BOMBAY · 19,800 KM → 11,600 KM", sfx=["waves", "riser"], chap="IV · MACHINES"),
+    B("Meanwhile, the pound sterling became the money of the world. London became the place where the whole planet came to borrow.", "gold",
+      "THE CITY OF|[LONDON].", "coins_hand", "AD 1890", 21.0, cap="STERLING · THE WORLD'S RESERVE CURRENCY", sfx=["coins"], chap="IV · MACHINES"),
+
+    # ===================== V. DIVIDE AND RULE =====================
+    B("But here is the strangest part of the story. The empire was run by astonishingly few British people.", "parch2",
+      "DIVIDE &|[RULE].", "chapter", "AD 1880", 20.0, num="V", chtitle="DIVIDE & RULE", sfx=["chapter"], mood=1, chap="V · DIVIDE & RULE"),
+    B("In India, around one thousand British officials governed three hundred million people.", "parch2",
+      "[1,000] RULERS.|300,000,000 RULED.", "people", "AD 1900", 22.0, cap="INDIAN CIVIL SERVICE · c.1900", sfx=["tick"], chap="V · DIVIDE & RULE"),
+    B("How? They did not rule alone. They ruled through local princes, chiefs, and elites, who kept their wealth and status in return for loyalty.", "parch2",
+      "RULE THROUGH|[LOCAL ELITES].", "pyramid", "AD 1900", 22.0, cap="565 PRINCELY STATES · INDIRECT RULE", chap="V · DIVIDE & RULE"),
+    B("They recruited soldiers from one region to police another. They counted people by religion and caste, and treated each group differently.", "parch2",
+      "[COUNT].|[LABEL]. SEPARATE.", "census", "AD 1901", 22.0, cap="THE CENSUS OF INDIA · 1871 - 1941", sfx=["stamp"], chap="V · DIVIDE & RULE"),
+    B("Children across the empire learned English, sang for the King, and studied British history, while their own history was ignored.", "parch2",
+      "THEIR OWN HISTORY,|[IGNORED].", "book", "AD 1910", 23.0, cap="'A CLASS OF PERSONS, INDIAN IN BLOOD... ENGLISH IN TASTE'", chap="V · DIVIDE & RULE"),
+    B("When people are busy distrusting each other, they are too divided to unite against you. Divide, and rule.", "parch2",
+      "DIVIDE, AND|[RULE].", "split", "AD 1905", 22.0, cap="PARTITION OF BENGAL · 1905", sfx=["tear"], mood=2, chap="V · DIVIDE & RULE"),
+    B("In Africa, it was the same. In 1884, European powers met in Berlin and carved up an entire continent on a map.", "parch2",
+      "THE SCRAMBLE|FOR [AFRICA].", "africa", "AD 1884", 22.0, cap="BERLIN CONFERENCE · NO AFRICANS INVITED", sfx=["pen_lines"], chap="V · DIVIDE & RULE"),
+    B("Not a single African was invited. Borders were drawn with rulers, straight through peoples and kingdoms.", "parch2",
+      "BORDERS DRAWN|WITH [RULERS].", "africa", "AD 1885", 22.0, lines=True, cap="STRAIGHT LINES ACROSS A CONTINENT", chap="V · DIVIDE & RULE"),
+    B("By 1920, the empire had reached its peak. The sun, people said, never set on it. Because somewhere, it was always daytime on British soil.", "gold",
+      "THE SUN NEVER|[SETS].", "globe", "AD 1920", 24.0, stage="S1920", sun=True, cap="PEAK · 35.5 MILLION KM²", sfx=["brass", "riser"], mood=4, chap="V · DIVIDE & RULE"),
+
+    # ===================== VI. THE PRICE =====================
+    B("But an empire this vast was not built on trade and clever tricks alone. It had a price. And others paid it.", "crimson",
+      "THE [PRICE].", "chapter", "AD 1600", 24.0, num="VI", chtitle="THE PRICE", sfx=["chapter", "drone"], mood=1, chap="VI · THE PRICE"),
+    B("British ships carried more than three million enslaved Africans across the Atlantic, to work on sugar plantations in the Caribbean.", "crimson",
+      "[3,100,000]|ENSLAVED.", "chains", "AD 1780", 8.0, cap="THE TRANSATLANTIC SLAVE TRADE", sfx=["chains"], mood=1, chap="VI · THE PRICE"),
+    B("Britain abolished the slave trade in 1807, and slavery itself in 1833. But it paid compensation to the slave owners, not to the enslaved.", "crimson",
+      "COMPENSATION|TO THE [OWNERS].", "chains", "AD 1833", 10.0, broken=True, cap="£20 MILLION · REPAID BY TAXPAYERS UNTIL 2015", chap="VI · THE PRICE"),
+    B("In China, Britain smuggled opium to pay for its tea. When China tried to stop it, Britain went to war, twice, and took Hong Kong.", "crimson",
+      "THE OPIUM|[WARS].", "opium", "AD 1842", 12.0, cap="1839 - 1842 · 1856 - 1860 · HONG KONG CEDED", sfx=["cannon"], chap="VI · THE PRICE"),
+    B("In India, famines struck again and again, while grain was still being exported. Tens of millions died under British rule.", "crimson",
+      "[FAMINE].", "famine", "AD 1877", 20.0, cap="1770 · 1876–78 · 1896–1902 · 1943", sfx=["wind"], mood=1, chap="VI · THE PRICE"),
+    B("And in 1919, in the city of Amritsar, British troops opened fire on an unarmed crowd in a walled garden. Hundreds were killed.", "crimson",
+      "[AMRITSAR].", "garden", "AD 1919", 24.0, cap="JALLIANWALA BAGH · 13 APRIL 1919", sfx=["gunfire"], mood=3, chap="VI · THE PRICE"),
+    B("The massacre shocked India, and turned millions against British rule for good.", "crimson",
+      "THE TURNING|[POINT].", "garden", "AD 1919", 24.0, calm=True, chap="VI · THE PRICE"),
+    B("Even in the 1950s, in Kenya, tens of thousands of people were held in detention camps during the Mau Mau uprising. Torture was widespread.", "crimson",
+      "[KENYA], 1950s.", "chains", "AD 1953", 19.0, cap="THE MAU MAU EMERGENCY · 1952 - 1960", sfx=["drone"], chap="VI · THE PRICE"),
+
+    # ===================== VII. THE SUN SETS =====================
+    B("Ironically, it was war that finally broke the empire.", "navy2",
+      "THE SUN|[SETS].", "chapter", "AD 1914", 24.0, num="VII", chtitle="THE SUN SETS", sfx=["chapter"], mood=1, chap="VII · THE SUN SETS"),
+    B("Two world wars drained Britain of money and men. Over two and a half million Indian soldiers fought for Britain in the Second World War alone.", "navy2",
+      "[2,500,000]|INDIAN SOLDIERS.", "soldiers", "AD 1945", 23.0, cap="THE LARGEST VOLUNTEER ARMY IN HISTORY", sfx=["march"], chap="VII · THE SUN SETS"),
+    B("By 1945, Britain was nearly bankrupt. And across the empire, people were demanding freedom.", "navy2",
+      "[BANKRUPT].", "chart_debt", "AD 1945", 23.0, cap="NATIONAL DEBT · 250% OF GDP", chap="VII · THE SUN SETS"),
+    B("In India, Gandhi's movement of non-violent resistance made the country impossible to govern.", "navy2",
+      "NON-VIOLENT|[RESISTANCE].", "march_salt", "AD 1930", 24.0, cap="THE SALT MARCH · 390 KM", sfx=["footsteps"], chap="VII · THE SUN SETS"),
+    B("In August 1947, India became independent. But it was partitioned, in a hurry, along religious lines.", "navy2",
+      "15 AUGUST|[1947].", "partition", "AD 1947", 18.0, cap="INDIA · PAKISTAN · THE RADCLIFFE LINE", sfx=["tear", "boom"], mood=2, chap="VII · THE SUN SETS"),
+    B("Up to a million people died, and fifteen million were forced from their homes. One of the largest migrations in history.", "navy2",
+      "[15,000,000]|DISPLACED.", "people_move", "AD 1947", 18.0, cap="THE PARTITION OF INDIA", mood=1, chap="VII · THE SUN SETS"),
+    B("Then came Suez, in 1956. Britain tried to seize the canal back by force, and America forced it to retreat. The world now knew who the real superpower was.", "navy2",
+      "SUEZ, [1956].", "suez", "AD 1956", 8.0, crisis=True, cap="THE SUEZ CRISIS · A HUMILIATING RETREAT", sfx=["boom"], chap="VII · THE SUN SETS"),
+    B("After India, the rest followed. Ghana. Malaysia. Nigeria. Kenya. Jamaica. In just twenty years, almost the entire empire was gone.", "navy2",
+      "ONE BY ONE,|[GONE].", "map", "AD 1965", 3.0, stage="S1970", shrink_from="S1950", cap="DECOLONISATION · 1947 - 1970", sfx=["flags"], chap="VII · THE SUN SETS"),
+    B("On the first of July 1997, Britain handed Hong Kong back to China. Many saw it as the end of the British Empire.", "navy2",
+      "1 JULY|[1997].", "flag", "AD 1997", 0.2, cap="HONG KONG HANDOVER · THE LAST GREAT COLONY", sfx=["rain", "anthem"], mood=4, chap="VII · THE SUN SETS"),
+
+    # ===================== EPILOGUE =====================
+    B("So how did a small island rule the world? Not through one genius, or one battle.", "ink",
+      "SO HOW DID|THEY [DO IT]?", "island", "AD 1997", 0.2, cap="", mood=4, chap="EPILOGUE"),
+    B("Through ships that controlled the oceans. Through companies that turned trade into power. Through machines, money, and wires.", "ink",
+      "SHIPS. COMPANIES.|[MACHINES].", "four", "1600 — 1997", None, chap="EPILOGUE"),
+    B("And through a cold willingness to divide people, and to let others pay the price.", "ink",
+      "AND OTHERS|[PAID THE PRICE].", "split", "1600 — 1997", None, dark=True, chap="EPILOGUE"),
+    B("The empire is gone. But look around. The language you are hearing right now spread with it.", "gold",
+      "THE EMPIRE IS|[GONE].", "book", "TODAY", None, cap="1.5 BILLION ENGLISH SPEAKERS", chap="EPILOGUE"),
+    B("So did parliaments, railways, cricket, and borders that still shape wars today.", "gold",
+      "BUT ITS [SHADOW]|REMAINS.", "legacy", "TODAY", None, cap="56 NATIONS · THE COMMONWEALTH", chap="EPILOGUE"),
+    B("The sun did set on the British Empire. But the world it built, for better and for worse, is still the world we live in.", "gold",
+      "THE WORLD|[IT BUILT].", "sunset", "TODAY", None, sfx=["brass", "riser"], mood=5, chap="EPILOGUE"),
+]

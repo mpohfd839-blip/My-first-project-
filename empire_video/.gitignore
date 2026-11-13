@@ -1,0 +1,16 @@
+parts/
+stills/
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.npy
+*.jpg
+*.png
+info.txt
+__pycache__/
+vo/
+joe.onnx
+joe.onnx.json
+narration.wav
+stills/
