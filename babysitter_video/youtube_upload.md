@@ -1,21 +1,23 @@
-# YouTube Upload Kit: "The Parents Left Me 5 Rules"
+# YouTube Upload Kit: "The Parents Left Me 5 Rules" (Warning version)
 
 ## Title (pick one; the first one is recommended)
 
-1. **The Parents Left Me 5 Rules. Rule #5 Saved My Life. (Animated Horror Story)**
-2. I Babysat for a Family With 5 Strange Rules | Animated Horror Story
-3. "If We Come Home Early, Do NOT Open the Door" | Babysitting Horror Story
-4. There Were Two Babies in the House. I Only Babysat One. | Rules Horror Story
+1. **WARNING: If the Parents Come Home Early, DO NOT Open the Door | Animated Horror Story**
+2. ⚠️ The Babysitting Job Had 5 Rules. Rule #5 Saved My Life. (Horror Animation)
+3. DO NOT OPEN THE DOOR | The Parents Left Me 5 Rules | Animated Horror Story
+4. I Followed All 5 Babysitting Rules... And Something Still Got In | Horror Story
 
 ## Thumbnail
 
-File: `thumbnail.png` (1280x720)
-Text on it: "RULE #5: DON'T OPEN THE DOOR", plus the fridge note with rule 5 circled and the fake baby's grin.
+File: `thumbnail_warning.png` (1280x720)
+Design: yellow/black hazard stripes, a warning sign, "WARNING · RULE #5 · DON'T OPEN THE DOOR", caution tape, and the fake baby's grin on a red alarm glow.
 
 ## Description (copy-paste)
 
 ```
-The note on the fridge has five rules. Every single one is underlined twice.
+⚠️ WARNING: If we come home early, DO NOT open the door.
+
+The note on the fridge has five rules. They're handwritten in blue ink, and every single one is underlined twice.
 
 One night. One baby. Four hundred dollars. All you have to do is follow the rules:
 
@@ -27,7 +29,7 @@ One night. One baby. Four hundred dollars. All you have to do is follow the rule
 
 By three in the morning, you'll understand that the rules were never meant to protect the baby. They were meant to protect you.
 
-🎧 Watch with headphones, in the dark.
+🎧 Watch with headphones, in the dark... if you dare.
 
 ⏱️ CHAPTERS
 0:00 The Note on the Fridge
@@ -43,9 +45,9 @@ By three in the morning, you'll understand that the rules were never meant to pr
 13:28 The Parents Come Home
 14:23 The Next Booking...
 
-💬 COMMENT BELOW: Would YOU take the job next Friday? Which rule would you have broken first? 👇
+💬 COMMENT BELOW: Which rule would YOU have broken first? Would you take the job next Friday? 👇
 
-👍 LIKE if you would have opened the door
+👍 LIKE if you would NEVER have opened that door
 🔔 SUBSCRIBE and turn on notifications for a new animated horror story every week
 
 ⚠️ This is a work of fiction. All characters and events are made up. Any resemblance to real people is purely coincidental.
@@ -56,7 +58,7 @@ By three in the morning, you'll understand that the rules were never meant to pr
 ## Tags (copy-paste into the Tags box)
 
 ```
-horror story, animated horror story, rules horror story, babysitter horror story, babysitting horror, scary stories, horror animation, 5 rules horror, rules horror, creepy babysitting story, scary babysitter story, do not open the door, baby monitor horror, creepypasta, horror stories animated, scary story to fall asleep to, 2d animation horror, horror narration, night shift horror story, animated scary story
+horror story, animated horror story, rules horror story, babysitter horror story, do not open the door, babysitting rules horror, 5 rules horror, warning horror story, scary stories, horror animation, creepy babysitting story, baby monitor horror, scary babysitter story, rules horror, creepypasta, horror stories animated, scary story to fall asleep to, 2d animation horror, horror narration, animated scary story
 ```
 
 ## Hashtags (the first 3 show above the title)
@@ -69,6 +71,7 @@ horror story, animated horror story, rules horror story, babysitter horror story
 - **Audience:** "No, it's not made for kids". This is horror content.
 - **Language:** English (United States)
 - **Altered or synthetic content:** if the narration voice is AI-generated (TTS), mark "Yes".
-- **End screen:** the video's last ~5 seconds are the end card. Add a "Subscribe" element plus your previous video, "My Girlfriend Has Never Had a Sister".
+- **End screen:** the last ~5 seconds of the video are the end card. Add a "Subscribe" element plus your previous video, "My Girlfriend Has Never Had a Sister".
 - **Playlist:** "Animated Horror Stories"
 - **Best upload time for a USA audience:** Thursday to Saturday, 6 to 9 PM EST.
+- **A/B test:** in YouTube Studio's "Test & Compare", upload both thumbnails (`thumbnail_warning.png` and `thumbnail.png`) and let YouTube pick the one with the higher CTR.
