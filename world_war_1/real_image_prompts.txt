@@ -178,11 +178,11 @@ German and Russian delegates in uniforms and suits seated around a long table si
 54 | 19:46 | PHOTO | USE: FULL | Cue: "Its soldiers fought in the high mountains of the Alps"
 Italian Alpine soldiers with feathered hats and rifles climbing a snowy mountain ridge on ropes, dramatic peaks. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
 
-55 | 20:44 | PORTRAIT | USE: SPLIT | Cue: "He became a legend: Lawrence of Arabia."
-T. E. Lawrence, slim clean-shaven young British officer wearing flowing white Arab robes and a white headdress with a gold agal, desert light. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
-
-56 | 20:38 | COLOUR | USE: FULL | Cue: "they captured the port of Aqaba"
+55 | 20:38 | COLOUR | USE: FULL | Cue: "they captured the port of Aqaba"
 Arab fighters on camels charging across a desert towards a small coastal town by a blue sea, dust clouds. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+56 | 20:44 | PORTRAIT | USE: SPLIT | Cue: "He became a legend: Lawrence of Arabia."
+T. E. Lawrence, slim clean-shaven young British officer wearing flowing white Arab robes and a white headdress with a gold agal, desert light. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
 
 57 | 20:51 | PHOTO | USE: FULL | Cue: "captured Jerusalem in December 1917"
 British and Indian soldiers marching through the old stone Jaffa Gate of Jerusalem in 1917, crowds watching. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark

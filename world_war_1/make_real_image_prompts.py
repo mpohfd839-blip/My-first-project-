@@ -196,12 +196,12 @@ I = [
     ("Its soldiers fought in the high mountains of the Alps", "PHOTO", "FULL",
      "Italian Alpine soldiers with feathered hats and rifles climbing a snowy mountain ridge on ropes, "
      "dramatic peaks"),
-    ("He became a legend: Lawrence of Arabia.", "PORTRAIT", "SPLIT",
-     "T. E. Lawrence, slim clean-shaven young British officer wearing flowing white Arab robes and a white "
-     "headdress with a gold agal, desert light"),
     ("they captured the port of Aqaba", "COLOUR", "FULL",
      "Arab fighters on camels charging across a desert towards a small coastal town by a blue sea, dust "
      "clouds"),
+    ("He became a legend: Lawrence of Arabia.", "PORTRAIT", "SPLIT",
+     "T. E. Lawrence, slim clean-shaven young British officer wearing flowing white Arab robes and a white "
+     "headdress with a gold agal, desert light"),
     ("captured Jerusalem in December 1917", "PHOTO", "FULL",
      "British and Indian soldiers marching through the old stone Jaffa Gate of Jerusalem in 1917, crowds "
      "watching"),
