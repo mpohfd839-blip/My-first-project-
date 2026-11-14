@@ -303,7 +303,7 @@ PART2 = [
     ("Factories were placed under workers' control.", "WORKERS cheerfully showing a factory owner the door"),
     ("for a Constituent Assembly", "a long queue of voters at a ballot box in a snowy village"),
     ("The Bolsheviks lost.", "a big pie chart with only a small red slice"),
-    ("Lenin's guards closed it down after just one day.", "a yawning SAILORS guard telling deputies to go home"),
+    ("Lenin's guards closed it down after just one day.", "a yawning sailor guard in a striped shirt and round black cap telling deputies in suits to go home"),
     ("the deputies found the doors locked.", "deputies standing in front of doors locked with heavy chains"),
     ("the Cheka", "CHEKA standing in a dark office, cold expressions"),
     ("In March 1918, at the town of Brest-Litovsk", "Russian and GERMANS signing a treaty at a long table"),
@@ -324,8 +324,8 @@ PART2 = [
     ("including a legion of Czech soldiers", "Czech legion soldiers riding a train with machine guns on the roof"),
     ("in a house now called the \"House of Special Purpose,\"", "the merchant house with a tall wooden fence and "
                                                                 "guards in daylight"),
-    ("Which brings us back to where our story began.", "the royal family waiting in the dim basement room, "
-                                                       "callback to the opening"),
+    ("Which brings us back to where our story began.", "NICHOLAS, ALEXANDRA, ALEXEI and DAUGHTERS waiting in "
+                                                       "a dim basement room with faded striped wallpaper"),
     ("A guard read out a short statement.", "a guard reading a piece of paper, the family looking shocked, no "
                                             "weapons shown"),
     ("their doctor and three servants were all killed.", "an empty basement with one chair knocked over under a "
