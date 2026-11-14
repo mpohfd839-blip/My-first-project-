@@ -397,8 +397,8 @@ def person(c, x, y, s=1.0, face=1, coat="#2B4C9B", trou="#F1EEE6", hat="none", p
           "happy": (0, 0), "smirk": (2, -3), "neutral": (0, 0), "sleep": (0, 0), "proud": (1, -1),
           "shout": (4, -4)}.get(expr, (0, 0))
     for dx, d in ((ex - 8, 1), (ex + 8, -1)):
-        y0 = hy - 10 + (br[0] if d > 0 else br[1]) * 0.5
-        y1 = hy - 10 + (br[1] if d > 0 else br[0]) * 0.5
+        y0 = hy - 10 - (br[0] if d > 0 else br[1]) * 0.5
+        y1 = hy - 10 - (br[1] if d > 0 else br[0]) * 0.5
         seg(c, (dx - 5, y0 - (2 if expr == "shock" else 0)), (dx + 5, y1 - (2 if expr == "shock" else 0)), 2.2, INK)
     ellipse(c, ex + 13, hy + 4, 4, 3.4)
     fill(c, shade(skin, -0.15))
