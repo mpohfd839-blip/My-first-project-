@@ -19,7 +19,9 @@ sys.path.insert(0, os.path.join(HERE, "..", "..", "napoleonic_wars", "video"))
 
 import ww1gfx as G  # noqa: E402
 from ww1gfx import *  # noqa: E402,F401,F403
-from ww1_scenes import BEATS, street_bg  # noqa: E402
+import importlib  # noqa: E402
+from ww1_scenes import street_bg  # noqa: E402
+BEATS = importlib.import_module(os.environ.get("BEATS_MODULE", "ww1_scenes")).BEATS
 import render as R  # noqa: E402  (captions + labels from the Napoleon renderer)
 
 FPS = 24
@@ -32,12 +34,19 @@ def load_timing(words_path):
     text = "\n".join(d["lines"])
     starts, last = [], 0
     for b in BEATS:
+        if b.get("follow"):
+            starts.append(None)
+            continue
         pos = text.find(b["cue"], last)
         if pos < 0:
             raise SystemExit(f"cue not found in order: {b['cue']!r}")
         last = pos + 1
         wi = len(text[:pos].split())
         starts.append(max(0.0, words[wi]["s"] - 0.12))
+    for i, st0 in enumerate(starts):
+        if st0 is None:  # beat that takes over part-way through the previous one
+            nxt = next((x for x in starts[i + 1:] if x is not None), d["duration"])
+            starts[i] = starts[i - 1] + max(4.5, (nxt - starts[i - 1]) * BEATS[i]["follow"])
     starts[0] = 0.0
     for i in range(1, len(starts)):
         starts[i] = max(starts[i], starts[i - 1] + 1.0)
@@ -118,6 +127,8 @@ def draw_img(c, b, u, lt, idx):
         z = lerp(z0, z1, u) if zin else lerp(z1, z0, u)
         dx = 0.5 + (0.14 if n % 3 == 0 else -0.14 if n % 3 == 1 else 0) * (u - 0.5)
         dy = 0.5 + (0.08 if n % 2 else -0.08) * (u - 0.5)
+        if b.get("kb"):
+            dy = b["kb"]
         paint_img(c, n, 0, 0, W, H, zoom=z, fx=dx, fy=dy)
         G.photo_overlay(c, b["ov"], lt, u)
         if mode == "map" and b["legend"]:
@@ -131,7 +142,7 @@ def draw_img(c, b, u, lt, idx):
         c.scale(k, k)
         c.translate(-640, -360)
         (G.desk_bg if bg == "desk" else G.board_bg)(c, lt)
-        G.photo_print(c, n, 640, 330, 780, 480, 0.035 if n % 2 else -0.035, u, lt)
+        G.photo_print(c, n, 640, 330, 780, 480, 0.035 if n % 2 else -0.035, u, lt, zoom=b.get("zoom", 1.0) or 1.0)
         c.restore()
         return False
     if mode == "split":
@@ -143,7 +154,9 @@ def draw_img(c, b, u, lt, idx):
         split_bg(c, b["bg"], lt)
         tint(c, (0, 0, 0), 0.15)
         who = b["who"]
-        if who in G.UNIFORMS:
+        if callable(who):
+            who(c, 290, 700, 1.9, lt)
+        elif who in G.UNIFORMS:
             soldier(c, 290, 700, 1.9, who, lt, arms="point", expr="proud")
         else:
             G.char(c, who, 290, 700, 1.9, arms="point", t=lt)
