@@ -117,6 +117,15 @@ FLAGS = {
     "sw": [("sw", None)],
     "red": [("h", ["#C8322F"])],
     "us": [("h", ["#F3F3F3"])],
+    "de": [("h", ["#1C1C1C", "#F2F2F2", "#C8302C"])],
+    "ah": [("h", ["#C8302C", "#F2F2F2", "#C8302C"])],
+    "rs": [("h", ["#C8302C", "#2B4FA0", "#F2F2F2"])],
+    "be": [("v", ["#1C1C1C", "#F2C230", "#C8302C"])],
+    "it": [("v", ["#2E8B4A", "#F2F2F2", "#C8302C"])],
+    "usa": [("h", ["#B22234", "#F2F2F2"] * 6 + ["#B22234"]), ("canton", "#3C3B6E")],
+    "tr": [("h", ["#C8302C"]), ("crescent", "#F2F2F2")],
+    "ot": [("h", ["#C8302C"]), ("crescent", "#F2F2F2")],
+    "mx": [("v", ["#2E8B4A", "#F2F2F2", "#C8302C"])],
 }
 
 
@@ -188,6 +197,22 @@ def flag(c, x, y, t, kind="fr", w=70, h=46, pole=120, face=1, eagle=False, wave=
                     c.line_to(*pt(lerp(a[0], b[0], j / 8), lerp(a[1], b[1], j / 8)))
                 c.set_source_rgba(*hexc(cc))
                 c.stroke()
+        elif typ == "canton":
+            c.move_to(*pt(0, 0))
+            for j in range(1, 6):
+                c.line_to(*pt(0.4 * j / 5, 0))
+            c.line_to(*pt(0.4, 0.54))
+            for j in range(5, -1, -1):
+                c.line_to(*pt(0.4 * j / 5, 0.54))
+            c.close_path()
+            fill(c, hexc(cols))
+        elif typ == "crescent":
+            cx, cy = pt(0.42, 0.5)
+            ellipse(c, cx, cy, h * 0.28, h * 0.28)
+            fill(c, hexc(cols))
+            cx2, cy2 = pt(0.47, 0.5)
+            ellipse(c, cx2, cy2, h * 0.23, h * 0.23)
+            fill(c, hexc("#C8302C"))
         elif typ == "sw":
             c.set_source_rgba(*hexc("#2D63B0"))
             c.paint()

@@ -64,10 +64,32 @@ NUM = {"1769": "seventeen sixty nine", "1789": "seventeen eighty nine", "1793": 
        "1821": "eighteen twenty one"}
 
 
+ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+
+def two(n):
+    if n < 20:
+        return ONES[n]
+    return TENS[n // 10] + ("" if n % 10 == 0 else " " + ONES[n % 10])
+
+
+def year_words(t):
+    if t in NUM:
+        return NUM[t]
+    if re.fullmatch(r"1[0-9]{3}", t):
+        a, b = int(t[:2]), int(t[2:])
+        tail = "hundred" if b == 0 else ("oh " + ONES[b] if b < 10 else two(b))
+        return two(a) + " " + tail
+    if re.fullmatch(r"[0-9]{1,2}", t):
+        return two(int(t))
+    return t
+
+
 def norm(tok):
     t = tok.lower().strip(".,:;!?\"'()").replace("’", "'")
-    t = re.sub(r"[^a-z0-9'éè-]", "", t)
-    return NUM.get(t, t).split() if t else []
+    t = re.sub(r"[^a-z0-9'éèüö-]", "", t)
+    return year_words(t).split() if t else []
 
 
 def main():
