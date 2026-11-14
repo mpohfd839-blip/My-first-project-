@@ -1,1 +1,3 @@
 napoleonic_wars/*.mp4
+__pycache__/
+*.pyc
