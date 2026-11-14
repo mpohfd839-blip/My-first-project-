@@ -41,7 +41,7 @@ def amb_train(sec):
         k += 1
     w = int(min(1.4, sec) * SR)
     tt = np.arange(w) / SR
-    whistle = sum(np.sin(2 * np.pi * f * tt) for f in (620, 780, 930)) * np.sin(np.pi * tt / tt[-1]) ** 0.5
+    whistle = sum(np.sin(2 * np.pi * f * tt) for f in (620, 780, 930)) * np.clip(np.sin(np.pi * tt / tt[-1]), 0, 1) ** 0.5
     out[:w] += whistle * 0.25
     return out + filt(noise(sec), hi=150) * 0.4
 
@@ -268,6 +268,7 @@ def main():
     mix += music * 0.55 + fx * 0.5
     tm = np.arange(N, dtype=np.float32) / SR
     mix *= np.clip((dur - tm) / 3, 0, 1)[:, None]
+    mix = np.nan_to_num(mix)
     mix = np.tanh(mix * 1.1) / np.tanh(1.1)
     mix /= np.abs(mix).max() / 0.95
     with wave.open(out, "wb") as w:
