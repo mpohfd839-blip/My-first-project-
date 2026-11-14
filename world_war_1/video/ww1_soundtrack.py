@@ -209,14 +209,34 @@ def score(N, starts, moods, talk_s):
     return music
 
 
+def load_music(path, N):
+    """User's score, time-stretched (pitch kept) to exactly N samples."""
+    src = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                path], capture_output=True, text=True, check=True).stdout)
+    tempo = src / (N / SR)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-af", f"atempo={tempo:.6f}", "-ac", "2",
+                          "-ar", str(SR), "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    m = np.frombuffer(raw, dtype=np.float32).reshape(-1, 2)
+    out = np.zeros((N, 2), dtype=np.float32)
+    out[:min(N, len(m))] = m[:N]
+    print(f"music: {src:.1f}s stretched x{1 / tempo:.4f}", flush=True)
+    return out
+
+
+def rms_db(x):
+    return 20 * np.log10(np.sqrt(np.mean(np.square(x, dtype=np.float64))) + 1e-12)
+
+
 def main():
     words_path, narr_path, out = sys.argv[1:4]
+    music_path = sys.argv[sys.argv.index("--music") + 1] if "--music" in sys.argv else None
     beats, starts, dur, words = beats_and_times(words_path)
     ends = starts[1:] + [dur]
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", narr_path, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
                          capture_output=True, check=True).stdout
     narr = np.frombuffer(raw, dtype=np.float32).astype(np.float32)
     N = len(narr)
+    narr = narr / np.abs(narr).max() * 0.9
     talk = np.zeros(N, dtype=np.float32)
     for w in words:
         talk[int(w["s"] * SR):int(w["e"] * SR)] = 1
@@ -224,9 +244,25 @@ def main():
     cs = np.cumsum(np.concatenate([np.zeros(k), talk, np.zeros(k)]))
     talk_s = np.clip((cs[2 * k:] - cs[:-2 * k])[:N] / (k * 0.6), 0, 1).astype(np.float32)
     del cs
+    speech_db = rms_db(narr[talk > 0][::7])
+    print(f"narration speech level {speech_db:.1f} dBFS", flush=True)
 
-    music = score(N, starts, [b["mood"] for b in beats], talk_s)
+    # ---------------- music
+    if music_path:
+        music = load_music(music_path, N)
+        # music sits 7 dB under speech in pauses, ~13 dB under while talking
+        music *= 10 ** ((speech_db - 7 - rms_db(music[::7])) / 20)
+        duck = (1 - 0.5 * talk_s)
+        # duck harder under the music-box carol so the two don't clash
+        for b, s0, e0 in zip(beats, starts, ends):
+            if "silentnight" in b["sfx"]:
+                a, z = int(s0 * SR), int(e0 * SR)
+                duck[a:z] *= 0.35
+        music *= duck[:, None]
+    else:
+        music = score(N, starts, [b["mood"] for b in beats], talk_s)
 
+    # ---------------- effects
     fx = np.zeros((N, 2), dtype=np.float32)
 
     def place(x, t0, gain, pan=0.0):
@@ -254,23 +290,59 @@ def main():
                 x = st.AMB[tok](d + 0.6)
                 x = st.fades(x / (np.abs(x).max() + 1e-9), 0.35, 0.6)
                 place(x, s - 0.2, st.AMB_GAIN[tok] * 0.6, float(rng.uniform(-0.2, 0.2)))
-        # soft whoosh on every cut between photo and animation
         if i > 0 and b["kind"] != beats[i - 1]["kind"]:
-            place(st.whoosh(0.7), s - 0.35, 0.12)
+            place(st.whoosh(0.7), s - 0.35, 0.07)
         if i % 25 == 0:
             print("sfx beat", i + 1, flush=True)
-    fx *= (1 - 0.35 * talk_s)[:, None]
 
-    narr = narr / np.abs(narr).max() * 0.9
+    # ---------------- effects check: level per beat vs. speech, then even them out
+    report = []
+    target = speech_db - 14  # ambience sits ~14 dB under the voice
+    for i, (b, s, e) in enumerate(zip(beats, starts, ends)):
+        a, z = int(s * SR), int(e * SR)
+        if not b["sfx"] or z <= a:
+            continue
+        seg = fx[a:z]
+        lv = rms_db(seg)
+        pk = 20 * np.log10(np.abs(seg).max() + 1e-12)
+        g = 1.0
+        if lv > target + 4:
+            g = 10 ** ((target + 4 - lv) / 20)
+        elif lv < target - 10 and lv > -90:
+            g = 10 ** ((target - 10 - lv) / 20)
+        g = min(g, 10 ** ((speech_db + 9 - pk) / 20)) if pk > speech_db + 9 else g
+        if abs(20 * np.log10(g)) > 0.5:
+            ramp = np.ones(z - a, dtype=np.float32)
+            r = min(int(0.3 * SR), (z - a) // 4)
+            ramp[:r] = np.linspace(1, g, r)
+            ramp[r:] = g
+            fx[a:z] *= ramp[:, None]
+            if z < N:
+                fx[z:z + r] *= np.linspace(g, 1, min(r, N - z))[:, None]
+        report.append((i + 1, round(lv - speech_db, 1), round(pk - speech_db, 1), round(20 * np.log10(g), 1),
+                       b["sfx"]))
+    with open(out + ".sfx_report.txt", "w") as f:
+        f.write("beat  level_vs_voice  peak_vs_voice  gain_applied  effects\n")
+        for r in report:
+            f.write(f"{r[0]:4d}  {r[1]:6.1f} dB  {r[2]:6.1f} dB  {r[3]:+5.1f} dB  {r[4]}\n")
+    fx *= (1 - 0.35 * talk_s)[:, None]
+    # soft limiter: effects never louder than the voice's peak
+    lim = 0.8
+    fx = (np.tanh(fx / lim) * lim).astype(np.float32)
+
+    if "--stems" in sys.argv:
+        np.save(out + ".music.npy", music)
+        np.save(out + ".fx.npy", fx)
     mix = np.empty((N, 2), dtype=np.float32)
     mix[:, 0] = narr
     mix[:, 1] = narr
-    mix += music * 0.55 + fx * 0.5
+    mix += music + fx * 0.55
     tm = np.arange(N, dtype=np.float32) / SR
     mix *= np.clip((dur - tm) / 3, 0, 1)[:, None]
     mix = np.nan_to_num(mix)
     mix = np.tanh(mix * 1.1) / np.tanh(1.1)
     mix /= np.abs(mix).max() / 0.95
+    print(f"levels: speech {speech_db:.1f}, music {rms_db(music[::7]):.1f}, fx {rms_db(fx[::7] * 0.55):.1f} dBFS")
     with wave.open(out, "wb") as w:
         w.setnchannels(2)
         w.setsampwidth(2)

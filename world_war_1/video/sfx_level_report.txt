@@ -1,0 +1,217 @@
+beat  level_vs_voice  peak_vs_voice  gain_applied  effects
+   1     4.1 dB    25.9 dB  -16.9 dB  murmur birds bell@1 impact@0
+   2    -8.2 dB     6.4 dB   -1.8 dB  murmur car
+   3   -11.3 dB     5.2 dB   +0.0 dB  murmur
+   4    -5.7 dB    11.0 dB   -4.3 dB  heart murmur
+   5    -1.4 dB    18.2 dB   -9.2 dB  explosion@1.2 panic
+   6   -11.9 dB     4.3 dB   +0.0 dB  murmur
+   7    -7.1 dB     9.8 dB   -2.9 dB  heart
+   8    -8.6 dB    10.7 dB   -1.7 dB  car whoosh@0.5
+   9    -7.0 dB     9.5 dB   -3.0 dB  heart
+  10    -6.2 dB    13.1 dB   -4.1 dB  shot@1.0 shot@1.5 heart
+  11    -9.3 dB     4.9 dB   -0.7 dB  panic
+  12    -7.2 dB     9.2 dB   -2.8 dB  heart
+  13     5.1 dB    26.6 dB  -17.6 dB  rwhoosh@0 impact@1.5
+  14     9.8 dB    24.4 dB  -19.8 dB  impact@0 wind
+  15   -14.3 dB     9.6 dB   -0.6 dB  whoosh@0 clock
+  16   -10.5 dB     5.1 dB   +0.0 dB  birds
+  17   -10.6 dB     6.7 dB   +0.0 dB  murmur
+  18    -6.9 dB     9.6 dB   -3.1 dB  heart
+  19    -9.9 dB     6.4 dB   -0.1 dB  sea
+  20   -20.7 dB     6.4 dB   +0.0 dB  march
+  21   -15.6 dB     9.6 dB   -0.6 dB  whoosh@0.3
+  23    -8.6 dB    14.0 dB   -5.0 dB  crack@1
+  24   -11.3 dB     7.1 dB   +0.0 dB  march sea
+  25   -17.9 dB    10.0 dB   -1.0 dB  whoosh@0
+  26   -12.8 dB    10.3 dB   -1.3 dB  crack@1.5
+  27   -13.5 dB     9.4 dB   -0.4 dB  whoosh@0.5
+  29   -13.8 dB     5.0 dB   +0.0 dB  quill
+  30   -25.0 dB     6.7 dB   +1.0 dB  clock
+  31   -15.1 dB     5.1 dB   +0.0 dB  quill
+  32     6.6 dB    26.1 dB  -17.1 dB  impact@0 cannonD*2
+  33    -8.7 dB    11.3 dB   -2.3 dB  crack@0.8
+  34   -10.8 dB     8.0 dB   +0.0 dB  train march
+  35   -11.0 dB    11.7 dB   -2.7 dB  crack@0.5
+  36    -8.1 dB    13.8 dB   -4.8 dB  crack@0.4
+  38   -13.5 dB     9.3 dB   -0.3 dB  whoosh@0
+  39   -25.8 dB     6.2 dB   +1.8 dB  clock
+  40   -20.1 dB     6.6 dB   +0.0 dB  march
+  41   -15.2 dB     5.4 dB   +0.0 dB  quill
+  42     8.4 dB    24.3 dB  -18.4 dB  impact@0 bell@0.5
+  43   -17.8 dB     9.1 dB   -0.1 dB  whoosh@0
+  44    -8.8 dB     5.8 dB   -1.2 dB  cheer
+  45    -9.2 dB     5.3 dB   -0.8 dB  cheer
+  46    -7.2 dB     8.3 dB   -2.8 dB  train cheer
+  48    -8.1 dB     5.7 dB   -1.9 dB  cheer
+  49    -2.5 dB    17.1 dB   -8.1 dB  thunder@0.3 wind
+  51     5.8 dB    24.3 dB  -15.8 dB  cannon*3
+  52    -6.3 dB     7.9 dB   -3.7 dB  wind murmur
+  53    -4.1 dB    14.7 dB   -5.9 dB  volley*3
+  54    -9.6 dB    12.7 dB   -3.7 dB  volley*2
+  55    -7.2 dB     9.7 dB   -2.8 dB  heart
+  56     7.7 dB    27.7 dB  -18.7 dB  cannon*3 volley*2
+  57   -10.9 dB     4.5 dB   +0.0 dB  car
+  59    -5.8 dB    12.9 dB   -4.2 dB  cheer volley*2
+  61   -19.8 dB     6.6 dB   +0.0 dB  march
+  62   -17.8 dB     9.7 dB   -0.7 dB  whoosh@0
+  63     4.5 dB    23.7 dB  -14.7 dB  wind cannonD*2
+  64    -9.8 dB     6.2 dB   -0.2 dB  rain
+  65   -12.1 dB     6.3 dB   +0.0 dB  rain
+  66   -11.4 dB     5.7 dB   +0.0 dB  rain
+  67    -9.4 dB     6.0 dB   -0.6 dB  wind
+  68   -11.6 dB     7.5 dB   +0.0 dB  mg
+  69   -10.2 dB    14.8 dB   -5.8 dB  gallop mg@2
+  70    -8.5 dB     6.3 dB   -1.5 dB  wind
+  71     5.7 dB    20.3 dB  -15.7 dB  silentnight@0
+  72    -0.8 dB    19.3 dB  -10.3 dB  murmur
+  73    -9.0 dB     5.7 dB   -1.0 dB  cheer
+  74    -7.7 dB     5.1 dB   -2.3 dB  room
+  75     9.3 dB    23.9 dB  -19.3 dB  cannon*3 volley*1
+  77    -0.6 dB    19.2 dB  -10.2 dB  cannonD*2
+  78    -8.0 dB     8.3 dB   -2.0 dB  wind march
+  79    -6.9 dB     8.9 dB   -3.1 dB  wind gallop
+  80   -16.0 dB     9.9 dB   -0.9 dB  whoosh@0
+  81     7.1 dB    23.8 dB  -17.1 dB  impact@0.5
+  82   -10.9 dB     8.3 dB   +0.0 dB  sea march
+  83   -19.7 dB     6.0 dB   +0.0 dB  march
+  84    -7.3 dB     8.1 dB   -2.7 dB  wind rain
+  85   -16.0 dB    10.1 dB   -1.1 dB  whoosh@0
+  86     1.8 dB    24.6 dB  -15.6 dB  impact@0
+  87    -8.4 dB     6.4 dB   -1.6 dB  wind
+  88    -0.3 dB    16.9 dB   -9.7 dB  bellL@0.3
+  89     3.8 dB    20.8 dB  -13.8 dB  wind cannonD*2
+  90    -9.4 dB     6.5 dB   -0.6 dB  wind
+  91    -8.1 dB     8.0 dB   -1.9 dB  panic gas
+  92   -13.2 dB     4.8 dB   +0.0 dB  gas
+  93   -13.9 dB     4.6 dB   +0.0 dB  gas
+  94    -7.3 dB     7.2 dB   -2.7 dB  room
+  95   -10.4 dB    10.9 dB   -1.9 dB  sea whoosh@0.3
+  96    -5.7 dB    14.9 dB   -5.9 dB  sea volley*3
+  97    11.5 dB    27.2 dB  -21.5 dB  volley*3 cannon*2
+  98    -7.8 dB     7.9 dB   -2.2 dB  wind
+  99    -8.3 dB     7.5 dB   -1.7 dB  wind
+ 100    -2.5 dB    15.0 dB   -7.5 dB  bellL@0.5
+ 101    -8.9 dB     5.8 dB   -1.1 dB  cheer
+ 102   -12.1 dB     6.7 dB   +0.0 dB  sea
+ 103    -0.0 dB    17.6 dB  -10.0 dB  sea sonar@0.5
+ 104   -10.0 dB     6.5 dB   +0.0 dB  sea
+ 105    -3.7 dB    18.8 dB   -9.8 dB  explosion@0.3 sea
+ 106    -8.2 dB     8.8 dB   -1.8 dB  angry
+ 107     9.2 dB    27.2 dB  -19.2 dB  impact@0 cannonD*3
+ 108     9.5 dB    27.2 dB  -19.5 dB  cannon*4
+ 109    -7.1 dB     9.1 dB   -2.9 dB  heart
+ 110     7.5 dB    25.2 dB  -17.5 dB  cannon*5
+ 111    -8.7 dB    13.0 dB   -4.0 dB  volley*2
+ 112    -7.3 dB     9.7 dB   -2.7 dB  heart
+ 114     6.1 dB    24.3 dB  -16.1 dB  cannon*6
+ 115    -2.4 dB    15.3 dB   -7.6 dB  whistle@0.5 volley*2
+ 116    -2.5 dB    21.5 dB  -12.5 dB  cannonD*2
+ 117    -6.8 dB    15.0 dB   -6.0 dB  mg volley*3
+ 118    -4.3 dB    11.6 dB   -5.7 dB  wind heart
+ 119    -5.3 dB     8.7 dB   -4.7 dB  tank
+ 120    -5.3 dB     9.1 dB   -4.7 dB  tank
+ 121    -7.6 dB     6.3 dB   -2.4 dB  wind
+ 122   -18.7 dB     6.2 dB   +0.0 dB  march
+ 123    -7.4 dB    12.5 dB   -3.5 dB  cheer volley*2
+ 124    -7.9 dB     5.3 dB   -2.1 dB  angry
+ 125    -4.6 dB     5.1 dB   -5.4 dB  plane
+ 126    -3.2 dB    17.6 dB   -8.6 dB  plane mg@2.5
+ 127    -4.6 dB     5.0 dB   -5.4 dB  plane
+ 128    -1.7 dB    15.5 dB   -8.3 dB  plane mg@1
+ 129    -3.3 dB    16.6 dB   -7.6 dB  plane mg*3
+ 130     7.1 dB    25.1 dB  -17.1 dB  sea cannon*5
+ 131     5.5 dB    24.0 dB  -15.5 dB  sea cannon*4
+ 132    -8.2 dB     6.2 dB   -1.8 dB  wind
+ 133    -4.2 dB     8.1 dB   -5.8 dB  zeppelin
+ 134   -14.7 dB     7.7 dB   +0.0 dB  factory
+ 135   -16.5 dB     5.7 dB   +0.0 dB  factory
+ 136   -16.8 dB     4.7 dB   +0.0 dB  factory
+ 137   -20.5 dB     6.2 dB   +0.0 dB  march
+ 138   -14.9 dB     5.1 dB   +0.0 dB  quill
+ 139    -8.3 dB     7.0 dB   -1.7 dB  wind
+ 140     1.3 dB    20.7 dB  -11.7 dB  factory cannonD*2
+ 141   -12.7 dB     6.4 dB   +0.0 dB  rain
+ 142    -9.8 dB     4.5 dB   -0.2 dB  angry
+ 143    -8.7 dB     5.9 dB   -1.3 dB  angry
+ 144    -5.2 dB    13.7 dB   -4.8 dB  bellL@0.5
+ 145   -13.4 dB     6.3 dB   +0.0 dB  train
+ 146    -8.7 dB     5.2 dB   -1.3 dB  cheer
+ 147    -8.7 dB     5.5 dB   -1.3 dB  cheer
+ 148   -14.6 dB     4.8 dB   +0.0 dB  quill
+ 149   -12.5 dB     6.4 dB   +0.0 dB  train
+ 150    -7.5 dB     8.2 dB   -2.5 dB  blizzard
+ 151     4.1 dB    24.2 dB  -15.2 dB  cannon*3 panic
+ 152    -7.3 dB    13.6 dB   -4.6 dB  volley*2
+ 153    -7.6 dB     7.5 dB   -2.4 dB  wind gallop
+ 154    -7.6 dB     8.4 dB   -2.4 dB  wind
+ 155    -7.0 dB    10.1 dB   -3.0 dB  gallopH wind
+ 156    -9.8 dB     7.3 dB   -0.2 dB  wind
+ 157     1.8 dB    18.7 dB  -11.8 dB  march bell@1
+ 158    -5.1 dB    18.3 dB   -9.3 dB  sea sonar@0 explosion@2
+ 159    -8.2 dB     3.3 dB   -1.8 dB  morse
+ 160   -16.2 dB     9.2 dB   -0.2 dB  whoosh@0.4
+ 161    -8.6 dB     5.5 dB   -1.4 dB  angry
+ 162     8.6 dB    25.8 dB  -18.6 dB  impact@0 cheer
+ 163    -7.1 dB     8.3 dB   -2.9 dB  sea cheer
+ 164   -15.1 dB     6.3 dB   +0.0 dB  march factory
+ 165    -7.1 dB     9.3 dB   -2.9 dB  clock heart
+ 166     9.2 dB    26.6 dB  -19.2 dB  cannon*3
+ 167    -7.2 dB     8.7 dB   -2.8 dB  rainH
+ 168    -5.1 dB    17.2 dB   -8.2 dB  rainH thunder@1
+ 169    -3.8 dB    12.6 dB   -6.2 dB  rainH heart
+ 170    -8.1 dB    10.3 dB   -1.9 dB  wind
+ 171   -23.8 dB     6.1 dB   +0.0 dB  clock
+ 172    -7.1 dB    10.0 dB   -2.9 dB  heart
+ 173     8.3 dB    24.6 dB  -18.3 dB  cannon*4 volley*2
+ 174    -4.6 dB    18.3 dB   -9.3 dB  volley*3 explosion@1
+ 175   -21.6 dB     6.2 dB   +0.0 dB  march
+ 176     5.5 dB    26.0 dB  -17.0 dB  cannon*2
+ 177    -2.6 dB    17.7 dB   -8.7 dB  heart volley*2
+ 178    -8.9 dB     7.0 dB   -1.1 dB  room
+ 179    -8.6 dB     8.8 dB   -1.4 dB  march cheer
+ 180     5.6 dB    23.4 dB  -15.6 dB  cannon*3
+ 181    12.1 dB    27.9 dB  -22.1 dB  impact@0
+ 182     5.4 dB    26.3 dB  -17.3 dB  tank cannon*3 plane
+ 183    -4.2 dB    14.8 dB   -5.8 dB  cheer volley*2
+ 184    -7.1 dB     9.2 dB   -2.9 dB  heart
+ 185     2.9 dB    21.9 dB  -12.9 dB  march cannonD*2
+ 186   -15.5 dB     7.1 dB   +0.0 dB  gallop
+ 187    -7.9 dB     6.5 dB   -2.1 dB  wind
+ 188     1.3 dB    26.4 dB  -17.4 dB  cannon*2
+ 189    -7.1 dB    11.7 dB   -2.9 dB  volley*2 wind
+ 190    -8.8 dB     6.2 dB   -1.2 dB  cheer
+ 191    -8.7 dB    13.7 dB   -4.7 dB  crack@0.5 crack@1.5
+ 192    -8.9 dB     5.5 dB   -1.1 dB  angry
+ 193   -12.5 dB     6.0 dB   +0.0 dB  train
+ 194    -7.7 dB     5.1 dB   -2.3 dB  room
+ 195   -13.9 dB     6.1 dB   +0.0 dB  quill clock
+ 196   -22.5 dB     6.4 dB   +0.0 dB  clock
+ 197   -27.0 dB     6.7 dB   +3.0 dB  clock
+ 198     9.6 dB    27.0 dB  -19.6 dB  cannon*3 volley*1
+ 199    -6.0 dB    17.4 dB   -8.4 dB  heart mg@3
+ 200    -8.4 dB     6.7 dB   -1.6 dB  wind
+ 201     3.2 dB    17.7 dB  -13.2 dB  birds bellL@0.5
+ 202    -8.8 dB     5.2 dB   -1.2 dB  cheer
+ 203     3.8 dB    18.0 dB  -13.8 dB  cheer bell@0.5 bell@1.5
+ 204    -1.2 dB    15.1 dB   -8.8 dB  bellL@0 cheer
+ 205    -8.4 dB     5.9 dB   -1.6 dB  wind
+ 206    -4.6 dB    11.5 dB   -5.4 dB  wind heart
+ 207    -9.8 dB     7.8 dB   -0.2 dB  train murmur
+ 208    -7.0 dB     9.3 dB   -3.0 dB  heart
+ 209    -6.9 dB    14.3 dB   -5.3 dB  crack@0.3 crack@1 crack@1.7 crack@2.4
+ 210   -18.3 dB     9.6 dB   -0.6 dB  whoosh@0
+ 211   -10.8 dB     5.6 dB   +0.0 dB  murmur quill
+ 212   -11.3 dB    13.3 dB   -4.3 dB  crack@0.5
+ 213    -9.0 dB     5.2 dB   -1.0 dB  angry
+ 214    -4.6 dB    12.6 dB   -5.4 dB  heart wind
+ 215    -8.4 dB    16.5 dB   -7.5 dB  thunder@0.5
+ 216    -8.2 dB     6.1 dB   -1.8 dB  wind
+ 217    -2.3 dB     9.3 dB   -7.7 dB  plane tank
+ 218    -8.8 dB     5.9 dB   -1.2 dB  cheer
+ 219    -0.9 dB    16.1 dB   -9.1 dB  bellL@0.3 wind
+ 220    -6.4 dB     9.9 dB   -3.6 dB  wind birds
+ 221    -7.0 dB     7.9 dB   -3.0 dB  quill wind
+ 222    -7.3 dB     5.8 dB   -2.7 dB  wind
+ 223    -6.5 dB    13.0 dB   -4.0 dB  shot@0.8 heart
+ 224    -7.7 dB     6.0 dB   -2.3 dB  wind
+ 225    11.0 dB    26.9 dB  -21.0 dB  impact@0 bellL@1
