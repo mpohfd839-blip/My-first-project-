@@ -1,0 +1,254 @@
+WORLD WAR I - REAL / ARCHIVAL IMAGE PROMPTS (to mix with the animation)
+79 images. Times estimated at 141 words/min - match the cue line to your audio.
+
+STYLE BLOCKS (already added to the end of each prompt below):
+  [PHOTO] authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+  [COLOUR] early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+  [PORTRAIT] formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+  [MAP] vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+  [STILL] photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+  [TODAY] modern photorealistic colour photograph, cinematic golden-hour light, high detail, 16:9, no text, no watermark
+
+HOW TO USE IN THE EDIT:
+  FULL: Full screen, slow Ken Burns zoom 5-7 s, crossfade in/out
+  FRAME: Inside the cartoon scene as an old photo print (white border, slight tilt, tape), 4-5 s
+  MAP: Full screen base map; animate labels, arrows and colours on top in the edit, 6-10 s
+  SPLIT: Left/right half of screen next to the cartoon character, 4-6 s
+  OUTRO: Full screen, very slow zoom out, long crossfade
+
+01 | 00:00 | PHOTO | USE: FULL | Cue: "Sarajevo. The twenty-eighth of June, 1914."
+Sarajevo street along a narrow river in 1914, Austro-Hungarian era stone buildings, an old stone bridge, crowds lining the pavement, flags hanging from windows, sunny summer morning. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+02 | 00:12 | PHOTO | USE: FRAME | Cue: "Inside sits Archduke Franz Ferdinand"
+A heavyset Austrian archduke with an upturned waxed moustache, wearing a light blue general's tunic and a plumed helmet, sitting with his wife in a white dress and wide hat in the back of an open-top 1910 touring car, crowd behind. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+03 | 00:40 | PORTRAIT | USE: SPLIT | Cue: "a nineteen-year-old student named Gavrilo Princip"
+Thin, gaunt nineteen-year-old Bosnian Serb student with dark wavy hair and intense dark eyes, wearing a dark suit and white collar. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+04 | 01:03 | PHOTO | USE: FULL | Cue: "Within minutes, the Archduke and his wife are dead."
+Chaotic street scene in 1914, policemen and men in bowler hats seizing a young man in a dark suit, crowd pushing, motion blur. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+05 | 01:13 | STILL | USE: FULL | Cue: "Those two bullets would start a war"
+An early 1900s semi-automatic pocket pistol and two brass bullet cartridges lying on an old wooden table, single beam of light, dust in the air. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+06 | 01:26 | MAP | USE: MAP | Cue: "To understand how two bullets could set the world on fire"
+Map of Europe in 1914 showing all countries, Britain, France and Russia tinted soft green, Germany and Austria-Hungary tinted soft brown, other countries pale grey. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+07 | 01:40 | COLOUR | USE: FULL | Cue: "Cities glowed with electric light."
+A grand Paris boulevard around 1913 at dusk, glowing electric street lamps, horse carriages and early motor cars, people in long coats and hats. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+08 | 01:49 | PHOTO | USE: FULL | Cue: "Britain had the largest navy"
+A huge grey British dreadnought battleship steaming at sea in 1914, big gun turrets, smoke from two funnels, waves at the bow. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+09 | 01:54 | PORTRAIT | USE: SPLIT | Cue: "Germany, a young and ambitious nation"
+German Kaiser Wilhelm II, upturned pointed moustache, wearing a spiked Pickelhaube helmet and a military uniform covered in medals, proud stern expression. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+10 | 02:23 | MAP | USE: MAP | Cue: "On one side stood the Triple Entente"
+Map of Europe 1914 with two clearly separated alliance blocs, France, Britain and Russia in green on the west and east, Germany and Austria-Hungary in brown in the centre, surrounded. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+11 | 02:57 | STILL | USE: FULL | Cue: "On the twenty-third of July, Austria sent Serbia an ultimatum"
+An official 1914 diplomatic document with a red wax seal, a fountain pen and an inkwell on a dark wooden desk, the writing blurred and unreadable. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+12 | 03:19 | PHOTO | USE: FULL | Cue: "Russia began to mobilise its huge army"
+Russian soldiers in long greatcoats and peaked caps crowding onto a steam train at a city station in 1914, families waving goodbye. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+13 | 03:40 | MAP | USE: MAP | Cue: "Years earlier, its generals had prepared a solution: the Schlieffen Plan."
+Map of Belgium, northern France and western Germany in 1914, a huge sweeping arc of thick red arrows curving from Germany through Belgium down towards Paris. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+14 | 03:57 | PHOTO | USE: FULL | Cue: "On the fourth of August, German troops crossed into Belgium."
+Long column of German infantry in grey uniforms and spiked Pickelhaube helmets marching through a cobbled Belgian town square, onlookers in doorways. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+15 | 04:14 | STILL | USE: FRAME | Cue: "a scrap of paper"
+An old yellowed nineteenth-century treaty page with signatures and a cracked wax seal, edges torn. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+16 | 04:29 | PHOTO | USE: FULL | Cue: "Across Europe, crowds cheered."
+Huge cheering crowd of men in straw boater hats and caps waving hats in a city square in August 1914, national flags. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+17 | 04:34 | PHOTO | USE: FRAME | Cue: "young men rushed to sign up"
+Long queue of eager young men in caps and suits outside a London army recruiting office in 1914, smiling, a policeman nearby. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+18 | 05:01 | PHOTO | USE: FULL | Cue: "The Belgian fortresses were pounded by enormous siege guns."
+An enormous German siege howitzer firing, giant barrel tilted up, gun crew covering their ears, huge cloud of smoke. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+19 | 05:05 | PHOTO | USE: FULL | Cue: "Refugees fled down every road."
+Belgian refugee families in 1914 walking along a country road with handcarts piled with belongings, children and old people. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+20 | 05:16 | COLOUR | USE: SPLIT | Cue: "in bright blue coats and red trousers"
+French infantry soldiers of 1914 in dark blue greatcoats, bright red trousers and red kepis, holding long rifles with bayonets, standing in a field. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+21 | 05:39 | PHOTO | USE: FULL | Cue: "commandeered Paris taxis"
+A long line of 1910s Renault taxicabs parked along a road outside Paris at night, French soldiers climbing in. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+22 | 06:24 | MAP | USE: MAP | Cue: "By the end of 1914, a continuous line of trenches"
+Map of western Europe with a single thick jagged dark red line running from the Belgian coast through northern France to the Swiss border. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+23 | 06:43 | PHOTO | USE: FULL | Cue: "Life in the trenches was a nightmare."
+British soldiers in a deep muddy trench, sandbag walls, wooden duckboards in water, tired faces, rifles leaning on the parapet. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+24 | 07:06 | PHOTO | USE: FULL | Cue: "Between the two lines of trenches lay a strip of ground called No Man's Land."
+Desolate No Man's Land, tangled barbed wire, water-filled shell craters, shattered tree stumps, grey sky. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+25 | 07:17 | PHOTO | USE: FRAME | Cue: "To cross it meant facing machine guns"
+Two soldiers operating a water-cooled heavy machine gun on a tripod behind sandbags in a trench. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+26 | 08:14 | PHOTO | USE: FULL | Cue: "It became known as the Christmas Truce."
+British and German soldiers standing together in a frosty field in winter 1914, smiling, shaking hands and swapping cigarettes, trenches in the background. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+27 | 08:35 | PHOTO | USE: SPLIT | Cue: "But at the Battle of Tannenberg"
+Two German generals studying a map on a table: an older broad-shouldered general with a square head and a white brushed moustache, and a younger stern general with a small moustache. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+28 | 08:45 | PHOTO | USE: FULL | Cue: "Around ninety thousand Russians were taken prisoner."
+Endless column of Russian prisoners of war in long greatcoats marching along a dirt road through flat countryside. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+29 | 09:04 | MAP | USE: MAP | Cue: "The Ottoman Empire joined the Central Powers."
+Vintage world map, Europe, the Middle East and Africa with war zones shaded in soft red, ocean in pale blue-green. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+30 | 09:29 | PHOTO | USE: FULL | Cue: "But the largest volunteer army of all came from India."
+Indian infantry of 1914 marching through a French village street, Sikh and Punjabi soldiers in khaki uniforms and turbans with rifles, French villagers watching. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+31 | 10:09 | PORTRAIT | USE: SPLIT | Cue: "The first went to Khudadad Khan"
+Proud Indian Muslim soldier of 1914 in a khaki uniform and khaki turban, neat moustache, a bronze cross medal on his chest. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+32 | 10:22 | TODAY | USE: FULL | Cue: "Today many of their names are carved on the India Gate"
+India Gate war memorial arch in New Delhi at dusk, warm lights, an eternal flame, people walking on the lawns. modern photorealistic colour photograph, cinematic golden-hour light, high detail, 16:9, no text, no watermark
+
+33 | 10:42 | COLOUR | USE: FULL | Cue: "a strange greenish-yellow cloud"
+A low greenish-yellow poison gas cloud rolling across a battlefield towards trenches, eerie light. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+34 | 11:07 | PHOTO | USE: FRAME | Cue: "Gas masks became part of every soldier's equipment."
+Soldiers in a trench wearing early First World War gas hoods with round glass eyepieces, holding rifles. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+35 | 11:18 | PORTRAIT | USE: SPLIT | Cue: "A young politician named Winston Churchill"
+Winston Churchill aged forty in 1915, round face, receding hair, dark three-piece suit with a bow tie, confident determined look. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+36 | 11:43 | PHOTO | USE: FULL | Cue: "landed on the Gallipoli peninsula"
+Australian and New Zealand soldiers jumping from rowing boats onto a narrow beach under steep scrubby cliffs, dawn, warships offshore. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+37 | 11:49 | PORTRAIT | USE: SPLIT | Cue: "led by a determined officer named Mustafa Kemal"
+Ottoman officer Mustafa Kemal in 1915, slim face, sharp light eyes, neat moustache, wearing a fur kalpak hat and military uniform. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+38 | 12:44 | PHOTO | USE: FULL | Cue: "torpedoed the British ocean liner Lusitania"
+The four-funnelled ocean liner Lusitania at sea in 1915, dark hull, smoke trailing, calm grey sea. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+39 | 13:06 | PHOTO | USE: FULL | Cue: "In February, Germany attacked the French fortress city of Verdun."
+Aerial view of the Verdun battlefield in 1916, a moonscape of overlapping shell craters, no trees left, ruined fort outline. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+40 | 13:34 | COLOUR | USE: SPLIT | Cue: "The French vowed: "They shall not pass.""
+French soldiers of 1916 in horizon-blue uniforms and steel Adrian helmets holding a trench line, determined faces. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+41 | 13:57 | PHOTO | USE: FULL | Cue: "For a week, British guns fired"
+A row of British artillery guns firing at night, bright muzzle flashes lighting up the gun crews. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+42 | 14:11 | PHOTO | USE: FULL | Cue: "whistles blew along the British trenches"
+British soldiers climbing wooden ladders out of a trench and going over the top into smoke, officer with a whistle. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+43 | 15:02 | PHOTO | USE: FULL | Cue: "The name stuck. The tank had been born."
+A British Mark I rhomboid tank with caterpillar tracks crossing a muddy trench in 1916, soldiers watching. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+44 | 15:20 | PORTRAIT | USE: SPLIT | Cue: "General Aleksei Brusilov"
+Russian general Aleksei Brusilov, slim face, neat grey moustache, Russian general's uniform with epaulettes and medals. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+45 | 16:19 | PORTRAIT | USE: SPLIT | Cue: "They called him the Red Baron."
+Young German fighter pilot Manfred von Richthofen, clean-shaven, leather flying coat, a blue cross medal at the collar. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+46 | 16:21 | COLOUR | USE: FULL | Cue: "He shot down eighty enemy aircraft"
+A bright red Fokker triplane fighter plane flying through clouds in 1918, another biplane in the distance. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+47 | 16:43 | PHOTO | USE: FULL | Cue: "at the Battle of Jutland in the North Sea."
+Line of grey battleships firing broadsides at sea, huge smoke clouds, splashes of shells in the water. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+48 | 17:19 | PHOTO | USE: FULL | Cue: "With millions of men at the front, women took their places."
+Women munitions workers in long dresses, caps and aprons working among rows of artillery shells in a large factory. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+49 | 17:50 | STILL | USE: SPLIT | Cue: ""Your country needs you.""
+A First World War British recruitment poster: a stern officer with a large moustache and peaked cap pointing his finger straight at the viewer, cream background, leave empty space for text. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+50 | 18:07 | PHOTO | USE: FRAME | Cue: ""turnip winter.""
+Hungry German women and children queuing with baskets outside a food shop in winter 1916. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+51 | 18:54 | PORTRAIT | USE: SPLIT | Cue: "Tsar Nicholas the Second was forced to abdicate."
+Tsar Nicholas II of Russia, short neat brown beard and moustache, Russian army tunic, calm sad eyes. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+52 | 19:13 | PHOTO | USE: FULL | Cue: "His name was Vladimir Lenin."
+Vladimir Lenin in 1917, bald with a goatee beard, coat and cap in hand, passionately addressing a crowd of workers and soldiers from a platform. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+53 | 19:27 | PHOTO | USE: FRAME | Cue: "in the Treaty of Brest-Litovsk."
+German and Russian delegates in uniforms and suits seated around a long table signing a treaty in 1918. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+54 | 19:46 | PHOTO | USE: FULL | Cue: "Its soldiers fought in the high mountains of the Alps"
+Italian Alpine soldiers with feathered hats and rifles climbing a snowy mountain ridge on ropes, dramatic peaks. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+55 | 20:44 | PORTRAIT | USE: SPLIT | Cue: "He became a legend: Lawrence of Arabia."
+T. E. Lawrence, slim clean-shaven young British officer wearing flowing white Arab robes and a white headdress with a gold agal, desert light. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+56 | 20:38 | COLOUR | USE: FULL | Cue: "they captured the port of Aqaba"
+Arab fighters on camels charging across a desert towards a small coastal town by a blue sea, dust clouds. early colour autochrome photograph from 1914-1918, soft muted pastel colours, grainy, slightly faded, realistic, documentary, 16:9, no text, no watermark
+
+57 | 20:51 | PHOTO | USE: FULL | Cue: "captured Jerusalem in December 1917"
+British and Indian soldiers marching through the old stone Jaffa Gate of Jerusalem in 1917, crowds watching. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+58 | 21:11 | STILL | USE: FRAME | Cue: "the Zimmermann Telegram."
+An old 1917 telegram covered in rows of coded numbers, a magnifying glass and a pencil lying on it. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+59 | 21:31 | PORTRAIT | USE: SPLIT | Cue: "the United States declared war on Germany."
+US President Woodrow Wilson in 1917, thin face, rimless glasses, dark suit, serious expression. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+60 | 21:39 | PHOTO | USE: FULL | Cue: "ship its soldiers across the Atlantic."
+Crowded deck of a troopship packed with young American soldiers in campaign hats waving, 1917. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+61 | 22:05 | PHOTO | USE: FULL | Cue: "Passchendaele."
+Soldiers walking in single file along wooden duckboards across a flooded sea of mud and craters, broken tree stumps, grey sky. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+62 | 22:57 | PHOTO | USE: FULL | Cue: "specially trained "stormtroopers""
+German stormtroopers in coal-scuttle steel helmets carrying stick grenades running through smoke and barbed wire. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+63 | 23:11 | PHOTO | USE: FULL | Cue: "They shelled Paris with a giant long-range gun"
+An enormously long railway gun barrel pointing at the sky in a forest, tiny soldiers beside it. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+64 | 23:37 | PHOTO | USE: FULL | Cue: "And the Americans were now arriving."
+American soldiers marching through a French town with the US flag, cheering French civilians in 1918. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+65 | 23:52 | PHOTO | USE: FULL | Cue: "the Allies struck back near Amiens"
+Allied Mark V tanks and infantry advancing together across an open field in 1918, biplanes overhead. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+66 | 24:42 | STILL | USE: SPLIT | Cue: "Their last hope was a pigeon named Cher Ami."
+A brave grey homing pigeon with one injured leg and a small metal message capsule, perched on a wooden crate, soft light. photorealistic still life, dramatic low-key lighting, shallow depth of field, cinematic, 16:9, no readable text, no watermark
+
+67 | 25:31 | PHOTO | USE: FULL | Cue: "in a railway carriage parked in a forest near Compi"
+An old wooden railway dining carriage standing on tracks in a quiet autumn forest clearing in 1918, officers standing outside. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+68 | 25:53 | PORTRAIT | USE: SPLIT | Cue: "an American soldier named Henry Gunther"
+Young American soldier of 1918, round face, wearing a flat steel helmet and olive drab uniform. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+69 | 26:13 | PHOTO | USE: FULL | Cue: "One minute later, the guns fell silent."
+Exhausted soldiers in a trench cheering and raising their helmets in the air on 11 November 1918. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+70 | 26:28 | PHOTO | USE: FULL | Cue: "In London, Paris and New York, huge crowds celebrated"
+Huge joyful crowd filling a London square on Armistice Day 1918, people on top of buses, waving flags and hats. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+71 | 27:06 | PHOTO | USE: FRAME | Cue: ""shell shock,""
+Wounded soldiers in a long hospital ward with iron beds, nurses in white uniforms and caps caring for them. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+72 | 27:15 | PHOTO | USE: FULL | Cue: "The Spanish flu pandemic of 1918"
+An emergency hospital hall in 1918 filled with rows of cots, nurses wearing white gauze masks. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+73 | 27:24 | MAP | USE: MAP | Cue: "Four great empires had collapsed."
+Map of Europe and the Middle East in 1919 with many newly drawn borders, each new country a different soft colour. vintage 1914 hand-painted map on aged parchment, muted watercolour colours, ink coastlines, decorative compass rose, top-down flat view, no text, no labels, no letters, 16:9
+
+74 | 27:53 | PHOTO | USE: FULL | Cue: "The Treaty of Versailles was signed"
+The Hall of Mirrors at the Palace of Versailles in 1919, packed with statesmen in suits around a signing table, chandeliers and mirrors. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+75 | 28:16 | PHOTO | USE: FRAME | Cue: "Among the bitter veterans was a former corporal"
+Small group of German First World War soldiers posing in field uniforms, one corporal with a large bushy moustache sitting at the side. authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, slight blur, dust and scratches, realistic, documentary, 16:9, no text, no watermark
+
+76 | 29:09 | TODAY | USE: FULL | Cue: "they wear red poppies"
+A field of bright red poppies in Flanders swaying in the wind, white war grave crosses in the background. modern photorealistic colour photograph, cinematic golden-hour light, high detail, 16:9, no text, no watermark
+
+77 | 29:16 | PORTRAIT | USE: SPLIT | Cue: "A Canadian doctor, John McCrae"
+Canadian army doctor John McCrae in 1915, moustache, military officer's uniform with peaked cap. formal studio portrait photograph from the 1910s, black and white with sepia tone, film grain, chest-up, subject centred with plain dark background and empty space on both sides, realistic, 16:9, no text, no watermark
+
+78 | 29:34 | TODAY | USE: FULL | Cue: "millions of crosses, row on row"
+Huge First World War cemetery with endless rows of white headstones on green grass, sunset, aerial view. modern photorealistic colour photograph, cinematic golden-hour light, high detail, 16:9, no text, no watermark
+
+79 | 29:39 | TODAY | USE: OUTRO | Cue: "This was the First World War."
+The Menin Gate memorial in Ypres at night, warm light on the stone arch, names carved on the walls, a few poppy wreaths. modern photorealistic colour photograph, cinematic golden-hour light, high detail, 16:9, no text, no watermark
