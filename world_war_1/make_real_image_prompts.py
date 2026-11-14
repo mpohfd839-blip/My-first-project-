@@ -6,6 +6,7 @@ voiceover); check the cue against the real audio.
 Usage: python3 make_real_image_prompts.py -> real_image_prompts.txt
 """
 WPM = 141
+AUDIO_SECONDS = 24 * 60 + 45  # recorded voiceover length
 
 STYLES = {
     "PHOTO": "authentic 1914-1918 black and white archival war photograph, warm sepia tone, heavy film grain, "
@@ -269,7 +270,7 @@ I = [
 def main():
     text = open("narration.txt", encoding="utf-8").read()
     out = ["WORLD WAR I - REAL / ARCHIVAL IMAGE PROMPTS (to mix with the animation)",
-           f"{len(I)} images. Times estimated at {WPM} words/min - match the cue line to your audio.", ""]
+           f"{len(I)} images for a {AUDIO_SECONDS // 60}:{AUDIO_SECONDS % 60:02d} voiceover. Times are estimates - match the cue line to your audio.", ""]
     out.append("STYLE BLOCKS (already added to the end of each prompt below):")
     for k, v in STYLES.items():
         out.append(f"  [{k}] {v}")
@@ -282,11 +283,13 @@ def main():
         pos = text.find(cue)
         if pos < 0:
             raise SystemExit(f"cue not found: {cue!r}")
-        sec = round(len(text[:pos].split()) / WPM * 60)
+        sec = round(len(text[:pos].split()) / len(text.split()) * AUDIO_SECONDS)
         out.append(f"{n:02d} | {sec // 60:02d}:{sec % 60:02d} | {typ} | USE: {use} | Cue: \"{cue}\"")
         out.append(f"{scene}. {STYLES[typ]}")
         out.append("")
     open("real_image_prompts.txt", "w", encoding="utf-8").write("\n".join(out))
+    with open("prompts_one_per_line.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(f"{scene}. {STYLES[typ]}" for _, typ, _, scene in I) + "\n")
     print(len(I), "prompts")
 
 
