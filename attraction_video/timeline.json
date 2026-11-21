@@ -1,0 +1,1604 @@
+{
+ "duration": 823.104,
+ "timeline": [
+  {
+   "shot": 0,
+   "sentences": [
+    {
+     "text": "You are walking down a busy street.",
+     "start": 0.193,
+     "end": 2.381
+    },
+    {
+     "text": "Hundreds of faces pass you by.",
+     "start": 3.08,
+     "end": 5.199
+    }
+   ]
+  },
+  {
+   "shot": 1,
+   "sentences": [
+    {
+     "text": "And then, for no reason you can explain, one of them stops you.",
+     "start": 5.476,
+     "end": 9.945
+    }
+   ]
+  },
+  {
+   "shot": 2,
+   "sentences": [
+    {
+     "text": "Your heart speeds up.",
+     "start": 10.965,
+     "end": 12.256
+    }
+   ]
+  },
+  {
+   "shot": 3,
+   "sentences": [
+    {
+     "text": "Your pupils widen.",
+     "start": 12.453,
+     "end": 13.855
+    },
+    {
+     "text": "Your palms get a little warm.",
+     "start": 13.855,
+     "end": 15.929
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "sentences": [
+    {
+     "text": "Something inside you whispers: look again.",
+     "start": 16.643,
+     "end": 19.787
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "sentences": [
+    {
+     "text": "You did not decide this.",
+     "start": 20.833,
+     "end": 22.431
+    },
+    {
+     "text": "Your brain decided it for you, in less than a second, long before you had a single conscious thought.",
+     "start": 22.702,
+     "end": 29.61
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "sentences": [
+    {
+     "text": "So what just happened?",
+     "start": 30.583,
+     "end": 31.523
+    },
+    {
+     "text": "Why is a man drawn to a woman at all?",
+     "start": 31.933,
+     "end": 34.498
+    },
+    {
+     "text": "Why her, and not someone else?",
+     "start": 35.017,
+     "end": 36.973
+    }
+   ]
+  },
+  {
+   "shot": 7,
+   "sentences": [
+    {
+     "text": "The answer is a strange mix of ancient evolution, invisible chemistry, a brain on fire, and the culture you grew up in.",
+     "start": 37.538,
+     "end": 46.512
+    }
+   ]
+  },
+  {
+   "shot": 8,
+   "sentences": [
+    {
+     "text": "Let us take attraction apart, piece by piece, and see what is really going on inside you.",
+     "start": 47.275,
+     "end": 53.47
+    }
+   ]
+  },
+  {
+   "shot": 9,
+   "sentences": [
+    {
+     "text": "Part One.",
+     "start": 54.613,
+     "end": 55.306
+    },
+    {
+     "text": "The Oldest Story on Earth.",
+     "start": 55.765,
+     "end": 57.81
+    }
+   ]
+  },
+  {
+   "shot": 10,
+   "sentences": [
+    {
+     "text": "To understand attraction, we have to go back.",
+     "start": 58.739,
+     "end": 61.612
+    },
+    {
+     "text": "Way back.",
+     "start": 62.079,
+     "end": 62.859
+    }
+   ]
+  },
+  {
+   "shot": 11,
+   "sentences": [
+    {
+     "text": "About one billion years.",
+     "start": 63.274,
+     "end": 65.161
+    },
+    {
+     "text": "For most of the history of life, living things simply copied themselves.",
+     "start": 66.036,
+     "end": 70.358
+    }
+   ]
+  },
+  {
+   "shot": 12,
+   "sentences": [
+    {
+     "text": "A cell split in two.",
+     "start": 70.761,
+     "end": 72.05
+    },
+    {
+     "text": "Then those two split again.",
+     "start": 72.376,
+     "end": 73.872
+    },
+    {
+     "text": "Simple.",
+     "start": 74.432,
+     "end": 74.726
+    },
+    {
+     "text": "Efficient.",
+     "start": 75.272,
+     "end": 75.699
+    },
+    {
+     "text": "But there was a problem.",
+     "start": 76.419,
+     "end": 78.586
+    }
+   ]
+  },
+  {
+   "shot": 13,
+   "sentences": [
+    {
+     "text": "A copy is only ever as good as the original.",
+     "start": 78.878,
+     "end": 80.936
+    },
+    {
+     "text": "And the world is full of enemies.",
+     "start": 81.243,
+     "end": 83.367
+    }
+   ]
+  },
+  {
+   "shot": 14,
+   "sentences": [
+    {
+     "text": "Viruses.",
+     "start": 83.746,
+     "end": 84.458
+    },
+    {
+     "text": "Parasites.",
+     "start": 84.458,
+     "end": 85.281
+    },
+    {
+     "text": "Bacteria.",
+     "start": 85.281,
+     "end": 86.048
+    },
+    {
+     "text": "They evolve fast, and they are constantly searching for weaknesses.",
+     "start": 86.508,
+     "end": 89.945
+    }
+   ]
+  },
+  {
+   "shot": 15,
+   "sentences": [
+    {
+     "text": "A population of identical copies is a buffet.",
+     "start": 90.478,
+     "end": 93.165
+    },
+    {
+     "text": "Once a parasite cracks the code of one, it can crack all of them.",
+     "start": 93.532,
+     "end": 97.528
+    }
+   ]
+  },
+  {
+   "shot": 16,
+   "sentences": [
+    {
+     "text": "So life invented something radical.",
+     "start": 98.307,
+     "end": 100.129
+    },
+    {
+     "text": "Mixing.",
+     "start": 100.722,
+     "end": 101.171
+    },
+    {
+     "text": "Instead of copying itself, an organism could combine its genes with someone else's genes.",
+     "start": 101.742,
+     "end": 107.361
+    }
+   ]
+  },
+  {
+   "shot": 17,
+   "sentences": [
+    {
+     "text": "Every child would be a brand new combination.",
+     "start": 107.696,
+     "end": 110.349
+    },
+    {
+     "text": "A new lock that the parasites had never seen before.",
+     "start": 110.591,
+     "end": 113.695
+    }
+   ]
+  },
+  {
+   "shot": 18,
+   "sentences": [
+    {
+     "text": "This was the birth of sex.",
+     "start": 114.265,
+     "end": 116.442
+    },
+    {
+     "text": "And with it came two different strategies.",
+     "start": 116.725,
+     "end": 119.264
+    }
+   ]
+  },
+  {
+   "shot": 19,
+   "sentences": [
+    {
+     "text": "One partner made tiny cells that were cheap and plentiful.",
+     "start": 119.605,
+     "end": 123.13
+    },
+    {
+     "text": "We call them sperm.",
+     "start": 123.572,
+     "end": 124.576
+    },
+    {
+     "text": "The other made large cells that were rare and full of resources.",
+     "start": 124.905,
+     "end": 129.051
+    },
+    {
+     "text": "We call them eggs.",
+     "start": 129.442,
+     "end": 130.383
+    }
+   ]
+  },
+  {
+   "shot": 20,
+   "sentences": [
+    {
+     "text": "In humans, the difference is enormous.",
+     "start": 130.891,
+     "end": 133.568
+    },
+    {
+     "text": "A man produces millions of sperm every single day.",
+     "start": 133.859,
+     "end": 137.302
+    },
+    {
+     "text": "A woman is born with all the eggs she will ever have, and only around four hundred of them will mature in her lifetime.",
+     "start": 137.859,
+     "end": 143.825
+    }
+   ]
+  },
+  {
+   "shot": 21,
+   "sentences": [
+    {
+     "text": "And then comes pregnancy.",
+     "start": 144.677,
+     "end": 146.41
+    },
+    {
+     "text": "Nine months of carrying a child, followed by years of feeding and care.",
+     "start": 147.0,
+     "end": 152.499
+    },
+    {
+     "text": "For most of human history, that was a huge investment of energy, time, and risk.",
+     "start": 153.199,
+     "end": 159.174
+    }
+   ]
+  },
+  {
+   "shot": 22,
+   "sentences": [
+    {
+     "text": "This imbalance shaped everything.",
+     "start": 159.88,
+     "end": 162.188
+    },
+    {
+     "text": "Evolution built men and women with slightly different instincts, because their bodies faced different challenges.",
+     "start": 162.727,
+     "end": 169.678
+    }
+   ]
+  },
+  {
+   "shot": 23,
+   "sentences": [
+    {
+     "text": "Attraction is the engine that drives the oldest story on Earth: the story of genes trying to survive into the future.",
+     "start": 170.4,
+     "end": 179.46
+    }
+   ]
+  },
+  {
+   "shot": 24,
+   "sentences": [
+    {
+     "text": "But here is the important part.",
+     "start": 180.076,
+     "end": 181.998
+    },
+    {
+     "text": "Your genes do not care about your feelings.",
+     "start": 182.501,
+     "end": 185.849
+    },
+    {
+     "text": "They do not give you a plan.",
+     "start": 186.308,
+     "end": 187.629
+    },
+    {
+     "text": "They give you a feeling.",
+     "start": 188.072,
+     "end": 189.737
+    },
+    {
+     "text": "A pull.",
+     "start": 190.276,
+     "end": 190.97
+    },
+    {
+     "text": "A spark.",
+     "start": 191.501,
+     "end": 192.293
+    },
+    {
+     "text": "And you experience that spark as attraction.",
+     "start": 192.829,
+     "end": 195.485
+    }
+   ]
+  },
+  {
+   "shot": 25,
+   "sentences": [
+    {
+     "text": "Part Two.",
+     "start": 196.276,
+     "end": 196.763
+    },
+    {
+     "text": "What the Eyes Are Looking For.",
+     "start": 197.101,
+     "end": 198.677
+    }
+   ]
+  },
+  {
+   "shot": 26,
+   "sentences": [
+    {
+     "text": "So what exactly is a man's brain scanning for when he looks at a woman?",
+     "start": 199.133,
+     "end": 203.624
+    }
+   ]
+  },
+  {
+   "shot": 27,
+   "sentences": [
+    {
+     "text": "Scientists have studied this across dozens of cultures, and some patterns appear again and again.",
+     "start": 204.277,
+     "end": 209.855
+    }
+   ]
+  },
+  {
+   "shot": 28,
+   "sentences": [
+    {
+     "text": "The first is health.",
+     "start": 210.119,
+     "end": 212.792
+    }
+   ]
+  },
+  {
+   "shot": 29,
+   "sentences": [
+    {
+     "text": "For our ancestors, a healthy partner meant healthy children.",
+     "start": 213.42,
+     "end": 217.036
+    },
+    {
+     "text": "But nobody could run a blood test.",
+     "start": 217.518,
+     "end": 218.904
+    },
+    {
+     "text": "So the brain learned to read signals of health directly from the body.",
+     "start": 219.27,
+     "end": 223.152
+    }
+   ]
+  },
+  {
+   "shot": 30,
+   "sentences": [
+    {
+     "text": "Clear skin.",
+     "start": 223.674,
+     "end": 224.547
+    },
+    {
+     "text": "Bright eyes.",
+     "start": 224.866,
+     "end": 225.943
+    },
+    {
+     "text": "Shiny hair.",
+     "start": 225.943,
+     "end": 226.956
+    },
+    {
+     "text": "Full lips.",
+     "start": 226.956,
+     "end": 227.906
+    },
+    {
+     "text": "These are not random preferences.",
+     "start": 228.413,
+     "end": 229.981
+    },
+    {
+     "text": "Many of them are signs of youth, good nutrition, and a strong immune system.",
+     "start": 230.353,
+     "end": 234.635
+    }
+   ]
+  },
+  {
+   "shot": 31,
+   "sentences": [
+    {
+     "text": "Then there is symmetry.",
+     "start": 235.339,
+     "end": 236.882
+    }
+   ]
+  },
+  {
+   "shot": 32,
+   "sentences": [
+    {
+     "text": "As you grew in your mother's womb, your body was built from a genetic blueprint.",
+     "start": 237.446,
+     "end": 241.96
+    },
+    {
+     "text": "But stress, illness, and parasites can push that building process slightly off course.",
+     "start": 242.499,
+     "end": 247.894
+    },
+    {
+     "text": "A face that grew up perfectly balanced can be a sign that the body handled those challenges well.",
+     "start": 248.443,
+     "end": 253.39
+    }
+   ]
+  },
+  {
+   "shot": 33,
+   "sentences": [
+    {
+     "text": "In experiments, when people are shown faces that have been made more symmetrical by a computer, they usually rate them as more attractive.",
+     "start": 253.895,
+     "end": 261.194
+    },
+    {
+     "text": "Most of the time, people have no idea why.",
+     "start": 261.704,
+     "end": 263.696
+    }
+   ]
+  },
+  {
+   "shot": 34,
+   "sentences": [
+    {
+     "text": "Next comes something surprising.",
+     "start": 264.68,
+     "end": 266.373
+    },
+    {
+     "text": "Average.",
+     "start": 267.033,
+     "end": 267.565
+    }
+   ]
+  },
+  {
+   "shot": 35,
+   "sentences": [
+    {
+     "text": "When researchers blend dozens of faces together into one composite face, the result is almost always rated as more attractive than the individual faces.",
+     "start": 268.014,
+     "end": 277.501
+    },
+    {
+     "text": "Not boring.",
+     "start": 277.885,
+     "end": 278.405
+    },
+    {
+     "text": "Attractive.",
+     "start": 278.859,
+     "end": 279.509
+    },
+    {
+     "text": "An average face may signal a mix of many genes, and a smaller chance of rare genetic problems.",
+     "start": 280.106,
+     "end": 285.976
+    }
+   ]
+  },
+  {
+   "shot": 36,
+   "sentences": [
+    {
+     "text": "And then there are hormones written on the body.",
+     "start": 286.762,
+     "end": 290.482
+    }
+   ]
+  },
+  {
+   "shot": 37,
+   "sentences": [
+    {
+     "text": "As a girl becomes a woman, the hormone estrogen reshapes her body.",
+     "start": 291.312,
+     "end": 296.058
+    },
+    {
+     "text": "It softens the face, makes the lips fuller, and changes how fat is stored, giving many women a waist that is narrower than their hips.",
+     "start": 296.697,
+     "end": 305.624
+    }
+   ]
+  },
+  {
+   "shot": 38,
+   "sentences": [
+    {
+     "text": "Across many cultures, men are drawn to this waist to hip ratio.",
+     "start": 306.519,
+     "end": 310.962
+    },
+    {
+     "text": "Not one exact body type, but a shape that signals that the hormones of adulthood are working.",
+     "start": 311.636,
+     "end": 317.253
+    }
+   ]
+  },
+  {
+   "shot": 39,
+   "sentences": [
+    {
+     "text": "All of these signals are processed in a fraction of a second, deep in the brain, without permission.",
+     "start": 318.553,
+     "end": 324.851
+    },
+    {
+     "text": "You do not think: this face is symmetrical.",
+     "start": 325.871,
+     "end": 328.53
+    }
+   ]
+  },
+  {
+   "shot": 40,
+   "sentences": [
+    {
+     "text": "You just think: wow.",
+     "start": 329.057,
+     "end": 330.541
+    }
+   ]
+  },
+  {
+   "shot": 41,
+   "sentences": [
+    {
+     "text": "Part Three.",
+     "start": 331.824,
+     "end": 332.446
+    },
+    {
+     "text": "The Invisible Signals.",
+     "start": 333.098,
+     "end": 334.425
+    }
+   ]
+  },
+  {
+   "shot": 42,
+   "sentences": [
+    {
+     "text": "But attraction is not only about what you see.",
+     "start": 335.432,
+     "end": 338.027
+    },
+    {
+     "text": "Some of the most powerful signals are things you cannot see at all.",
+     "start": 338.518,
+     "end": 342.086
+    }
+   ]
+  },
+  {
+   "shot": 43,
+   "sentences": [
+    {
+     "text": "Let us start with the voice.",
+     "start": 343.042,
+     "end": 344.622
+    },
+    {
+     "text": "When men listen to recordings of women's voices, they often rate higher, softer voices as more attractive.",
+     "start": 345.539,
+     "end": 351.546
+    },
+    {
+     "text": "A higher voice can be linked to higher levels of estrogen.",
+     "start": 352.358,
+     "end": 355.148
+    }
+   ]
+  },
+  {
+   "shot": 44,
+   "sentences": [
+    {
+     "text": "Some studies even suggest that a woman's voice can become slightly higher and more attractive around the most fertile days of her cycle.",
+     "start": 355.887,
+     "end": 362.973
+    },
+    {
+     "text": "The effect is small, and scientists still debate it.",
+     "start": 363.805,
+     "end": 366.646
+    },
+    {
+     "text": "But the ear may be quietly listening for information the eyes cannot see.",
+     "start": 367.199,
+     "end": 371.468
+    }
+   ]
+  },
+  {
+   "shot": 45,
+   "sentences": [
+    {
+     "text": "Then there is smell.",
+     "start": 372.314,
+     "end": 373.886
+    },
+    {
+     "text": "You might think humans have a weak sense of smell compared to dogs.",
+     "start": 374.721,
+     "end": 377.61
+    },
+    {
+     "text": "And you would be right.",
+     "start": 377.61,
+     "end": 378.733
+    },
+    {
+     "text": "But our noses are still collecting information all the time.",
+     "start": 379.334,
+     "end": 382.482
+    }
+   ]
+  },
+  {
+   "shot": 46,
+   "sentences": [
+    {
+     "text": "In a famous experiment, women were asked to smell T-shirts that men had worn for two nights.",
+     "start": 383.456,
+     "end": 388.775
+    },
+    {
+     "text": "On average, they preferred the smell of men whose immune system genes were different from their own.",
+     "start": 389.48,
+     "end": 394.141
+    }
+   ]
+  },
+  {
+   "shot": 47,
+   "sentences": [
+    {
+     "text": "Why would that matter?",
+     "start": 395.035,
+     "end": 396.201
+    },
+    {
+     "text": "Because a child who inherits two different sets of immune genes may be able to recognize a wider range of diseases.",
+     "start": 396.974,
+     "end": 403.308
+    },
+    {
+     "text": "Your nose might be helping you choose a partner who completes your defenses.",
+     "start": 403.967,
+     "end": 408.229
+    }
+   ]
+  },
+  {
+   "shot": 48,
+   "sentences": [
+    {
+     "text": "There are also claims about human pheromones, invisible chemical messages that make people instantly attracted.",
+     "start": 409.205,
+     "end": 415.481
+    },
+    {
+     "text": "Many perfume companies love this idea.",
+     "start": 416.176,
+     "end": 418.315
+    },
+    {
+     "text": "But the truth is that scientists have not found a clear, proven human sex pheromone yet.",
+     "start": 419.535,
+     "end": 425.453
+    },
+    {
+     "text": "Smell matters.",
+     "start": 426.112,
+     "end": 427.016
+    },
+    {
+     "text": "Magic perfumes, probably not.",
+     "start": 427.397,
+     "end": 429.846
+    }
+   ]
+  },
+  {
+   "shot": 49,
+   "sentences": [
+    {
+     "text": "So attraction is a whole body experience.",
+     "start": 431.219,
+     "end": 434.722
+    },
+    {
+     "text": "Your eyes, your ears, and your nose are all sending reports to one place.",
+     "start": 435.126,
+     "end": 439.569
+    }
+   ]
+  },
+  {
+   "shot": 50,
+   "sentences": [
+    {
+     "text": "Your brain.",
+     "start": 439.763,
+     "end": 440.991
+    }
+   ]
+  },
+  {
+   "shot": 51,
+   "sentences": [
+    {
+     "text": "Part Four.",
+     "start": 441.568,
+     "end": 443.838
+    },
+    {
+     "text": "Your Brain on Fire.",
+     "start": 444.336,
+     "end": 446.145
+    }
+   ]
+  },
+  {
+   "shot": 52,
+   "sentences": [
+    {
+     "text": "The moment you see someone attractive, your brain lights up like a city at night.",
+     "start": 447.589,
+     "end": 452.223
+    }
+   ]
+  },
+  {
+   "shot": 53,
+   "sentences": [
+    {
+     "text": "Deep inside, a small region called the hypothalamus sends a signal to your body.",
+     "start": 452.774,
+     "end": 458.415
+    }
+   ]
+  },
+  {
+   "shot": 54,
+   "sentences": [
+    {
+     "text": "Your heart beats faster.",
+     "start": 459.001,
+     "end": 460.245
+    },
+    {
+     "text": "Your blood pressure rises.",
+     "start": 460.658,
+     "end": 462.103
+    }
+   ]
+  },
+  {
+   "shot": 55,
+   "sentences": [
+    {
+     "text": "Your pupils widen to let in more light, so you can see the person better.",
+     "start": 462.468,
+     "end": 467.196
+    }
+   ]
+  },
+  {
+   "shot": 56,
+   "sentences": [
+    {
+     "text": "At the same time, your brain releases a chemical called dopamine.",
+     "start": 467.864,
+     "end": 471.967
+    }
+   ]
+  },
+  {
+   "shot": 57,
+   "sentences": [
+    {
+     "text": "Dopamine is the molecule of wanting.",
+     "start": 472.5,
+     "end": 475.465
+    },
+    {
+     "text": "It is the same chemical that is released when you eat something delicious, win a game, or get a notification on your phone.",
+     "start": 476.036,
+     "end": 482.891
+    },
+    {
+     "text": "It does not make you happy, exactly.",
+     "start": 483.393,
+     "end": 485.697
+    },
+    {
+     "text": "It makes you want more.",
+     "start": 486.154,
+     "end": 487.807
+    }
+   ]
+  },
+  {
+   "shot": 58,
+   "sentences": [
+    {
+     "text": "This is why attraction feels like a pull.",
+     "start": 488.356,
+     "end": 490.995
+    },
+    {
+     "text": "Your brain has flagged this person as a reward, and it wants you to go after that reward.",
+     "start": 491.609,
+     "end": 497.099
+    }
+   ]
+  },
+  {
+   "shot": 59,
+   "sentences": [
+    {
+     "text": "If the attraction grows into something stronger, the brain chemistry becomes even more intense.",
+     "start": 498.114,
+     "end": 503.931
+    },
+    {
+     "text": "Brain scans of people who are newly in love show something remarkable.",
+     "start": 504.575,
+     "end": 508.693
+    },
+    {
+     "text": "The same reward circuits that are activated by addictive drugs light up when they look at a photo of their partner.",
+     "start": 509.15,
+     "end": 515.083
+    }
+   ]
+  },
+  {
+   "shot": 60,
+   "sentences": [
+    {
+     "text": "Meanwhile, levels of a chemical called serotonin can drop.",
+     "start": 515.965,
+     "end": 519.709
+    },
+    {
+     "text": "Low serotonin is linked to obsessive thinking.",
+     "start": 520.328,
+     "end": 522.966
+    },
+    {
+     "text": "That is why, when you fall for someone, you cannot stop thinking about them.",
+     "start": 523.611,
+     "end": 527.384
+    },
+    {
+     "text": "You replay every conversation.",
+     "start": 528.019,
+     "end": 529.913
+    },
+    {
+     "text": "You check your phone again and again.",
+     "start": 529.913,
+     "end": 532.186
+    }
+   ]
+  },
+  {
+   "shot": 61,
+   "sentences": [
+    {
+     "text": "And the part of the brain responsible for careful judgment and criticism becomes quieter.",
+     "start": 532.768,
+     "end": 537.594
+    },
+    {
+     "text": "In other words, your brain partly switches off the critic.",
+     "start": 538.334,
+     "end": 541.493
+    }
+   ]
+  },
+  {
+   "shot": 62,
+   "sentences": [
+    {
+     "text": "Love is not blind.",
+     "start": 542.332,
+     "end": 543.886
+    },
+    {
+     "text": "But in the beginning, it does wear very strong glasses.",
+     "start": 544.146,
+     "end": 547.255
+    }
+   ]
+  },
+  {
+   "shot": 63,
+   "sentences": [
+    {
+     "text": "Part Five.",
+     "start": 548.575,
+     "end": 549.195
+    },
+    {
+     "text": "From Spark to Bond.",
+     "start": 549.565,
+     "end": 551.074
+    }
+   ]
+  },
+  {
+   "shot": 64,
+   "sentences": [
+    {
+     "text": "Here is a problem.",
+     "start": 551.717,
+     "end": 552.964
+    },
+    {
+     "text": "That fire cannot burn forever.",
+     "start": 553.444,
+     "end": 555.592
+    },
+    {
+     "text": "A brain flooded with dopamine and obsession would be exhausted.",
+     "start": 556.122,
+     "end": 559.761
+    },
+    {
+     "text": "You still need to eat, sleep, and work.",
+     "start": 560.291,
+     "end": 563.045
+    }
+   ]
+  },
+  {
+   "shot": 65,
+   "sentences": [
+    {
+     "text": "So over months, the chemistry changes.",
+     "start": 563.589,
+     "end": 565.805
+    },
+    {
+     "text": "The wild excitement slowly calms down.",
+     "start": 566.414,
+     "end": 568.857
+    },
+    {
+     "text": "And if the relationship continues, two new chemicals take center stage.",
+     "start": 569.847,
+     "end": 575.932
+    }
+   ]
+  },
+  {
+   "shot": 66,
+   "sentences": [
+    {
+     "text": "The first is oxytocin, sometimes called the cuddle hormone.",
+     "start": 576.357,
+     "end": 581.595
+    },
+    {
+     "text": "It is released when people hug, hold hands, or spend close time together.",
+     "start": 582.07,
+     "end": 587.707
+    },
+    {
+     "text": "It builds trust and a feeling of safety.",
+     "start": 588.006,
+     "end": 591.477
+    }
+   ]
+  },
+  {
+   "shot": 67,
+   "sentences": [
+    {
+     "text": "The second is vasopressin, which is especially important in males.",
+     "start": 591.822,
+     "end": 598.484
+    },
+    {
+     "text": "In studies with small rodents called prairie voles, vasopressin helps males form long lasting bonds with a single partner.",
+     "start": 599.311,
+     "end": 607.29
+    },
+    {
+     "text": "When scientists blocked it, the bond did not form.",
+     "start": 607.97,
+     "end": 611.213
+    }
+   ]
+  },
+  {
+   "shot": 68,
+   "sentences": [
+    {
+     "text": "In humans, the picture is more complicated.",
+     "start": 612.225,
+     "end": 614.403
+    },
+    {
+     "text": "But the idea is similar.",
+     "start": 614.739,
+     "end": 615.938
+    },
+    {
+     "text": "Attraction is the spark.",
+     "start": 616.515,
+     "end": 618.091
+    },
+    {
+     "text": "Bonding is the fire that keeps you warm for years.",
+     "start": 618.375,
+     "end": 621.942
+    }
+   ]
+  },
+  {
+   "shot": 69,
+   "sentences": [
+    {
+     "text": "And there is a good evolutionary reason for this.",
+     "start": 622.986,
+     "end": 625.368
+    },
+    {
+     "text": "Human babies are incredibly helpless.",
+     "start": 625.948,
+     "end": 628.333
+    },
+    {
+     "text": "They need years of care.",
+     "start": 628.723,
+     "end": 630.056
+    },
+    {
+     "text": "For our ancestors, children with two caring parents had a better chance of survival.",
+     "start": 630.64,
+     "end": 635.167
+    },
+    {
+     "text": "So evolution did not just build men to be attracted to women.",
+     "start": 635.965,
+     "end": 639.081
+    },
+    {
+     "text": "It also built them to stay.",
+     "start": 639.738,
+     "end": 641.271
+    }
+   ]
+  },
+  {
+   "shot": 70,
+   "sentences": [
+    {
+     "text": "Part Six.",
+     "start": 642.173,
+     "end": 642.756
+    },
+    {
+     "text": "It Is Not Only Biology.",
+     "start": 643.323,
+     "end": 645.119
+    }
+   ]
+  },
+  {
+   "shot": 71,
+   "sentences": [
+    {
+     "text": "At this point, you might think attraction is just a program.",
+     "start": 646.273,
+     "end": 649.204
+    },
+    {
+     "text": "A set of instructions written in your genes and executed by chemicals.",
+     "start": 649.653,
+     "end": 653.297
+    }
+   ]
+  },
+  {
+   "shot": 72,
+   "sentences": [
+    {
+     "text": "But that is only half the story.",
+     "start": 653.916,
+     "end": 655.617
+    },
+    {
+     "text": "Because if attraction were purely biological, everyone would be attracted to exactly the same people.",
+     "start": 656.545,
+     "end": 661.907
+    },
+    {
+     "text": "And that is clearly not true.",
+     "start": 662.425,
+     "end": 663.933
+    }
+   ]
+  },
+  {
+   "shot": 73,
+   "sentences": [
+    {
+     "text": "Beauty standards change dramatically across cultures and across history.",
+     "start": 664.925,
+     "end": 668.589
+    },
+    {
+     "text": "In some times and places, a fuller body was a sign of wealth and good food.",
+     "start": 668.974,
+     "end": 673.173
+    },
+    {
+     "text": "In others, thinness became the ideal.",
+     "start": 673.64,
+     "end": 675.672
+    }
+   ]
+  },
+  {
+   "shot": 74,
+   "sentences": [
+    {
+     "text": "Fashion, media, and the people around you constantly shape what you find attractive.",
+     "start": 676.583,
+     "end": 681.058
+    }
+   ]
+  },
+  {
+   "shot": 75,
+   "sentences": [
+    {
+     "text": "Then there is familiarity.",
+     "start": 682.022,
+     "end": 683.557
+    },
+    {
+     "text": "Psychologists call it the mere exposure effect.",
+     "start": 684.223,
+     "end": 686.931
+    },
+    {
+     "text": "The more often you see someone, the more you tend to like them.",
+     "start": 687.529,
+     "end": 690.262
+    },
+    {
+     "text": "This is why so many people fall for a classmate, a neighbor, or a coworker.",
+     "start": 690.993,
+     "end": 695.469
+    },
+    {
+     "text": "Being close matters.",
+     "start": 696.019,
+     "end": 697.266
+    }
+   ]
+  },
+  {
+   "shot": 76,
+   "sentences": [
+    {
+     "text": "And then there is personality.",
+     "start": 698.218,
+     "end": 699.749
+    },
+    {
+     "text": "In large studies across dozens of countries, when people were asked what they want most in a long term partner, the top answers were not looks or money.",
+     "start": 700.314,
+     "end": 710.04
+    },
+    {
+     "text": "They were kindness and intelligence.",
+     "start": 710.52,
+     "end": 713.04
+    }
+   ]
+  },
+  {
+   "shot": 77,
+   "sentences": [
+    {
+     "text": "A smile, a sense of humor, a warm voice, the way someone treats a stranger.",
+     "start": 713.536,
+     "end": 717.733
+    },
+    {
+     "text": "These things can make a person more attractive over time, even if they did not stand out at first glance.",
+     "start": 718.333,
+     "end": 724.8
+    }
+   ]
+  },
+  {
+   "shot": 78,
+   "sentences": [
+    {
+     "text": "So attraction is a conversation between two forces.",
+     "start": 725.625,
+     "end": 729.171
+    },
+    {
+     "text": "Ancient biology on one side.",
+     "start": 729.851,
+     "end": 731.748
+    },
+    {
+     "text": "Your personal life and culture on the other.",
+     "start": 732.339,
+     "end": 734.631
+    }
+   ]
+  },
+  {
+   "shot": 79,
+   "sentences": [
+    {
+     "text": "Part Seven.",
+     "start": 735.953,
+     "end": 736.507
+    },
+    {
+     "text": "You Are Not a Robot.",
+     "start": 737.329,
+     "end": 738.928
+    }
+   ]
+  },
+  {
+   "shot": 80,
+   "sentences": [
+    {
+     "text": "It is also important to remember that these are averages.",
+     "start": 739.777,
+     "end": 742.996
+    },
+    {
+     "text": "Patterns across thousands of people.",
+     "start": 743.531,
+     "end": 745.382
+    },
+    {
+     "text": "They are not rules for any single person.",
+     "start": 746.035,
+     "end": 748.335
+    }
+   ]
+  },
+  {
+   "shot": 81,
+   "sentences": [
+    {
+     "text": "Humans are wonderfully diverse.",
+     "start": 749.234,
+     "end": 750.968
+    },
+    {
+     "text": "Some men are attracted to men.",
+     "start": 751.531,
+     "end": 753.07
+    },
+    {
+     "text": "Some people feel little attraction at all.",
+     "start": 753.736,
+     "end": 755.429
+    },
+    {
+     "text": "Many people find themselves drawn to someone who does not match any checklist.",
+     "start": 755.93,
+     "end": 760.007
+    }
+   ]
+  },
+  {
+   "shot": 82,
+   "sentences": [
+    {
+     "text": "Evolution gave us tendencies, not orders.",
+     "start": 760.957,
+     "end": 763.749
+    },
+    {
+     "text": "And our big, complex brains allow us to choose, to reflect, and to love in ways that go far beyond our genes.",
+     "start": 764.264,
+     "end": 771.46
+    }
+   ]
+  },
+  {
+   "shot": 83,
+   "sentences": [
+    {
+     "text": "That is what makes human attraction so fascinating.",
+     "start": 772.658,
+     "end": 775.243
+    },
+    {
+     "text": "It is the meeting point of a billion years of evolution and a single moment in your own life.",
+     "start": 775.986,
+     "end": 781.087
+    }
+   ]
+  },
+  {
+   "shot": 84,
+   "sentences": [
+    {
+     "text": "Epilogue.",
+     "start": 782.094,
+     "end": 782.558
+    }
+   ]
+  },
+  {
+   "shot": 85,
+   "sentences": [
+    {
+     "text": "So let us go back to that street.",
+     "start": 783.508,
+     "end": 785.151
+    },
+    {
+     "text": "Hundreds of faces pass you by.",
+     "start": 785.764,
+     "end": 787.673
+    }
+   ]
+  },
+  {
+   "shot": 86,
+   "sentences": [
+    {
+     "text": "And then one of them stops you.",
+     "start": 788.424,
+     "end": 789.939
+    }
+   ]
+  },
+  {
+   "shot": 87,
+   "sentences": [
+    {
+     "text": "In that one second, your eyes read a face built by hormones and genes.",
+     "start": 790.736,
+     "end": 795.051
+    }
+   ]
+  },
+  {
+   "shot": 88,
+   "sentences": [
+    {
+     "text": "Your brain compares it to millions of faces you have seen before.",
+     "start": 795.605,
+     "end": 798.708
+    }
+   ]
+  },
+  {
+   "shot": 89,
+   "sentences": [
+    {
+     "text": "Your ears and your nose collect clues you will never notice.",
+     "start": 799.16,
+     "end": 802.295
+    }
+   ]
+  },
+  {
+   "shot": 90,
+   "sentences": [
+    {
+     "text": "Dopamine floods your reward system.",
+     "start": 802.971,
+     "end": 804.992
+    },
+    {
+     "text": "Your heart beats a little faster.",
+     "start": 805.516,
+     "end": 806.882
+    }
+   ]
+  },
+  {
+   "shot": 91,
+   "sentences": [
+    {
+     "text": "An ancient story, written over a billion years, plays out inside you in an instant.",
+     "start": 807.677,
+     "end": 812.24
+    }
+   ]
+  },
+  {
+   "shot": 92,
+   "sentences": [
+    {
+     "text": "But what happens next is not written in your genes.",
+     "start": 812.459,
+     "end": 816.565
+    }
+   ]
+  },
+  {
+   "shot": 93,
+   "sentences": [
+    {
+     "text": "Do you smile?",
+     "start": 817.25,
+     "end": 817.811
+    },
+    {
+     "text": "Do you say hello?",
+     "start": 818.432,
+     "end": 819.106
+    },
+    {
+     "text": "Do you walk away?",
+     "start": 819.782,
+     "end": 820.587
+    }
+   ]
+  },
+  {
+   "shot": 94,
+   "sentences": [
+    {
+     "text": "That part is up to you.",
+     "start": 821.584,
+     "end": 823.104
+    }
+   ]
+  },
+  {
+   "shot": 95,
+   "sentences": []
+  }
+ ]
+}
