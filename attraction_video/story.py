@@ -41,7 +41,7 @@ RAW = [
      "You did not decide this. Your brain decided it for you, in less than a second, long before you had a single conscious thought."),
     (S("S54_endcard_bg", (1.0, 1.08, .5, .5, .5, .55),
        chars=[("CHAR_man", .3, .62, 640, 0, 0.0, "left"), ("CHAR_woman", .7, .62, 620, 1, 0.2, "right")],
-       qmarks=True, sfx=["pop"], kw=["Why her"]),
+       qmarks=True, big=("WHY HER?", "", 2), sfx=["pop"], kw=["Why her"]),
      "So what just happened? Why is a man drawn to a woman at all? Why her, and not someone else?"),
     (S("S54_endcard_bg", (1.0, 1.05, .5, .5, .5, .5),
        quad=[("S05_ancient_ocean", "EVOLUTION", C), ("S34_dopamine_rain", "CHEMISTRY", Y), ("S31_brain_city", "BRAIN ON FIRE", M), ("S22_culture_shapes", "CULTURE", O)],
@@ -90,7 +90,7 @@ RAW = [
      "This imbalance shaped everything. Evolution built men and women with slightly different instincts, because their bodies faced different challenges."),
     (S("S14_genes_puppet", (1.0, 1.2, .5, .5, .5, .45), sfx=["swell"], kw=["oldest story on Earth", "genes"]),
      "Attraction is the engine that drives the oldest story on Earth: the story of genes trying to survive into the future."),
-    (S("S14_genes_puppet", (1.5, 2.1, .48, .55, .47, .62), pulse=(.47, .6, .1, 1.0), sparks=(.47, .6), sfx=["spark"], kw=["do not care", "A feeling", "A pull", "A spark", "attraction"]),
+    (S("S14_genes_puppet", (1.5, 2.1, .48, .55, .47, .62), pulse=(.47, .6, .1, 1.0), sparks=(.47, .6), big=("A PULL. A SPARK.", "", 4), sfx=["spark"], kw=["do not care", "A feeling", "A pull", "A spark", "attraction"]),
      "But here is the important part. Your genes do not care about your feelings. They do not give you a plan. They give you a feeling. A pull. A spark. And you experience that spark as attraction."),
 
     # ------------------------------------------------------------ PART 2
@@ -174,7 +174,7 @@ RAW = [
      "Meanwhile, levels of a chemical called serotonin can drop. Low serotonin is linked to obsessive thinking. That is why, when you fall for someone, you cannot stop thinking about them. You replay every conversation. You check your phone again and again."),
     (S("S38_rose_glasses", (1.6, 1.9, .82, .78, .85, .8), zzz=(.85, .74), labels=[("THE CRITIC", .85, .9, 0, .8, C)], sfx=["snore"], kw=["careful judgment", "switches off the critic"]),
      "And the part of the brain responsible for careful judgment and criticism becomes quieter. In other words, your brain partly switches off the critic."),
-    (S("S38_rose_glasses", (1.2, 1.55, .4, .5, .37, .45), pulse=(.36, .45, .15, .8), sparks=(.36, .45), sfx=["sparkle"], kw=["not blind", "very strong glasses"]),
+    (S("S38_rose_glasses", (1.2, 1.55, .4, .5, .37, .45), pulse=(.36, .45, .15, .8), sparks=(.36, .45), labels=[("VERY STRONG GLASSES", .36, .45, 1, .3, M)], sfx=["sparkle"], kw=["not blind", "very strong glasses"]),
      "Love is not blind. But in the beginning, it does wear very strong glasses."),
 
     # ------------------------------------------------------------ PART 5

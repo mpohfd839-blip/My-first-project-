@@ -856,7 +856,7 @@ def render_frame(fi):
             else:
                 img = Image.blend(prev, img, k)
     img = ImageChops.multiply(img, VIG)
-    img = draw_subs(img, gt, i)
+    # subtitles disabled on request: only key labels and call-outs are shown
     if gt < 0.8:
         img = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), img, ease(gt / 0.8))
     if TOTAL - gt < 1.5:
