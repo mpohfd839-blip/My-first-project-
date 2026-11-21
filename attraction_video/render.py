@@ -554,6 +554,42 @@ def draw_labels(layer, spec, cam, s, t, gt, dur):
             put(layer, pill(txt, col), lx, ly, sc, al)
 
 
+@functools.lru_cache(maxsize=256)
+def head_words(text):
+    """Split a headline into (word, highlighted) pairs; [brackets] mark highlighted words."""
+    out, hot = [], False
+    for w in text.split():
+        if w.startswith("["):
+            hot = True; w = w[1:]
+        end = "]" in w
+        w = w.replace("]", "")
+        out.append((w, hot))
+        if end:
+            hot = False
+    return tuple(out)
+
+
+def draw_head(layer, spec, s, t, gt, dur):
+    text, si = spec["head"]
+    ta = word_t(s, si, text.replace("[", "").replace("]", "")) - s["start"]
+    k = t - ta
+    if k < 0:
+        return
+    out = min(1, (dur - t) / 0.35)
+    ws = head_words(text)
+    size = 92 if len(text) < 22 else 74
+    sprites = [text_sprite(w, FRED, size, YEL if h else (255, 255, 255), (10, 4, 30), 14, stroke=5) for w, h in ws]
+    gap = -2 * (14 * 3 + 5 + 10) + int(size * 0.26)   # cancel sprite padding, keep a word space
+    total = sum(sp.width for sp in sprites) + gap * (len(sprites) - 1)
+    x = W / 2 - total / 2
+    y = H * 0.13 + math.sin(gt * 1.6) * 4
+    for j, sp in enumerate(sprites):
+        kk = k - j * 0.09
+        if kk > 0:
+            put(layer, sp, x + sp.width / 2, y + (1 - ease_out(kk / 0.35)) * 40, back(kk / 0.4), min(1, kk / 0.15) * out)
+        x += sp.width + gap
+
+
 def fmt_count(v):
     return f"{int(v):,}"
 
@@ -795,6 +831,8 @@ def shot_frame(i, t, gt):
     draw_chars(layer, spec, s, t, gt, dur)
     draw_labels(layer, spec, cam, s, t, gt, dur)
     draw_callouts(layer, spec, s, t, gt, dur)
+    if "head" in spec:
+        draw_head(layer, spec, s, t, gt, dur)
     if spec.get("title"):
         title_layer(layer, t, gt, dur)
     if spec.get("subscribe") and 1.0 < t < 7.5:

@@ -312,3 +312,34 @@ SHOTS = [(spec, split(text)) for spec, text in RAW]
 if __name__ == "__main__":
     n = sum(len(s) for _, s in SHOTS)
     print(len(SHOTS), "shots,", n, "sentences")
+
+# ---------------------------------------------------------------- headlines for scenes without other text
+# (text, sentence index); words in [brackets] are highlighted
+HEADS = {
+    0: ("HUNDREDS OF [FACES]", 1), 1: ("ONE [STOPS] YOU", 0), 2: ("HEART [RACING]", 0), 3: ("PUPILS [WIDEN]", 0),
+    4: ("\"LOOK [AGAIN]\"", 0), 10: ("BACK IN [TIME]", 0), 12: ("COPY. [PASTE.] REPEAT.", 0), 13: ("ALL [IDENTICAL]", 0),
+    17: ("A BRAND [NEW LOCK]", 1), 18: ("TWO [STRATEGIES]", 1), 20: ("AN [ENORMOUS] DIFFERENCE", 0),
+    23: ("ENERGY · TIME · [RISK]", 0), 24: ("DIFFERENT [INSTINCTS]", 1), 25: ("GENES WANT TO [SURVIVE]", 0),
+    26: ("GENES DON'T [CARE]", 1), 29: ("WHAT IS HE [SCANNING] FOR?", 0), 30: ("SAME [PATTERNS] EVERYWHERE", 0),
+    32: ("HEALTHY PARTNER = [HEALTHY KIDS]", 0), 33: ("NO [BLOOD TESTS]", 0), 34: ("READING THE [SIGNALS]", 0),
+    37: ("THE GENETIC [BLUEPRINT]", 0), 38: ("[BALANCED] = HANDLED STRESS WELL", 1), 39: ("MORE SYMMETRY = [MORE ATTRACTIVE]", 0),
+    41: ("[BLENDED] FACES WIN", 0), 42: ("A MIX OF MANY [GENES]", 0), 45: ("SOFTER FACE · [FULLER LIPS]", 0),
+    46: ("NOT ONE [BODY TYPE]", 1), 47: ("FASTER THAN [THOUGHT]", 0), 50: ("[INVISIBLE] SIGNALS", 1),
+    51: ("HIGHER, [SOFTER] VOICES", 1), 52: ("VOICE = [HORMONE CLUE]", 0), 53: ("AROUND [FERTILE DAYS]", 0),
+    55: ("THE EAR [LISTENS]", 0), 56: ("THE NOSE [KNOWS]", 2), 58: ("[STRONGER] DEFENSES", 1),
+    59: ("COMPLETING YOUR [DEFENSES]", 0), 60: ("HUMAN [PHEROMONES]?", 0), 61: ("[MARKETING] MAGIC", 0),
+    63: ("MAGIC PERFUME? [PROBABLY NOT.]", 1), 67: ("YOUR BRAIN [LIGHTS UP]", 0), 69: ("BLOOD PRESSURE [RISES]", 1),
+    70: ("LET MORE [LIGHT] IN", 0), 73: ("IT MAKES YOU [WANT MORE]", 1), 75: ("NEWLY IN [LOVE]", 1),
+    76: ("SAME CIRCUITS AS [ADDICTION]", 0), 78: ("CAN'T STOP [THINKING]", 0), 82: ("IT CAN'T [BURN FOREVER]", 1),
+    83: ("TOTALLY [EXHAUSTED]", 0), 84: ("THE FIRE [CALMS DOWN]", 1), 85: ("TWO NEW [CHEMICALS]", 0),
+    87: ("[TRUST] + SAFETY", 0), 89: ("BLOCKED = [NO BOND]", 0), 92: ("[HELPLESS] FOR YEARS", 0),
+    93: ("BUILT TO [STAY]", 1), 95: ("JUST A [PROGRAM]?", 0), 96: ("ONLY [HALF] THE STORY", 0),
+    98: ("[MEDIA] SHAPES TASTE", 0), 100: ("SEEN MORE = [LIKED MORE]", 0), 101: ("WHAT DO WE [REALLY] WANT?", 0),
+    103: ("[KINDNESS] IS ATTRACTIVE", 1), 107: ("WONDERFULLY [DIVERSE]", 0), 108: ("NO [CHECKLIST]", 1),
+    109: ("TENDENCIES, [NOT ORDERS]", 0), 110: ("YOU [CHOOSE]", 0), 111: ("1 BILLION YEARS + [1 MOMENT]", 0),
+    114: ("ONE [FACE]", 0), 115: ("HORMONES + [GENES]", 0), 116: ("MILLIONS OF [FACES]", 0),
+    117: ("CLUES YOU'LL [NEVER NOTICE]", 0), 118: ("[DOPAMINE] FLOOD", 0), 119: ("IN AN [INSTANT]", 0),
+    120: ("NOT WRITTEN IN YOUR [GENES]", 0), 121: ("SMILE? [SAY HELLO?]", 1),
+}
+for _i, _h in HEADS.items():
+    SHOTS[_i][0]["head"] = _h

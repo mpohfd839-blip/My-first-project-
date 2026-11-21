@@ -331,6 +331,9 @@ for s in R.SEG:
     if "big" in spec:
         ta = R.word_t(s, spec["big"][2], spec["big"][0])
         add(sfx, boom(1.5, 55) * .35, ta); add(sfx, chime(81, .2), ta)
+    if "head" in spec:
+        ta = R.word_t(s, spec["head"][1], spec["head"][0].replace("[", "").replace("]", ""))
+        add(sfx, whoosh(.35, False, 800, 6000) * .25, ta - .15); add(sfx, popsfx(620, .3), ta + .1)
     if "badge" in spec:
         add(sfx, boom(1.0, 70) * .5, R.sent_t(s, spec["badge"][1]))
     if "num" in spec:
