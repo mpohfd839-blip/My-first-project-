@@ -348,6 +348,20 @@ def sent_t(s, idx):
     return ss[min(idx, len(ss) - 1)]["start"]
 
 
+def word_t(s, idx, text):
+    """Time the narrator says the first word of `text` inside sentence idx (falls back to the sentence start)."""
+    ss = s["sents"]
+    if not ss:
+        return s["start"]
+    se = ss[min(idx, len(ss) - 1)]
+    toks = [w for w in re.sub(r"[^a-z ]", " ", text.lower()).split() if len(w) > 2]
+    for w, tw in se.get("words", []):
+        for tk in toks:
+            if w.startswith(tk[:5]) or tk.startswith(w[:5]) and len(w) > 3:
+                return tw
+    return se["start"]
+
+
 def draw_effects(layer, img, spec, cam, s, t, gt, dur):
     sc = cam.to_screen
     seed = s["i"] + 11
@@ -488,7 +502,7 @@ def draw_chars(layer, spec, s, t, gt, dur):
 def draw_labels(layer, spec, cam, s, t, gt, dur):
     d = ImageDraw.Draw(layer)
     for (txt, x, y, si, dl, col) in spec.get("labels", []):
-        ta = sent_t(s, si) - s["start"] + dl
+        ta = word_t(s, si, txt) - s["start"] + dl
         k = t - ta
         if k < 0:
             continue
@@ -518,7 +532,7 @@ def fmt_count(v):
 def draw_callouts(layer, spec, s, t, gt, dur):
     if "big" in spec:
         txt, sub, si = spec["big"]
-        ta = sent_t(s, si) - s["start"]
+        ta = word_t(s, si, txt) - s["start"]
         k = t - ta
         if k >= 0:
             al = min(1, k / 0.25) * min(1, (dur - t) / 0.35)
@@ -610,7 +624,7 @@ def chapter_frame(spec, s, t, gt, dur):
     al = min(1, (dur - t) / 0.3)
     k1 = t - 0.15
     head = "EPILOGUE" if n == 8 else f"PART {NUMW[n]}"
-    put(layer, text_sprite(head, NUN9, 56, CYA, CYA, 10, track=14), W / 2, H * 0.36, 1, min(1, max(0, k1) / 0.3) * al)
+    put(layer, text_sprite(head, NUN9, 60, YEL, (8, 2, 24), 12, stroke=4, track=14), W / 2, H * 0.36, 1, min(1, max(0, k1) / 0.3) * al)
     if n != 8:
         k2 = t - 0.55
         if k2 > 0:
@@ -639,7 +653,7 @@ def title_layer(layer, t, gt, dur):
     l1, l2 = "WHY ARE MEN", "ATTRACTED TO WOMEN?"
     k = t - 0.3
     if k > 0:
-        put(layer, text_sprite("THE SCIENCE OF ATTRACTION", NUN9, 48, CYA, CYA, 10, track=12), W / 2, H * 0.22, 1, min(1, k / .4) * al)
+        put(layer, text_sprite("THE SCIENCE OF ATTRACTION", NUN9, 50, (255, 255, 255), (8, 2, 24), 12, stroke=4, track=12), W / 2, H * 0.22, 1, min(1, k / .4) * al)
     k = t - 0.7
     if k > 0:
         put(layer, text_sprite(l1, FRED, 140, (255, 255, 255), MAG, 20, stroke=4), W / 2, H * 0.37, back(k / 0.5), min(1, k / .2) * al)
@@ -692,7 +706,7 @@ def endcard_frame(spec, s, t, gt, dur):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     bokeh(layer, gt, 90, 14, 0.3)
     put(layer, text_sprite("THANKS FOR WATCHING!", FRED, 104, (255, 255, 255), MAG, 18, stroke=4), W / 2, H * 0.17, back(t / .5), min(1, t / .3))
-    put(layer, text_sprite("What should we explain next? Tell us in the comments!", NUN8, 42, CYA, (0, 0, 0), 0), W / 2, H * 0.27, 1, min(1, max(0, t - .5) / .4))
+    put(layer, text_sprite("What should we explain next? Tell us in the comments!", NUN9, 44, (255, 255, 255), (8, 2, 24), 12, stroke=4), W / 2, H * 0.27, 1, min(1, max(0, t - .5) / .4))
     d = ImageDraw.Draw(layer)
     for j, x in enumerate((W * 0.3, W * 0.7)):
         k = ease_out((t - 0.8 - j * 0.2) / 0.5)
@@ -700,7 +714,7 @@ def endcard_frame(spec, s, t, gt, dur):
             bw, bh = 640 * k, 360 * k
             d.rounded_rectangle([x - bw / 2, H * 0.55 - bh / 2, x + bw / 2, H * 0.55 + bh / 2], 30, outline=[YEL, CYA][j] + (230,), width=6, fill=(20, 10, 45, 150))
             if k > 0.95:
-                d.text((x, H * 0.55), "WATCH NEXT" if j == 0 else "BEST FOR YOU", font=font(NUN9, 44), fill=[YEL, CYA][j] + (200,), anchor="mm")
+                d.text((x, H * 0.55), "WATCH NEXT" if j == 0 else "BEST FOR YOU", font=font(NUN9, 44), fill=(255, 255, 255, 230), anchor="mm", stroke_width=3, stroke_fill=(10, 4, 30))
     like_sub(layer, max(0, t - 1.5), W / 2 - 400, H * 0.83, 1.0)
     put(layer, cutout("MASCOT_lumi", 230), W * 0.92, H * 0.8 + math.sin(gt * 2.4) * 14, back((t - 1) / .5), 1, rot=math.sin(gt * 3) * 10)
     img.alpha_composite(layer)

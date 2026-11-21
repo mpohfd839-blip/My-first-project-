@@ -324,12 +324,12 @@ for s in R.SEG:
         add(sfx, whoosh(.7, False, 400, 5000) * .18, s["start"] - .35)
     # auto sounds for animated elements
     for lab in spec.get("labels", []):
-        add(sfx, popsfx(700, .35), R.sent_t(s, lab[3]) + lab[4])
+        add(sfx, popsfx(700, .35), R.word_t(s, lab[3], lab[0]) + lab[4])
     for ch in spec.get("chars", []):
         ta = (R.sent_t(s, ch[4]) if ch[4] else s["start"]) + ch[5]
         add(sfx, whoosh(.5) * .4, ta - .1); add(sfx, popsfx(450, .4), ta + .3)
     if "big" in spec:
-        ta = R.sent_t(s, spec["big"][2])
+        ta = R.word_t(s, spec["big"][2], spec["big"][0])
         add(sfx, boom(1.5, 55) * .35, ta); add(sfx, chime(81, .2), ta)
     if "badge" in spec:
         add(sfx, boom(1.0, 70) * .5, R.sent_t(s, spec["badge"][1]))

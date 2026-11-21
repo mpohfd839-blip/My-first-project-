@@ -7,12 +7,68 @@
     {
      "text": "You are walking down a busy street.",
      "start": 0.193,
-     "end": 2.381
+     "end": 2.46,
+     "words": [
+      [
+       "you",
+       0.15
+      ],
+      [
+       "are",
+       0.34
+      ],
+      [
+       "walking",
+       0.42
+      ],
+      [
+       "down",
+       1.03
+      ],
+      [
+       "a",
+       1.28
+      ],
+      [
+       "busy",
+       1.34
+      ],
+      [
+       "street",
+       1.8
+      ]
+     ]
     },
     {
      "text": "Hundreds of faces pass you by.",
      "start": 3.08,
-     "end": 5.199
+     "end": 5.26,
+     "words": [
+      [
+       "hundreds",
+       3.07
+      ],
+      [
+       "of",
+       3.62
+      ],
+      [
+       "faces",
+       3.7
+      ],
+      [
+       "pass",
+       4.34
+      ],
+      [
+       "you",
+       4.63
+      ],
+      [
+       "by",
+       4.78
+      ]
+     ]
     }
    ]
   },
@@ -22,7 +78,61 @@
     {
      "text": "And then, for no reason you can explain, one of them stops you.",
      "start": 5.476,
-     "end": 9.945
+     "end": 10.09,
+     "words": [
+      [
+       "and",
+       5.53
+      ],
+      [
+       "then",
+       5.81
+      ],
+      [
+       "for",
+       6.27
+      ],
+      [
+       "no",
+       6.48
+      ],
+      [
+       "reason",
+       6.83
+      ],
+      [
+       "you",
+       7.21
+      ],
+      [
+       "can",
+       7.33
+      ],
+      [
+       "explain",
+       7.48
+      ],
+      [
+       "one",
+       8.61
+      ],
+      [
+       "of",
+       8.86
+      ],
+      [
+       "them",
+       9.0
+      ],
+      [
+       "stops",
+       9.22
+      ],
+      [
+       "you",
+       9.86
+      ]
+     ]
     }
    ]
   },
@@ -32,7 +142,25 @@
     {
      "text": "Your heart speeds up.",
      "start": 10.965,
-     "end": 12.256
+     "end": 12.29,
+     "words": [
+      [
+       "your",
+       10.93
+      ],
+      [
+       "heart",
+       11.07
+      ],
+      [
+       "speeds",
+       11.47
+      ],
+      [
+       "up",
+       12.08
+      ]
+     ]
     }
    ]
   },
@@ -42,12 +170,52 @@
     {
      "text": "Your pupils widen.",
      "start": 12.453,
-     "end": 13.855
+     "end": 13.82,
+     "words": [
+      [
+       "your",
+       12.59
+      ],
+      [
+       "pupils",
+       12.72
+      ],
+      [
+       "widen",
+       13.36
+      ]
+     ]
     },
     {
      "text": "Your palms get a little warm.",
-     "start": 13.855,
-     "end": 15.929
+     "start": 14.04,
+     "end": 15.97,
+     "words": [
+      [
+       "your",
+       14.04
+      ],
+      [
+       "palms",
+       14.19
+      ],
+      [
+       "get",
+       14.91
+      ],
+      [
+       "a",
+       15.03
+      ],
+      [
+       "little",
+       15.06
+      ],
+      [
+       "warm",
+       15.34
+      ]
+     ]
     }
    ]
   },
@@ -57,7 +225,33 @@
     {
      "text": "Something inside you whispers: look again.",
      "start": 16.643,
-     "end": 19.787
+     "end": 19.85,
+     "words": [
+      [
+       "something",
+       16.63
+      ],
+      [
+       "inside",
+       17.14
+      ],
+      [
+       "you",
+       17.82
+      ],
+      [
+       "whispers",
+       18.01
+      ],
+      [
+       "look",
+       19.02
+      ],
+      [
+       "again",
+       19.33
+      ]
+     ]
     }
    ]
   },
@@ -67,12 +261,112 @@
     {
      "text": "You did not decide this.",
      "start": 20.833,
-     "end": 22.431
+     "end": 22.46,
+     "words": [
+      [
+       "you",
+       20.82
+      ],
+      [
+       "did",
+       21.11
+      ],
+      [
+       "not",
+       21.28
+      ],
+      [
+       "decide",
+       21.57
+      ],
+      [
+       "this",
+       22.1
+      ]
+     ]
     },
     {
      "text": "Your brain decided it for you, in less than a second, long before you had a single conscious thought.",
      "start": 22.702,
-     "end": 29.61
+     "end": 29.64,
+     "words": [
+      [
+       "your",
+       22.87
+      ],
+      [
+       "brain",
+       23.0
+      ],
+      [
+       "decided",
+       23.68
+      ],
+      [
+       "it",
+       24.17
+      ],
+      [
+       "for",
+       24.26
+      ],
+      [
+       "you",
+       24.63
+      ],
+      [
+       "in",
+       25.21
+      ],
+      [
+       "less",
+       25.4
+      ],
+      [
+       "than",
+       25.83
+      ],
+      [
+       "a",
+       25.97
+      ],
+      [
+       "second",
+       26.01
+      ],
+      [
+       "long",
+       26.97
+      ],
+      [
+       "before",
+       27.4
+      ],
+      [
+       "you",
+       27.73
+      ],
+      [
+       "had",
+       27.91
+      ],
+      [
+       "a",
+       28.17
+      ],
+      [
+       "single",
+       28.21
+      ],
+      [
+       "conscious",
+       28.73
+      ],
+      [
+       "thought",
+       29.26
+      ]
+     ]
     }
    ]
   },
@@ -82,17 +376,103 @@
     {
      "text": "So what just happened?",
      "start": 30.583,
-     "end": 31.523
+     "end": 31.55,
+     "words": [
+      [
+       "so",
+       30.56
+      ],
+      [
+       "what",
+       30.76
+      ],
+      [
+       "just",
+       30.93
+      ],
+      [
+       "happened",
+       31.13
+      ]
+     ]
     },
     {
      "text": "Why is a man drawn to a woman at all?",
      "start": 31.933,
-     "end": 34.498
+     "end": 34.643,
+     "words": [
+      [
+       "why",
+       31.873
+      ],
+      [
+       "is",
+       32.413
+      ],
+      [
+       "a",
+       32.603
+      ],
+      [
+       "man",
+       32.643
+      ],
+      [
+       "drawn",
+       33.023
+      ],
+      [
+       "to",
+       33.453
+      ],
+      [
+       "a",
+       33.643
+      ],
+      [
+       "woman",
+       33.673
+      ],
+      [
+       "at",
+       34.073
+      ],
+      [
+       "all",
+       34.213
+      ]
+     ]
     },
     {
      "text": "Why her, and not someone else?",
      "start": 35.017,
-     "end": 36.973
+     "end": 37.043,
+     "words": [
+      [
+       "why",
+       34.953
+      ],
+      [
+       "her",
+       35.233
+      ],
+      [
+       "and",
+       35.883
+      ],
+      [
+       "not",
+       36.123
+      ],
+      [
+       "someone",
+       36.323
+      ],
+      [
+       "else",
+       36.653
+      ]
+     ]
     }
    ]
   },
@@ -102,7 +482,97 @@
     {
      "text": "The answer is a strange mix of ancient evolution, invisible chemistry, a brain on fire, and the culture you grew up in.",
      "start": 37.538,
-     "end": 46.512
+     "end": 46.633,
+     "words": [
+      [
+       "the",
+       37.713
+      ],
+      [
+       "answer",
+       37.873
+      ],
+      [
+       "is",
+       38.363
+      ],
+      [
+       "a",
+       38.503
+      ],
+      [
+       "strange",
+       38.543
+      ],
+      [
+       "mix",
+       39.203
+      ],
+      [
+       "of",
+       39.653
+      ],
+      [
+       "ancient",
+       40.043
+      ],
+      [
+       "evolution",
+       40.573
+      ],
+      [
+       "invisible",
+       41.623
+      ],
+      [
+       "chemistry",
+       42.373
+      ],
+      [
+       "a",
+       43.503
+      ],
+      [
+       "brain",
+       43.563
+      ],
+      [
+       "on",
+       44.093
+      ],
+      [
+       "fire",
+       44.283
+      ],
+      [
+       "and",
+       45.103
+      ],
+      [
+       "the",
+       45.333
+      ],
+      [
+       "culture",
+       45.403
+      ],
+      [
+       "you",
+       45.933
+      ],
+      [
+       "grew",
+       46.083
+      ],
+      [
+       "up",
+       46.293
+      ],
+      [
+       "in",
+       46.433
+      ]
+     ]
     }
    ]
   },
@@ -112,7 +582,77 @@
     {
      "text": "Let us take attraction apart, piece by piece, and see what is really going on inside you.",
      "start": 47.275,
-     "end": 53.47
+     "end": 53.633,
+     "words": [
+      [
+       "let",
+       47.253
+      ],
+      [
+       "us",
+       47.493
+      ],
+      [
+       "take",
+       47.673
+      ],
+      [
+       "attraction",
+       47.943
+      ],
+      [
+       "apart",
+       48.593
+      ],
+      [
+       "piece",
+       49.443
+      ],
+      [
+       "by",
+       49.973
+      ],
+      [
+       "piece",
+       50.223
+      ],
+      [
+       "and",
+       51.133
+      ],
+      [
+       "see",
+       51.233
+      ],
+      [
+       "what",
+       51.523
+      ],
+      [
+       "is",
+       51.733
+      ],
+      [
+       "really",
+       51.863
+      ],
+      [
+       "going",
+       52.383
+      ],
+      [
+       "on",
+       52.693
+      ],
+      [
+       "inside",
+       52.913
+      ],
+      [
+       "you",
+       53.343
+      ]
+     ]
     }
    ]
   },
@@ -122,12 +662,44 @@
     {
      "text": "Part One.",
      "start": 54.613,
-     "end": 55.306
+     "end": 55.313,
+     "words": [
+      [
+       "part",
+       54.573
+      ],
+      [
+       "one",
+       54.873
+      ]
+     ]
     },
     {
      "text": "The Oldest Story on Earth.",
      "start": 55.765,
-     "end": 57.81
+     "end": 57.833,
+     "words": [
+      [
+       "the",
+       55.743
+      ],
+      [
+       "oldest",
+       55.933
+      ],
+      [
+       "story",
+       56.493
+      ],
+      [
+       "on",
+       57.103
+      ],
+      [
+       "earth",
+       57.363
+      ]
+     ]
     }
    ]
   },
@@ -137,12 +709,56 @@
     {
      "text": "To understand attraction, we have to go back.",
      "start": 58.739,
-     "end": 61.612
+     "end": 61.683,
+     "words": [
+      [
+       "to",
+       58.693
+      ],
+      [
+       "understand",
+       58.903
+      ],
+      [
+       "attraction",
+       59.453
+      ],
+      [
+       "we",
+       60.523
+      ],
+      [
+       "have",
+       60.653
+      ],
+      [
+       "to",
+       60.853
+      ],
+      [
+       "go",
+       60.963
+      ],
+      [
+       "back",
+       61.113
+      ]
+     ]
     },
     {
      "text": "Way back.",
      "start": 62.079,
-     "end": 62.859
+     "end": 62.913,
+     "words": [
+      [
+       "way",
+       62.043
+      ],
+      [
+       "back",
+       62.493
+      ]
+     ]
     }
    ]
   },
@@ -152,12 +768,80 @@
     {
      "text": "About one billion years.",
      "start": 63.274,
-     "end": 65.161
+     "end": 65.193,
+     "words": [
+      [
+       "about",
+       63.263
+      ],
+      [
+       "one",
+       63.473
+      ],
+      [
+       "billion",
+       63.943
+      ],
+      [
+       "years",
+       64.533
+      ]
+     ]
     },
     {
      "text": "For most of the history of life, living things simply copied themselves.",
      "start": 66.036,
-     "end": 70.358
+     "end": 70.403,
+     "words": [
+      [
+       "for",
+       65.953
+      ],
+      [
+       "most",
+       66.113
+      ],
+      [
+       "of",
+       66.453
+      ],
+      [
+       "the",
+       66.543
+      ],
+      [
+       "history",
+       66.613
+      ],
+      [
+       "of",
+       67.063
+      ],
+      [
+       "life",
+       67.153
+      ],
+      [
+       "living",
+       67.903
+      ],
+      [
+       "things",
+       68.253
+      ],
+      [
+       "simply",
+       68.673
+      ],
+      [
+       "copied",
+       69.153
+      ],
+      [
+       "themselves",
+       69.753
+      ]
+     ]
     }
    ]
   },
@@ -167,27 +851,105 @@
     {
      "text": "A cell split in two.",
      "start": 70.761,
-     "end": 72.05
+     "end": 72.193,
+     "words": [
+      [
+       "a",
+       70.793
+      ],
+      [
+       "cell",
+       70.853
+      ],
+      [
+       "split",
+       71.263
+      ],
+      [
+       "in",
+       71.613
+      ],
+      [
+       "two",
+       71.683
+      ]
+     ]
     },
     {
      "text": "Then those two split again.",
      "start": 72.376,
-     "end": 73.872
+     "end": 74.033,
+     "words": [
+      [
+       "then",
+       72.443
+      ],
+      [
+       "those",
+       72.643
+      ],
+      [
+       "two",
+       72.903
+      ],
+      [
+       "split",
+       73.243
+      ],
+      [
+       "again",
+       73.533
+      ]
+     ]
     },
     {
      "text": "Simple.",
      "start": 74.432,
-     "end": 74.726
+     "end": 74.842,
+     "words": [
+      [
+       "simple",
+       74.392
+      ]
+     ]
     },
     {
      "text": "Efficient.",
      "start": 75.272,
-     "end": 75.699
+     "end": 75.732,
+     "words": [
+      [
+       "efficient",
+       75.252
+      ]
+     ]
     },
     {
      "text": "But there was a problem.",
      "start": 76.419,
-     "end": 78.586
+     "end": 77.362,
+     "words": [
+      [
+       "but",
+       76.382
+      ],
+      [
+       "there",
+       76.502
+      ],
+      [
+       "was",
+       76.602
+      ],
+      [
+       "a",
+       76.752
+      ],
+      [
+       "problem",
+       76.792
+      ]
+     ]
     }
    ]
   },
@@ -196,13 +958,85 @@
    "sentences": [
     {
      "text": "A copy is only ever as good as the original.",
-     "start": 78.878,
-     "end": 80.936
+     "start": 77.999,
+     "end": 81.032,
+     "words": [
+      [
+       "a",
+       77.982
+      ],
+      [
+       "copy",
+       78.032
+      ],
+      [
+       "is",
+       78.912
+      ],
+      [
+       "only",
+       79.032
+      ],
+      [
+       "ever",
+       79.372
+      ],
+      [
+       "as",
+       79.612
+      ],
+      [
+       "good",
+       79.782
+      ],
+      [
+       "as",
+       80.252
+      ],
+      [
+       "the",
+       80.362
+      ],
+      [
+       "original",
+       80.502
+      ]
+     ]
     },
     {
      "text": "And the world is full of enemies.",
      "start": 81.243,
-     "end": 83.367
+     "end": 83.402,
+     "words": [
+      [
+       "and",
+       81.252
+      ],
+      [
+       "the",
+       81.452
+      ],
+      [
+       "world",
+       81.512
+      ],
+      [
+       "is",
+       82.022
+      ],
+      [
+       "full",
+       82.232
+      ],
+      [
+       "of",
+       82.742
+      ],
+      [
+       "enemies",
+       82.852
+      ]
+     ]
     }
    ]
   },
@@ -212,22 +1046,82 @@
     {
      "text": "Viruses.",
      "start": 83.746,
-     "end": 84.458
+     "end": 84.522,
+     "words": [
+      [
+       "viruses",
+       83.752
+      ]
+     ]
     },
     {
      "text": "Parasites.",
-     "start": 84.458,
-     "end": 85.281
+     "start": 84.522,
+     "end": 85.342,
+     "words": [
+      [
+       "parasites",
+       84.522
+      ]
+     ]
     },
     {
      "text": "Bacteria.",
-     "start": 85.281,
-     "end": 86.048
+     "start": 85.342,
+     "end": 86.062,
+     "words": [
+      [
+       "bacteria",
+       85.342
+      ]
+     ]
     },
     {
      "text": "They evolve fast, and they are constantly searching for weaknesses.",
      "start": 86.508,
-     "end": 89.945
+     "end": 89.962,
+     "words": [
+      [
+       "they",
+       86.482
+      ],
+      [
+       "evolve",
+       86.592
+      ],
+      [
+       "fast",
+       86.912
+      ],
+      [
+       "and",
+       87.672
+      ],
+      [
+       "they",
+       87.832
+      ],
+      [
+       "are",
+       87.932
+      ],
+      [
+       "constantly",
+       88.032
+      ],
+      [
+       "searching",
+       88.732
+      ],
+      [
+       "for",
+       89.192
+      ],
+      [
+       "weaknesses",
+       89.302
+      ]
+     ]
     }
    ]
   },
@@ -237,12 +1131,104 @@
     {
      "text": "A population of identical copies is a buffet.",
      "start": 90.478,
-     "end": 93.165
+     "end": 93.222,
+     "words": [
+      [
+       "a",
+       90.462
+      ],
+      [
+       "population",
+       90.512
+      ],
+      [
+       "of",
+       91.142
+      ],
+      [
+       "identical",
+       91.242
+      ],
+      [
+       "copies",
+       91.752
+      ],
+      [
+       "is",
+       92.322
+      ],
+      [
+       "a",
+       92.452
+      ],
+      [
+       "buffet",
+       92.512
+      ]
+     ]
     },
     {
      "text": "Once a parasite cracks the code of one, it can crack all of them.",
      "start": 93.532,
-     "end": 97.528
+     "end": 97.612,
+     "words": [
+      [
+       "once",
+       93.702
+      ],
+      [
+       "a",
+       93.952
+      ],
+      [
+       "parasite",
+       94.002
+      ],
+      [
+       "cracks",
+       94.592
+      ],
+      [
+       "the",
+       94.942
+      ],
+      [
+       "code",
+       95.022
+      ],
+      [
+       "of",
+       95.352
+      ],
+      [
+       "one",
+       95.462
+      ],
+      [
+       "it",
+       96.252
+      ],
+      [
+       "can",
+       96.322
+      ],
+      [
+       "crack",
+       96.542
+      ],
+      [
+       "all",
+       96.942
+      ],
+      [
+       "of",
+       97.302
+      ],
+      [
+       "them",
+       97.392
+      ]
+     ]
     }
    ]
   },
@@ -252,17 +1238,103 @@
     {
      "text": "So life invented something radical.",
      "start": 98.307,
-     "end": 100.129
+     "end": 100.317,
+     "words": [
+      [
+       "so",
+       98.287
+      ],
+      [
+       "life",
+       98.477
+      ],
+      [
+       "invented",
+       98.797
+      ],
+      [
+       "something",
+       99.217
+      ],
+      [
+       "radical",
+       99.647
+      ]
+     ]
     },
     {
      "text": "Mixing.",
      "start": 100.722,
-     "end": 101.171
+     "end": 101.297,
+     "words": [
+      [
+       "mixing",
+       100.737
+      ]
+     ]
     },
     {
      "text": "Instead of copying itself, an organism could combine its genes with someone else's genes.",
      "start": 101.742,
-     "end": 107.361
+     "end": 107.397,
+     "words": [
+      [
+       "instead",
+       101.927
+      ],
+      [
+       "of",
+       102.227
+      ],
+      [
+       "copying",
+       102.307
+      ],
+      [
+       "itself",
+       102.807
+      ],
+      [
+       "an",
+       103.567
+      ],
+      [
+       "organism",
+       103.637
+      ],
+      [
+       "could",
+       104.197
+      ],
+      [
+       "combine",
+       104.417
+      ],
+      [
+       "its",
+       105.127
+      ],
+      [
+       "genes",
+       105.387
+      ],
+      [
+       "with",
+       105.817
+      ],
+      [
+       "someone",
+       106.007
+      ],
+      [
+       "else's",
+       106.367
+      ],
+      [
+       "genes",
+       106.897
+      ]
+     ]
     }
    ]
   },
@@ -272,12 +1344,88 @@
     {
      "text": "Every child would be a brand new combination.",
      "start": 107.696,
-     "end": 110.349
+     "end": 110.427,
+     "words": [
+      [
+       "every",
+       107.817
+      ],
+      [
+       "child",
+       108.127
+      ],
+      [
+       "would",
+       108.657
+      ],
+      [
+       "be",
+       108.837
+      ],
+      [
+       "a",
+       108.947
+      ],
+      [
+       "brand",
+       108.997
+      ],
+      [
+       "new",
+       109.457
+      ],
+      [
+       "combination",
+       109.657
+      ]
+     ]
     },
     {
      "text": "A new lock that the parasites had never seen before.",
      "start": 110.591,
-     "end": 113.695
+     "end": 113.737,
+     "words": [
+      [
+       "a",
+       110.747
+      ],
+      [
+       "new",
+       110.817
+      ],
+      [
+       "lock",
+       111.097
+      ],
+      [
+       "that",
+       111.717
+      ],
+      [
+       "the",
+       111.837
+      ],
+      [
+       "parasites",
+       111.907
+      ],
+      [
+       "had",
+       112.507
+      ],
+      [
+       "never",
+       112.687
+      ],
+      [
+       "seen",
+       112.987
+      ],
+      [
+       "before",
+       113.267
+      ]
+     ]
     }
    ]
   },
@@ -287,12 +1435,68 @@
     {
      "text": "This was the birth of sex.",
      "start": 114.265,
-     "end": 116.442
+     "end": 116.457,
+     "words": [
+      [
+       "this",
+       114.277
+      ],
+      [
+       "was",
+       114.847
+      ],
+      [
+       "the",
+       115.037
+      ],
+      [
+       "birth",
+       115.147
+      ],
+      [
+       "of",
+       115.557
+      ],
+      [
+       "sex",
+       115.827
+      ]
+     ]
     },
     {
      "text": "And with it came two different strategies.",
      "start": 116.725,
-     "end": 119.264
+     "end": 119.307,
+     "words": [
+      [
+       "and",
+       116.837
+      ],
+      [
+       "with",
+       117.007
+      ],
+      [
+       "it",
+       117.267
+      ],
+      [
+       "came",
+       117.567
+      ],
+      [
+       "two",
+       117.837
+      ],
+      [
+       "different",
+       118.167
+      ],
+      [
+       "strategies",
+       118.597
+      ]
+     ]
     }
    ]
   },
@@ -302,22 +1506,150 @@
     {
      "text": "One partner made tiny cells that were cheap and plentiful.",
      "start": 119.605,
-     "end": 123.13
+     "end": 123.197,
+     "words": [
+      [
+       "one",
+       119.667
+      ],
+      [
+       "partner",
+       120.037
+      ],
+      [
+       "made",
+       120.627
+      ],
+      [
+       "tiny",
+       120.837
+      ],
+      [
+       "cells",
+       121.317
+      ],
+      [
+       "that",
+       121.827
+      ],
+      [
+       "were",
+       121.947
+      ],
+      [
+       "cheap",
+       122.037
+      ],
+      [
+       "and",
+       122.437
+      ],
+      [
+       "plentiful",
+       122.637
+      ]
+     ]
     },
     {
      "text": "We call them sperm.",
      "start": 123.572,
-     "end": 124.576
+     "end": 124.607,
+     "words": [
+      [
+       "we",
+       123.547
+      ],
+      [
+       "call",
+       123.657
+      ],
+      [
+       "them",
+       123.867
+      ],
+      [
+       "sperm",
+       123.997
+      ]
+     ]
     },
     {
      "text": "The other made large cells that were rare and full of resources.",
      "start": 124.905,
-     "end": 129.051
+     "end": 129.097,
+     "words": [
+      [
+       "the",
+       125.077
+      ],
+      [
+       "other",
+       125.237
+      ],
+      [
+       "made",
+       125.717
+      ],
+      [
+       "large",
+       125.967
+      ],
+      [
+       "cells",
+       126.517
+      ],
+      [
+       "that",
+       126.947
+      ],
+      [
+       "were",
+       127.067
+      ],
+      [
+       "rare",
+       127.187
+      ],
+      [
+       "and",
+       127.707
+      ],
+      [
+       "full",
+       127.857
+      ],
+      [
+       "of",
+       128.237
+      ],
+      [
+       "resources",
+       128.357
+      ]
+     ]
     },
     {
      "text": "We call them eggs.",
      "start": 129.442,
-     "end": 130.383
+     "end": 130.437,
+     "words": [
+      [
+       "we",
+       129.427
+      ],
+      [
+       "call",
+       129.517
+      ],
+      [
+       "them",
+       129.717
+      ],
+      [
+       "eggs",
+       129.867
+      ]
+     ]
     }
    ]
   },
@@ -327,17 +1659,179 @@
     {
      "text": "In humans, the difference is enormous.",
      "start": 130.891,
-     "end": 133.568
+     "end": 133.581,
+     "words": [
+      [
+       "in",
+       131.061
+      ],
+      [
+       "humans",
+       131.191
+      ],
+      [
+       "the",
+       131.911
+      ],
+      [
+       "difference",
+       132.061
+      ],
+      [
+       "is",
+       132.591
+      ],
+      [
+       "enormous",
+       132.771
+      ]
+     ]
     },
     {
      "text": "A man produces millions of sperm every single day.",
      "start": 133.859,
-     "end": 137.302
+     "end": 137.401,
+     "words": [
+      [
+       "a",
+       134.071
+      ],
+      [
+       "man",
+       134.121
+      ],
+      [
+       "produces",
+       134.481
+      ],
+      [
+       "millions",
+       134.981
+      ],
+      [
+       "of",
+       135.611
+      ],
+      [
+       "sperm",
+       135.681
+      ],
+      [
+       "every",
+       136.161
+      ],
+      [
+       "single",
+       136.591
+      ],
+      [
+       "day",
+       137.011
+      ]
+     ]
     },
     {
      "text": "A woman is born with all the eggs she will ever have, and only around four hundred of them will mature in her lifetime.",
      "start": 137.859,
-     "end": 143.825
+     "end": 143.901,
+     "words": [
+      [
+       "a",
+       137.851
+      ],
+      [
+       "woman",
+       137.881
+      ],
+      [
+       "is",
+       138.211
+      ],
+      [
+       "born",
+       138.341
+      ],
+      [
+       "with",
+       138.641
+      ],
+      [
+       "all",
+       138.761
+      ],
+      [
+       "the",
+       139.091
+      ],
+      [
+       "eggs",
+       139.231
+      ],
+      [
+       "she",
+       139.441
+      ],
+      [
+       "will",
+       139.571
+      ],
+      [
+       "ever",
+       139.771
+      ],
+      [
+       "have",
+       140.071
+      ],
+      [
+       "and",
+       140.731
+      ],
+      [
+       "only",
+       140.931
+      ],
+      [
+       "around",
+       141.241
+      ],
+      [
+       "four",
+       141.501
+      ],
+      [
+       "hundred",
+       141.861
+      ],
+      [
+       "of",
+       142.251
+      ],
+      [
+       "them",
+       142.341
+      ],
+      [
+       "will",
+       142.471
+      ],
+      [
+       "mature",
+       142.641
+      ],
+      [
+       "in",
+       143.131
+      ],
+      [
+       "her",
+       143.221
+      ],
+      [
+       "lifetime",
+       143.351
+      ]
+     ]
     }
    ]
   },
@@ -347,17 +1841,151 @@
     {
      "text": "And then comes pregnancy.",
      "start": 144.677,
-     "end": 146.41
+     "end": 146.471,
+     "words": [
+      [
+       "and",
+       144.631
+      ],
+      [
+       "then",
+       144.851
+      ],
+      [
+       "comes",
+       145.171
+      ],
+      [
+       "pregnancy",
+       145.741
+      ]
+     ]
     },
     {
      "text": "Nine months of carrying a child, followed by years of feeding and care.",
      "start": 147.0,
-     "end": 152.499
+     "end": 152.551,
+     "words": [
+      [
+       "nine",
+       147.001
+      ],
+      [
+       "months",
+       147.411
+      ],
+      [
+       "of",
+       147.951
+      ],
+      [
+       "carrying",
+       148.041
+      ],
+      [
+       "a",
+       148.581
+      ],
+      [
+       "child",
+       148.631
+      ],
+      [
+       "followed",
+       149.541
+      ],
+      [
+       "by",
+       149.871
+      ],
+      [
+       "years",
+       150.041
+      ],
+      [
+       "of",
+       150.861
+      ],
+      [
+       "feeding",
+       150.961
+      ],
+      [
+       "and",
+       151.651
+      ],
+      [
+       "care",
+       151.991
+      ]
+     ]
     },
     {
      "text": "For most of human history, that was a huge investment of energy, time, and risk.",
      "start": 153.199,
-     "end": 159.174
+     "end": 159.211,
+     "words": [
+      [
+       "for",
+       153.171
+      ],
+      [
+       "most",
+       153.281
+      ],
+      [
+       "of",
+       153.601
+      ],
+      [
+       "human",
+       153.681
+      ],
+      [
+       "history",
+       153.961
+      ],
+      [
+       "that",
+       154.531
+      ],
+      [
+       "was",
+       154.781
+      ],
+      [
+       "a",
+       154.961
+      ],
+      [
+       "huge",
+       155.011
+      ],
+      [
+       "investment",
+       155.671
+      ],
+      [
+       "of",
+       156.611
+      ],
+      [
+       "energy",
+       156.881
+      ],
+      [
+       "time",
+       157.661
+      ],
+      [
+       "and",
+       158.541
+      ],
+      [
+       "risk",
+       158.731
+      ]
+     ]
     }
    ]
   },
@@ -367,12 +1995,92 @@
     {
      "text": "This imbalance shaped everything.",
      "start": 159.88,
-     "end": 162.188
+     "end": 162.231,
+     "words": [
+      [
+       "this",
+       159.911
+      ],
+      [
+       "imbalance",
+       160.181
+      ],
+      [
+       "shaped",
+       161.081
+      ],
+      [
+       "everything",
+       161.661
+      ]
+     ]
     },
     {
      "text": "Evolution built men and women with slightly different instincts, because their bodies faced different challenges.",
      "start": 162.727,
-     "end": 169.678
+     "end": 169.701,
+     "words": [
+      [
+       "evolution",
+       162.931
+      ],
+      [
+       "built",
+       163.591
+      ],
+      [
+       "men",
+       163.851
+      ],
+      [
+       "and",
+       164.221
+      ],
+      [
+       "women",
+       164.411
+      ],
+      [
+       "with",
+       164.781
+      ],
+      [
+       "slightly",
+       164.961
+      ],
+      [
+       "different",
+       165.661
+      ],
+      [
+       "instincts",
+       166.261
+      ],
+      [
+       "because",
+       167.201
+      ],
+      [
+       "their",
+       167.451
+      ],
+      [
+       "bodies",
+       167.581
+      ],
+      [
+       "faced",
+       168.201
+      ],
+      [
+       "different",
+       168.591
+      ],
+      [
+       "challenges",
+       169.021
+      ]
+     ]
     }
    ]
   },
@@ -382,7 +2090,93 @@
     {
      "text": "Attraction is the engine that drives the oldest story on Earth: the story of genes trying to survive into the future.",
      "start": 170.4,
-     "end": 179.46
+     "end": 179.501,
+     "words": [
+      [
+       "attraction",
+       170.391
+      ],
+      [
+       "is",
+       171.321
+      ],
+      [
+       "the",
+       171.551
+      ],
+      [
+       "engine",
+       171.851
+      ],
+      [
+       "that",
+       172.411
+      ],
+      [
+       "drives",
+       172.621
+      ],
+      [
+       "the",
+       173.161
+      ],
+      [
+       "oldest",
+       173.291
+      ],
+      [
+       "story",
+       173.881
+      ],
+      [
+       "on",
+       174.481
+      ],
+      [
+       "earth",
+       174.831
+      ],
+      [
+       "the",
+       175.681
+      ],
+      [
+       "story",
+       175.761
+      ],
+      [
+       "of",
+       176.331
+      ],
+      [
+       "genes",
+       176.511
+      ],
+      [
+       "trying",
+       177.371
+      ],
+      [
+       "to",
+       177.781
+      ],
+      [
+       "survive",
+       177.871
+      ],
+      [
+       "into",
+       178.601
+      ],
+      [
+       "the",
+       178.861
+      ],
+      [
+       "future",
+       178.941
+      ]
+     ]
     }
    ]
   },
@@ -392,37 +2186,199 @@
     {
      "text": "But here is the important part.",
      "start": 180.076,
-     "end": 181.998
+     "end": 182.041,
+     "words": [
+      [
+       "but",
+       180.361
+      ],
+      [
+       "here",
+       180.471
+      ],
+      [
+       "is",
+       180.891
+      ],
+      [
+       "the",
+       181.051
+      ],
+      [
+       "important",
+       181.151
+      ],
+      [
+       "part",
+       181.701
+      ]
+     ]
     },
     {
      "text": "Your genes do not care about your feelings.",
      "start": 182.501,
-     "end": 185.849
+     "end": 185.891,
+     "words": [
+      [
+       "your",
+       182.441
+      ],
+      [
+       "genes",
+       182.691
+      ],
+      [
+       "do",
+       183.591
+      ],
+      [
+       "not",
+       183.731
+      ],
+      [
+       "care",
+       184.081
+      ],
+      [
+       "about",
+       184.851
+      ],
+      [
+       "your",
+       185.091
+      ],
+      [
+       "feelings",
+       185.271
+      ]
+     ]
     },
     {
      "text": "They do not give you a plan.",
      "start": 186.308,
-     "end": 187.629
+     "end": 187.671,
+     "words": [
+      [
+       "they",
+       186.281
+      ],
+      [
+       "do",
+       186.371
+      ],
+      [
+       "not",
+       186.471
+      ],
+      [
+       "give",
+       186.611
+      ],
+      [
+       "you",
+       186.861
+      ],
+      [
+       "a",
+       187.021
+      ],
+      [
+       "plan",
+       187.051
+      ]
+     ]
     },
     {
      "text": "They give you a feeling.",
      "start": 188.072,
-     "end": 189.737
+     "end": 189.811,
+     "words": [
+      [
+       "they",
+       188.041
+      ],
+      [
+       "give",
+       188.171
+      ],
+      [
+       "you",
+       188.411
+      ],
+      [
+       "a",
+       188.981
+      ],
+      [
+       "feeling",
+       189.301
+      ]
+     ]
     },
     {
      "text": "A pull.",
-     "start": 190.276,
-     "end": 190.97
+     "start": 189.811,
+     "end": 191.011,
+     "words": [
+      [
+       "a",
+       189.811
+      ],
+      [
+       "pull",
+       190.311
+      ]
+     ]
     },
     {
      "text": "A spark.",
      "start": 191.501,
-     "end": 192.293
+     "end": 192.311,
+     "words": [
+      [
+       "a",
+       191.481
+      ],
+      [
+       "spark",
+       191.551
+      ]
+     ]
     },
     {
      "text": "And you experience that spark as attraction.",
      "start": 192.829,
-     "end": 195.485
+     "end": 195.511,
+     "words": [
+      [
+       "and",
+       192.771
+      ],
+      [
+       "you",
+       192.941
+      ],
+      [
+       "experience",
+       193.091
+      ],
+      [
+       "that",
+       193.811
+      ],
+      [
+       "spark",
+       194.011
+      ],
+      [
+       "as",
+       194.691
+      ],
+      [
+       "attraction",
+       194.891
+      ]
+     ]
     }
    ]
   },
@@ -432,12 +2388,48 @@
     {
      "text": "Part Two.",
      "start": 196.276,
-     "end": 196.763
+     "end": 196.841,
+     "words": [
+      [
+       "part",
+       196.231
+      ],
+      [
+       "two",
+       196.441
+      ]
+     ]
     },
     {
      "text": "What the Eyes Are Looking For.",
      "start": 197.101,
-     "end": 198.677
+     "end": 198.721,
+     "words": [
+      [
+       "what",
+       197.121
+      ],
+      [
+       "the",
+       197.251
+      ],
+      [
+       "eyes",
+       197.431
+      ],
+      [
+       "are",
+       197.901
+      ],
+      [
+       "looking",
+       198.041
+      ],
+      [
+       "for",
+       198.381
+      ]
+     ]
     }
    ]
   },
@@ -447,7 +2439,69 @@
     {
      "text": "So what exactly is a man's brain scanning for when he looks at a woman?",
      "start": 199.133,
-     "end": 203.624
+     "end": 203.741,
+     "words": [
+      [
+       "so",
+       199.301
+      ],
+      [
+       "what",
+       199.451
+      ],
+      [
+       "exactly",
+       199.701
+      ],
+      [
+       "is",
+       200.471
+      ],
+      [
+       "a",
+       200.581
+      ],
+      [
+       "man's",
+       200.621
+      ],
+      [
+       "brain",
+       201.031
+      ],
+      [
+       "scanning",
+       201.381
+      ],
+      [
+       "for",
+       201.981
+      ],
+      [
+       "when",
+       202.351
+      ],
+      [
+       "he",
+       202.561
+      ],
+      [
+       "looks",
+       202.701
+      ],
+      [
+       "at",
+       203.121
+      ],
+      [
+       "a",
+       203.281
+      ],
+      [
+       "woman",
+       203.321
+      ]
+     ]
     }
    ]
   },
@@ -457,7 +2511,69 @@
     {
      "text": "Scientists have studied this across dozens of cultures, and some patterns appear again and again.",
      "start": 204.277,
-     "end": 209.855
+     "end": 210.731,
+     "words": [
+      [
+       "scientists",
+       204.391
+      ],
+      [
+       "have",
+       205.031
+      ],
+      [
+       "studied",
+       205.141
+      ],
+      [
+       "this",
+       205.601
+      ],
+      [
+       "across",
+       205.871
+      ],
+      [
+       "dozens",
+       206.251
+      ],
+      [
+       "of",
+       206.781
+      ],
+      [
+       "cultures",
+       206.871
+      ],
+      [
+       "and",
+       207.721
+      ],
+      [
+       "some",
+       207.851
+      ],
+      [
+       "patterns",
+       208.181
+      ],
+      [
+       "appear",
+       208.741
+      ],
+      [
+       "again",
+       209.191
+      ],
+      [
+       "and",
+       210.081
+      ],
+      [
+       "again",
+       210.241
+      ]
+     ]
     }
    ]
   },
@@ -466,8 +2582,26 @@
    "sentences": [
     {
      "text": "The first is health.",
-     "start": 210.119,
-     "end": 212.792
+     "start": 211.511,
+     "end": 212.891,
+     "words": [
+      [
+       "the",
+       211.471
+      ],
+      [
+       "first",
+       211.551
+      ],
+      [
+       "is",
+       212.201
+      ],
+      [
+       "health",
+       212.321
+      ]
+     ]
     }
    ]
   },
@@ -477,17 +2611,139 @@
     {
      "text": "For our ancestors, a healthy partner meant healthy children.",
      "start": 213.42,
-     "end": 217.036
+     "end": 217.051,
+     "words": [
+      [
+       "for",
+       213.351
+      ],
+      [
+       "our",
+       213.761
+      ],
+      [
+       "ancestors",
+       213.911
+      ],
+      [
+       "a",
+       214.661
+      ],
+      [
+       "healthy",
+       214.731
+      ],
+      [
+       "partner",
+       215.321
+      ],
+      [
+       "meant",
+       215.911
+      ],
+      [
+       "healthy",
+       216.101
+      ],
+      [
+       "children",
+       216.541
+      ]
+     ]
     },
     {
      "text": "But nobody could run a blood test.",
      "start": 217.518,
-     "end": 218.904
+     "end": 218.931,
+     "words": [
+      [
+       "but",
+       217.461
+      ],
+      [
+       "nobody",
+       217.591
+      ],
+      [
+       "could",
+       217.901
+      ],
+      [
+       "run",
+       218.031
+      ],
+      [
+       "a",
+       218.201
+      ],
+      [
+       "blood",
+       218.231
+      ],
+      [
+       "test",
+       218.541
+      ]
+     ]
     },
     {
      "text": "So the brain learned to read signals of health directly from the body.",
      "start": 219.27,
-     "end": 223.152
+     "end": 223.231,
+     "words": [
+      [
+       "so",
+       219.231
+      ],
+      [
+       "the",
+       219.401
+      ],
+      [
+       "brain",
+       219.491
+      ],
+      [
+       "learned",
+       219.941
+      ],
+      [
+       "to",
+       220.301
+      ],
+      [
+       "read",
+       220.441
+      ],
+      [
+       "signals",
+       220.851
+      ],
+      [
+       "of",
+       221.291
+      ],
+      [
+       "health",
+       221.381
+      ],
+      [
+       "directly",
+       221.761
+      ],
+      [
+       "from",
+       222.461
+      ],
+      [
+       "the",
+       222.711
+      ],
+      [
+       "body",
+       222.791
+      ]
+     ]
     }
    ]
   },
@@ -497,32 +2753,152 @@
     {
      "text": "Clear skin.",
      "start": 223.674,
-     "end": 224.547
+     "end": 224.581,
+     "words": [
+      [
+       "clear",
+       223.771
+      ],
+      [
+       "skin",
+       224.031
+      ]
+     ]
     },
     {
      "text": "Bright eyes.",
      "start": 224.866,
-     "end": 225.943
+     "end": 225.721,
+     "words": [
+      [
+       "bright",
+       224.831
+      ],
+      [
+       "eyes",
+       225.191
+      ]
+     ]
     },
     {
      "text": "Shiny hair.",
-     "start": 225.943,
-     "end": 226.956
+     "start": 225.751,
+     "end": 226.791,
+     "words": [
+      [
+       "shiny",
+       225.751
+      ],
+      [
+       "hair",
+       226.271
+      ]
+     ]
     },
     {
      "text": "Full lips.",
-     "start": 226.956,
-     "end": 227.906
+     "start": 226.991,
+     "end": 227.921,
+     "words": [
+      [
+       "full",
+       226.991
+      ],
+      [
+       "lips",
+       227.441
+      ]
+     ]
     },
     {
      "text": "These are not random preferences.",
-     "start": 228.413,
-     "end": 229.981
+     "start": 227.921,
+     "end": 230.011,
+     "words": [
+      [
+       "these",
+       227.921
+      ],
+      [
+       "are",
+       228.491
+      ],
+      [
+       "not",
+       228.561
+      ],
+      [
+       "random",
+       228.761
+      ],
+      [
+       "preferences",
+       229.301
+      ]
+     ]
     },
     {
      "text": "Many of them are signs of youth, good nutrition, and a strong immune system.",
      "start": 230.353,
-     "end": 234.635
+     "end": 234.731,
+     "words": [
+      [
+       "many",
+       230.281
+      ],
+      [
+       "of",
+       230.581
+      ],
+      [
+       "them",
+       230.661
+      ],
+      [
+       "are",
+       230.871
+      ],
+      [
+       "signs",
+       231.001
+      ],
+      [
+       "of",
+       231.401
+      ],
+      [
+       "youth",
+       231.491
+      ],
+      [
+       "good",
+       232.241
+      ],
+      [
+       "nutrition",
+       232.461
+      ],
+      [
+       "and",
+       233.161
+      ],
+      [
+       "a",
+       233.351
+      ],
+      [
+       "strong",
+       233.381
+      ],
+      [
+       "immune",
+       233.931
+      ],
+      [
+       "system",
+       234.311
+      ]
+     ]
     }
    ]
   },
@@ -532,7 +2908,25 @@
     {
      "text": "Then there is symmetry.",
      "start": 235.339,
-     "end": 236.882
+     "end": 236.939,
+     "words": [
+      [
+       "then",
+       235.479
+      ],
+      [
+       "there",
+       235.999
+      ],
+      [
+       "is",
+       236.179
+      ],
+      [
+       "symmetry",
+       236.249
+      ]
+     ]
     }
    ]
   },
@@ -542,17 +2936,207 @@
     {
      "text": "As you grew in your mother's womb, your body was built from a genetic blueprint.",
      "start": 237.446,
-     "end": 241.96
+     "end": 241.999,
+     "words": [
+      [
+       "as",
+       237.559
+      ],
+      [
+       "you",
+       237.839
+      ],
+      [
+       "grew",
+       237.969
+      ],
+      [
+       "in",
+       238.399
+      ],
+      [
+       "your",
+       238.459
+      ],
+      [
+       "mother's",
+       238.589
+      ],
+      [
+       "womb",
+       238.929
+      ],
+      [
+       "your",
+       239.459
+      ],
+      [
+       "body",
+       239.629
+      ],
+      [
+       "was",
+       239.969
+      ],
+      [
+       "built",
+       240.179
+      ],
+      [
+       "from",
+       240.569
+      ],
+      [
+       "a",
+       240.719
+      ],
+      [
+       "genetic",
+       240.769
+      ],
+      [
+       "blueprint",
+       241.299
+      ]
+     ]
     },
     {
      "text": "But stress, illness, and parasites can push that building process slightly off course.",
      "start": 242.499,
-     "end": 247.894
+     "end": 247.919,
+     "words": [
+      [
+       "but",
+       242.419
+      ],
+      [
+       "stress",
+       242.579
+      ],
+      [
+       "illness",
+       243.489
+      ],
+      [
+       "and",
+       244.089
+      ],
+      [
+       "parasites",
+       244.189
+      ],
+      [
+       "can",
+       244.949
+      ],
+      [
+       "push",
+       245.119
+      ],
+      [
+       "that",
+       245.539
+      ],
+      [
+       "building",
+       245.729
+      ],
+      [
+       "process",
+       246.059
+      ],
+      [
+       "slightly",
+       246.679
+      ],
+      [
+       "off",
+       247.239
+      ],
+      [
+       "course",
+       247.449
+      ]
+     ]
     },
     {
      "text": "A face that grew up perfectly balanced can be a sign that the body handled those challenges well.",
      "start": 248.443,
-     "end": 253.39
+     "end": 253.459,
+     "words": [
+      [
+       "a",
+       248.419
+      ],
+      [
+       "face",
+       248.469
+      ],
+      [
+       "that",
+       248.939
+      ],
+      [
+       "grew",
+       249.069
+      ],
+      [
+       "up",
+       249.289
+      ],
+      [
+       "perfectly",
+       249.439
+      ],
+      [
+       "balanced",
+       249.999
+      ],
+      [
+       "can",
+       250.609
+      ],
+      [
+       "be",
+       250.769
+      ],
+      [
+       "a",
+       250.899
+      ],
+      [
+       "sign",
+       250.929
+      ],
+      [
+       "that",
+       251.359
+      ],
+      [
+       "the",
+       251.459
+      ],
+      [
+       "body",
+       251.539
+      ],
+      [
+       "handled",
+       251.859
+      ],
+      [
+       "those",
+       252.299
+      ],
+      [
+       "challenges",
+       252.529
+      ],
+      [
+       "well",
+       253.079
+      ]
+     ]
     }
    ]
   },
@@ -562,12 +3146,144 @@
     {
      "text": "In experiments, when people are shown faces that have been made more symmetrical by a computer, they usually rate them as more attractive.",
      "start": 253.895,
-     "end": 261.194
+     "end": 261.229,
+     "words": [
+      [
+       "in",
+       254.209
+      ],
+      [
+       "experiments",
+       254.309
+      ],
+      [
+       "when",
+       254.899
+      ],
+      [
+       "people",
+       255.279
+      ],
+      [
+       "are",
+       255.509
+      ],
+      [
+       "shown",
+       255.589
+      ],
+      [
+       "faces",
+       255.849
+      ],
+      [
+       "that",
+       256.399
+      ],
+      [
+       "have",
+       256.489
+      ],
+      [
+       "been",
+       256.609
+      ],
+      [
+       "made",
+       256.729
+      ],
+      [
+       "more",
+       257.189
+      ],
+      [
+       "symmetrical",
+       257.539
+      ],
+      [
+       "by",
+       258.179
+      ],
+      [
+       "a",
+       258.369
+      ],
+      [
+       "computer",
+       258.409
+      ],
+      [
+       "they",
+       259.229
+      ],
+      [
+       "usually",
+       259.319
+      ],
+      [
+       "rate",
+       259.699
+      ],
+      [
+       "them",
+       259.909
+      ],
+      [
+       "as",
+       260.119
+      ],
+      [
+       "more",
+       260.309
+      ],
+      [
+       "attractive",
+       260.679
+      ]
+     ]
     },
     {
      "text": "Most of the time, people have no idea why.",
      "start": 261.704,
-     "end": 263.696
+     "end": 263.759,
+     "words": [
+      [
+       "most",
+       261.679
+      ],
+      [
+       "of",
+       261.939
+      ],
+      [
+       "the",
+       261.999
+      ],
+      [
+       "time",
+       262.069
+      ],
+      [
+       "people",
+       262.539
+      ],
+      [
+       "have",
+       262.809
+      ],
+      [
+       "no",
+       262.939
+      ],
+      [
+       "idea",
+       263.109
+      ],
+      [
+       "why",
+       263.359
+      ]
+     ]
     }
    ]
   },
@@ -577,12 +3293,36 @@
     {
      "text": "Next comes something surprising.",
      "start": 264.68,
-     "end": 266.373
+     "end": 266.479,
+     "words": [
+      [
+       "next",
+       264.669
+      ],
+      [
+       "comes",
+       265.199
+      ],
+      [
+       "something",
+       265.419
+      ],
+      [
+       "surprising",
+       265.789
+      ]
+     ]
     },
     {
      "text": "Average.",
      "start": 267.033,
-     "end": 267.565
+     "end": 267.609,
+     "words": [
+      [
+       "average",
+       267.009
+      ]
+     ]
     }
    ]
   },
@@ -592,22 +3332,210 @@
     {
      "text": "When researchers blend dozens of faces together into one composite face, the result is almost always rated as more attractive than the individual faces.",
      "start": 268.014,
-     "end": 277.501
+     "end": 277.409,
+     "words": [
+      [
+       "when",
+       268.149
+      ],
+      [
+       "researchers",
+       268.459
+      ],
+      [
+       "blend",
+       269.109
+      ],
+      [
+       "dozens",
+       269.539
+      ],
+      [
+       "of",
+       270.039
+      ],
+      [
+       "faces",
+       270.109
+      ],
+      [
+       "together",
+       270.549
+      ],
+      [
+       "into",
+       270.959
+      ],
+      [
+       "one",
+       271.139
+      ],
+      [
+       "composite",
+       271.489
+      ],
+      [
+       "face",
+       272.079
+      ],
+      [
+       "the",
+       272.769
+      ],
+      [
+       "result",
+       272.829
+      ],
+      [
+       "is",
+       273.249
+      ],
+      [
+       "almost",
+       273.399
+      ],
+      [
+       "always",
+       273.799
+      ],
+      [
+       "rated",
+       274.179
+      ],
+      [
+       "as",
+       274.569
+      ],
+      [
+       "more",
+       274.779
+      ],
+      [
+       "attractive",
+       275.239
+      ],
+      [
+       "than",
+       275.879
+      ],
+      [
+       "the",
+       276.069
+      ],
+      [
+       "individual",
+       276.209
+      ],
+      [
+       "faces",
+       276.919
+      ]
+     ]
     },
     {
      "text": "Not boring.",
      "start": 277.885,
-     "end": 278.405
+     "end": 278.529,
+     "words": [
+      [
+       "not",
+       277.859
+      ],
+      [
+       "boring",
+       278.039
+      ]
+     ]
     },
     {
      "text": "Attractive.",
      "start": 278.859,
-     "end": 279.509
+     "end": 279.549,
+     "words": [
+      [
+       "attractive",
+       278.869
+      ]
+     ]
     },
     {
      "text": "An average face may signal a mix of many genes, and a smaller chance of rare genetic problems.",
      "start": 280.106,
-     "end": 285.976
+     "end": 286.016,
+     "words": [
+      [
+       "an",
+       280.236
+      ],
+      [
+       "average",
+       280.326
+      ],
+      [
+       "face",
+       280.806
+      ],
+      [
+       "may",
+       281.206
+      ],
+      [
+       "signal",
+       281.386
+      ],
+      [
+       "a",
+       281.816
+      ],
+      [
+       "mix",
+       281.886
+      ],
+      [
+       "of",
+       282.346
+      ],
+      [
+       "many",
+       282.476
+      ],
+      [
+       "genes",
+       282.796
+      ],
+      [
+       "and",
+       283.576
+      ],
+      [
+       "a",
+       283.676
+      ],
+      [
+       "smaller",
+       283.706
+      ],
+      [
+       "chance",
+       284.166
+      ],
+      [
+       "of",
+       284.496
+      ],
+      [
+       "rare",
+       284.646
+      ],
+      [
+       "genetic",
+       285.026
+      ],
+      [
+       "problems",
+       285.436
+      ]
+     ]
     }
    ]
   },
@@ -617,7 +3545,45 @@
     {
      "text": "And then there are hormones written on the body.",
      "start": 286.762,
-     "end": 290.482
+     "end": 290.546,
+     "words": [
+      [
+       "and",
+       286.726
+      ],
+      [
+       "then",
+       286.946
+      ],
+      [
+       "there",
+       287.516
+      ],
+      [
+       "are",
+       287.786
+      ],
+      [
+       "hormones",
+       287.876
+      ],
+      [
+       "written",
+       289.036
+      ],
+      [
+       "on",
+       289.566
+      ],
+      [
+       "the",
+       289.886
+      ],
+      [
+       "body",
+       289.956
+      ]
+     ]
     }
    ]
   },
@@ -627,12 +3593,164 @@
     {
      "text": "As a girl becomes a woman, the hormone estrogen reshapes her body.",
      "start": 291.312,
-     "end": 296.058
+     "end": 296.126,
+     "words": [
+      [
+       "as",
+       291.326
+      ],
+      [
+       "a",
+       291.506
+      ],
+      [
+       "girl",
+       291.546
+      ],
+      [
+       "becomes",
+       291.966
+      ],
+      [
+       "a",
+       292.376
+      ],
+      [
+       "woman",
+       292.416
+      ],
+      [
+       "the",
+       293.286
+      ],
+      [
+       "hormone",
+       293.366
+      ],
+      [
+       "estrogen",
+       294.026
+      ],
+      [
+       "reshapes",
+       294.776
+      ],
+      [
+       "her",
+       295.526
+      ],
+      [
+       "body",
+       295.676
+      ]
+     ]
     },
     {
      "text": "It softens the face, makes the lips fuller, and changes how fat is stored, giving many women a waist that is narrower than their hips.",
      "start": 296.697,
-     "end": 305.624
+     "end": 305.666,
+     "words": [
+      [
+       "it",
+       296.696
+      ],
+      [
+       "softens",
+       296.776
+      ],
+      [
+       "the",
+       297.356
+      ],
+      [
+       "face",
+       297.446
+      ],
+      [
+       "makes",
+       298.246
+      ],
+      [
+       "the",
+       298.516
+      ],
+      [
+       "lips",
+       298.596
+      ],
+      [
+       "fuller",
+       299.076
+      ],
+      [
+       "and",
+       299.886
+      ],
+      [
+       "changes",
+       299.996
+      ],
+      [
+       "how",
+       300.596
+      ],
+      [
+       "fat",
+       300.756
+      ],
+      [
+       "is",
+       301.206
+      ],
+      [
+       "stored",
+       301.356
+      ],
+      [
+       "giving",
+       302.266
+      ],
+      [
+       "many",
+       302.576
+      ],
+      [
+       "women",
+       302.866
+      ],
+      [
+       "a",
+       303.286
+      ],
+      [
+       "waist",
+       303.326
+      ],
+      [
+       "that",
+       303.926
+      ],
+      [
+       "is",
+       304.096
+      ],
+      [
+       "narrower",
+       304.216
+      ],
+      [
+       "than",
+       304.886
+      ],
+      [
+       "their",
+       305.056
+      ],
+      [
+       "hips",
+       305.196
+      ]
+     ]
     }
    ]
   },
@@ -642,12 +3760,132 @@
     {
      "text": "Across many cultures, men are drawn to this waist to hip ratio.",
      "start": 306.519,
-     "end": 310.962
+     "end": 311.016,
+     "words": [
+      [
+       "across",
+       306.506
+      ],
+      [
+       "many",
+       306.876
+      ],
+      [
+       "cultures",
+       307.216
+      ],
+      [
+       "men",
+       307.996
+      ],
+      [
+       "are",
+       308.296
+      ],
+      [
+       "drawn",
+       308.456
+      ],
+      [
+       "to",
+       309.016
+      ],
+      [
+       "this",
+       309.126
+      ],
+      [
+       "waist",
+       309.306
+      ],
+      [
+       "to",
+       309.886
+      ],
+      [
+       "hip",
+       310.006
+      ],
+      [
+       "ratio",
+       310.336
+      ]
+     ]
     },
     {
      "text": "Not one exact body type, but a shape that signals that the hormones of adulthood are working.",
      "start": 311.636,
-     "end": 317.253
+     "end": 317.376,
+     "words": [
+      [
+       "not",
+       311.636
+      ],
+      [
+       "one",
+       311.856
+      ],
+      [
+       "exact",
+       312.216
+      ],
+      [
+       "body",
+       312.756
+      ],
+      [
+       "type",
+       313.096
+      ],
+      [
+       "but",
+       313.636
+      ],
+      [
+       "a",
+       313.786
+      ],
+      [
+       "shape",
+       313.816
+      ],
+      [
+       "that",
+       314.316
+      ],
+      [
+       "signals",
+       314.476
+      ],
+      [
+       "that",
+       314.956
+      ],
+      [
+       "the",
+       315.076
+      ],
+      [
+       "hormones",
+       315.156
+      ],
+      [
+       "of",
+       315.836
+      ],
+      [
+       "adulthood",
+       315.916
+      ],
+      [
+       "are",
+       316.556
+      ],
+      [
+       "working",
+       316.836
+      ]
+     ]
     }
    ]
   },
@@ -657,12 +3895,120 @@
     {
      "text": "All of these signals are processed in a fraction of a second, deep in the brain, without permission.",
      "start": 318.553,
-     "end": 324.851
+     "end": 324.886,
+     "words": [
+      [
+       "all",
+       318.516
+      ],
+      [
+       "of",
+       318.906
+      ],
+      [
+       "these",
+       319.006
+      ],
+      [
+       "signals",
+       319.186
+      ],
+      [
+       "are",
+       319.756
+      ],
+      [
+       "processed",
+       319.906
+      ],
+      [
+       "in",
+       320.886
+      ],
+      [
+       "a",
+       320.986
+      ],
+      [
+       "fraction",
+       321.016
+      ],
+      [
+       "of",
+       321.626
+      ],
+      [
+       "a",
+       321.746
+      ],
+      [
+       "second",
+       321.776
+      ],
+      [
+       "deep",
+       322.556
+      ],
+      [
+       "in",
+       322.906
+      ],
+      [
+       "the",
+       323.036
+      ],
+      [
+       "brain",
+       323.106
+      ],
+      [
+       "without",
+       323.806
+      ],
+      [
+       "permission",
+       324.316
+      ]
+     ]
     },
     {
      "text": "You do not think: this face is symmetrical.",
      "start": 325.871,
-     "end": 328.53
+     "end": 328.636,
+     "words": [
+      [
+       "you",
+       325.866
+      ],
+      [
+       "do",
+       325.936
+      ],
+      [
+       "not",
+       326.056
+      ],
+      [
+       "think",
+       326.236
+      ],
+      [
+       "this",
+       326.876
+      ],
+      [
+       "face",
+       327.206
+      ],
+      [
+       "is",
+       327.656
+      ],
+      [
+       "symmetrical",
+       327.826
+      ]
+     ]
     }
    ]
   },
@@ -672,7 +4018,25 @@
     {
      "text": "You just think: wow.",
      "start": 329.057,
-     "end": 330.541
+     "end": 330.616,
+     "words": [
+      [
+       "you",
+       329.036
+      ],
+      [
+       "just",
+       329.126
+      ],
+      [
+       "think",
+       329.326
+      ],
+      [
+       "wow",
+       330.126
+      ]
+     ]
     }
    ]
   },
@@ -682,12 +4046,36 @@
     {
      "text": "Part Three.",
      "start": 331.824,
-     "end": 332.446
+     "end": 332.516,
+     "words": [
+      [
+       "part",
+       331.716
+      ],
+      [
+       "three",
+       332.036
+      ]
+     ]
     },
     {
      "text": "The Invisible Signals.",
      "start": 333.098,
-     "end": 334.425
+     "end": 334.468,
+     "words": [
+      [
+       "the",
+       333.058
+      ],
+      [
+       "invisible",
+       333.228
+      ],
+      [
+       "signals",
+       333.858
+      ]
+     ]
     }
    ]
   },
@@ -697,12 +4085,104 @@
     {
      "text": "But attraction is not only about what you see.",
      "start": 335.432,
-     "end": 338.027
+     "end": 338.068,
+     "words": [
+      [
+       "but",
+       335.378
+      ],
+      [
+       "attraction",
+       335.498
+      ],
+      [
+       "is",
+       336.098
+      ],
+      [
+       "not",
+       336.318
+      ],
+      [
+       "only",
+       336.618
+      ],
+      [
+       "about",
+       336.978
+      ],
+      [
+       "what",
+       337.208
+      ],
+      [
+       "you",
+       337.428
+      ],
+      [
+       "see",
+       337.508
+      ]
+     ]
     },
     {
      "text": "Some of the most powerful signals are things you cannot see at all.",
      "start": 338.518,
-     "end": 342.086
+     "end": 342.138,
+     "words": [
+      [
+       "some",
+       338.508
+      ],
+      [
+       "of",
+       338.728
+      ],
+      [
+       "the",
+       338.808
+      ],
+      [
+       "most",
+       338.878
+      ],
+      [
+       "powerful",
+       339.128
+      ],
+      [
+       "signals",
+       339.738
+      ],
+      [
+       "are",
+       340.198
+      ],
+      [
+       "things",
+       340.288
+      ],
+      [
+       "you",
+       340.678
+      ],
+      [
+       "cannot",
+       340.798
+      ],
+      [
+       "see",
+       341.248
+      ],
+      [
+       "at",
+       341.568
+      ],
+      [
+       "all",
+       341.718
+      ]
+     ]
     }
    ]
   },
@@ -712,17 +4192,159 @@
     {
      "text": "Let us start with the voice.",
      "start": 343.042,
-     "end": 344.622
+     "end": 344.658,
+     "words": [
+      [
+       "let",
+       343.038
+      ],
+      [
+       "us",
+       343.148
+      ],
+      [
+       "start",
+       343.278
+      ],
+      [
+       "with",
+       343.868
+      ],
+      [
+       "the",
+       344.058
+      ],
+      [
+       "voice",
+       344.128
+      ]
+     ]
     },
     {
      "text": "When men listen to recordings of women's voices, they often rate higher, softer voices as more attractive.",
      "start": 345.539,
-     "end": 351.546
+     "end": 351.568,
+     "words": [
+      [
+       "when",
+       345.528
+      ],
+      [
+       "men",
+       345.668
+      ],
+      [
+       "listen",
+       345.998
+      ],
+      [
+       "to",
+       346.308
+      ],
+      [
+       "recordings",
+       346.368
+      ],
+      [
+       "of",
+       346.958
+      ],
+      [
+       "women's",
+       347.028
+      ],
+      [
+       "voices",
+       347.408
+      ],
+      [
+       "they",
+       348.108
+      ],
+      [
+       "often",
+       348.188
+      ],
+      [
+       "rate",
+       348.518
+      ],
+      [
+       "higher",
+       348.768
+      ],
+      [
+       "softer",
+       349.348
+      ],
+      [
+       "voices",
+       349.968
+      ],
+      [
+       "as",
+       350.568
+      ],
+      [
+       "more",
+       350.758
+      ],
+      [
+       "attractive",
+       350.968
+      ]
+     ]
     },
     {
      "text": "A higher voice can be linked to higher levels of estrogen.",
      "start": 352.358,
-     "end": 355.148
+     "end": 355.168,
+     "words": [
+      [
+       "a",
+       352.348
+      ],
+      [
+       "higher",
+       352.398
+      ],
+      [
+       "voice",
+       352.768
+      ],
+      [
+       "can",
+       353.118
+      ],
+      [
+       "be",
+       353.238
+      ],
+      [
+       "linked",
+       353.348
+      ],
+      [
+       "to",
+       353.658
+      ],
+      [
+       "higher",
+       353.758
+      ],
+      [
+       "levels",
+       354.158
+      ],
+      [
+       "of",
+       354.528
+      ],
+      [
+       "estrogen",
+       354.618
+      ]
+     ]
     }
    ]
   },
@@ -732,17 +4354,203 @@
     {
      "text": "Some studies even suggest that a woman's voice can become slightly higher and more attractive around the most fertile days of her cycle.",
      "start": 355.887,
-     "end": 362.973
+     "end": 363.088,
+     "words": [
+      [
+       "some",
+       355.878
+      ],
+      [
+       "studies",
+       356.108
+      ],
+      [
+       "even",
+       356.498
+      ],
+      [
+       "suggest",
+       356.838
+      ],
+      [
+       "that",
+       357.548
+      ],
+      [
+       "a",
+       357.668
+      ],
+      [
+       "woman's",
+       357.698
+      ],
+      [
+       "voice",
+       358.078
+      ],
+      [
+       "can",
+       358.368
+      ],
+      [
+       "become",
+       358.498
+      ],
+      [
+       "slightly",
+       358.788
+      ],
+      [
+       "higher",
+       359.328
+      ],
+      [
+       "and",
+       359.788
+      ],
+      [
+       "more",
+       360.078
+      ],
+      [
+       "attractive",
+       360.378
+      ],
+      [
+       "around",
+       360.998
+      ],
+      [
+       "the",
+       361.278
+      ],
+      [
+       "most",
+       361.338
+      ],
+      [
+       "fertile",
+       361.578
+      ],
+      [
+       "days",
+       362.018
+      ],
+      [
+       "of",
+       362.308
+      ],
+      [
+       "her",
+       362.388
+      ],
+      [
+       "cycle",
+       362.498
+      ]
+     ]
     },
     {
      "text": "The effect is small, and scientists still debate it.",
      "start": 363.805,
-     "end": 366.646
+     "end": 366.688,
+     "words": [
+      [
+       "the",
+       363.758
+      ],
+      [
+       "effect",
+       363.868
+      ],
+      [
+       "is",
+       364.198
+      ],
+      [
+       "small",
+       364.268
+      ],
+      [
+       "and",
+       364.928
+      ],
+      [
+       "scientists",
+       365.208
+      ],
+      [
+       "still",
+       365.968
+      ],
+      [
+       "debate",
+       366.168
+      ],
+      [
+       "it",
+       366.528
+      ]
+     ]
     },
     {
      "text": "But the ear may be quietly listening for information the eyes cannot see.",
      "start": 367.199,
-     "end": 371.468
+     "end": 371.528,
+     "words": [
+      [
+       "but",
+       367.158
+      ],
+      [
+       "the",
+       367.368
+      ],
+      [
+       "ear",
+       367.558
+      ],
+      [
+       "may",
+       367.918
+      ],
+      [
+       "be",
+       368.078
+      ],
+      [
+       "quietly",
+       368.198
+      ],
+      [
+       "listening",
+       368.868
+      ],
+      [
+       "for",
+       369.268
+      ],
+      [
+       "information",
+       369.438
+      ],
+      [
+       "the",
+       370.078
+      ],
+      [
+       "eyes",
+       370.228
+      ],
+      [
+       "cannot",
+       370.768
+      ],
+      [
+       "see",
+       371.138
+      ]
+     ]
     }
    ]
   },
@@ -752,22 +4560,158 @@
     {
      "text": "Then there is smell.",
      "start": 372.314,
-     "end": 373.886
+     "end": 373.928,
+     "words": [
+      [
+       "then",
+       372.288
+      ],
+      [
+       "there",
+       372.978
+      ],
+      [
+       "is",
+       373.158
+      ],
+      [
+       "smell",
+       373.228
+      ]
+     ]
     },
     {
      "text": "You might think humans have a weak sense of smell compared to dogs.",
      "start": 374.721,
-     "end": 377.61
+     "end": 377.781,
+     "words": [
+      [
+       "you",
+       374.711
+      ],
+      [
+       "might",
+       374.831
+      ],
+      [
+       "think",
+       375.011
+      ],
+      [
+       "humans",
+       375.231
+      ],
+      [
+       "have",
+       375.671
+      ],
+      [
+       "a",
+       375.781
+      ],
+      [
+       "weak",
+       375.811
+      ],
+      [
+       "sense",
+       376.121
+      ],
+      [
+       "of",
+       376.431
+      ],
+      [
+       "smell",
+       376.501
+      ],
+      [
+       "compared",
+       376.891
+      ],
+      [
+       "to",
+       377.201
+      ],
+      [
+       "dogs",
+       377.281
+      ]
+     ]
     },
     {
      "text": "And you would be right.",
-     "start": 377.61,
-     "end": 378.733
+     "start": 378.021,
+     "end": 378.781,
+     "words": [
+      [
+       "and",
+       378.021
+      ],
+      [
+       "you",
+       378.151
+      ],
+      [
+       "would",
+       378.251
+      ],
+      [
+       "be",
+       378.341
+      ],
+      [
+       "right",
+       378.431
+      ]
+     ]
     },
     {
      "text": "But our noses are still collecting information all the time.",
      "start": 379.334,
-     "end": 382.482
+     "end": 382.591,
+     "words": [
+      [
+       "but",
+       379.231
+      ],
+      [
+       "our",
+       379.401
+      ],
+      [
+       "noses",
+       379.521
+      ],
+      [
+       "are",
+       380.021
+      ],
+      [
+       "still",
+       380.141
+      ],
+      [
+       "collecting",
+       380.521
+      ],
+      [
+       "information",
+       381.031
+      ],
+      [
+       "all",
+       381.621
+      ],
+      [
+       "the",
+       382.001
+      ],
+      [
+       "time",
+       382.101
+      ]
+     ]
     }
    ]
   },
@@ -777,12 +4721,156 @@
     {
      "text": "In a famous experiment, women were asked to smell T-shirts that men had worn for two nights.",
      "start": 383.456,
-     "end": 388.775
+     "end": 388.821,
+     "words": [
+      [
+       "in",
+       383.701
+      ],
+      [
+       "a",
+       383.811
+      ],
+      [
+       "famous",
+       383.851
+      ],
+      [
+       "experiment",
+       384.291
+      ],
+      [
+       "women",
+       385.051
+      ],
+      [
+       "were",
+       385.351
+      ],
+      [
+       "asked",
+       385.541
+      ],
+      [
+       "to",
+       385.861
+      ],
+      [
+       "smell",
+       385.931
+      ],
+      [
+       "t",
+       386.281
+      ],
+      [
+       "shirts",
+       386.541
+      ],
+      [
+       "that",
+       386.931
+      ],
+      [
+       "men",
+       387.061
+      ],
+      [
+       "had",
+       387.371
+      ],
+      [
+       "worn",
+       387.491
+      ],
+      [
+       "for",
+       387.901
+      ],
+      [
+       "two",
+       388.041
+      ],
+      [
+       "nights",
+       388.301
+      ]
+     ]
     },
     {
      "text": "On average, they preferred the smell of men whose immune system genes were different from their own.",
      "start": 389.48,
-     "end": 394.141
+     "end": 394.261,
+     "words": [
+      [
+       "on",
+       389.451
+      ],
+      [
+       "average",
+       389.611
+      ],
+      [
+       "they",
+       390.021
+      ],
+      [
+       "preferred",
+       390.291
+      ],
+      [
+       "the",
+       390.751
+      ],
+      [
+       "smell",
+       390.811
+      ],
+      [
+       "of",
+       391.161
+      ],
+      [
+       "men",
+       391.251
+      ],
+      [
+       "whose",
+       391.551
+      ],
+      [
+       "immune",
+       391.811
+      ],
+      [
+       "system",
+       392.231
+      ],
+      [
+       "genes",
+       392.601
+      ],
+      [
+       "were",
+       392.961
+      ],
+      [
+       "different",
+       393.091
+      ],
+      [
+       "from",
+       393.601
+      ],
+      [
+       "their",
+       393.781
+      ],
+      [
+       "own",
+       393.961
+      ]
+     ]
     }
    ]
   },
@@ -792,17 +4880,175 @@
     {
      "text": "Why would that matter?",
      "start": 395.035,
-     "end": 396.201
+     "end": 396.251,
+     "words": [
+      [
+       "why",
+       395.041
+      ],
+      [
+       "would",
+       395.371
+      ],
+      [
+       "that",
+       395.541
+      ],
+      [
+       "matter",
+       395.751
+      ]
+     ]
     },
     {
      "text": "Because a child who inherits two different sets of immune genes may be able to recognize a wider range of diseases.",
      "start": 396.974,
-     "end": 403.308
+     "end": 403.321,
+     "words": [
+      [
+       "because",
+       396.921
+      ],
+      [
+       "a",
+       397.161
+      ],
+      [
+       "child",
+       397.221
+      ],
+      [
+       "who",
+       397.741
+      ],
+      [
+       "inherits",
+       397.881
+      ],
+      [
+       "two",
+       398.331
+      ],
+      [
+       "different",
+       398.561
+      ],
+      [
+       "sets",
+       398.871
+      ],
+      [
+       "of",
+       399.201
+      ],
+      [
+       "immune",
+       399.331
+      ],
+      [
+       "genes",
+       399.681
+      ],
+      [
+       "may",
+       400.301
+      ],
+      [
+       "be",
+       400.511
+      ],
+      [
+       "able",
+       400.671
+      ],
+      [
+       "to",
+       400.831
+      ],
+      [
+       "recognize",
+       400.891
+      ],
+      [
+       "a",
+       401.601
+      ],
+      [
+       "wider",
+       401.631
+      ],
+      [
+       "range",
+       402.121
+      ],
+      [
+       "of",
+       402.561
+      ],
+      [
+       "diseases",
+       402.671
+      ]
+     ]
     },
     {
      "text": "Your nose might be helping you choose a partner who completes your defenses.",
      "start": 403.967,
-     "end": 408.229
+     "end": 408.281,
+     "words": [
+      [
+       "your",
+       403.931
+      ],
+      [
+       "nose",
+       404.111
+      ],
+      [
+       "might",
+       404.801
+      ],
+      [
+       "be",
+       404.951
+      ],
+      [
+       "helping",
+       405.061
+      ],
+      [
+       "you",
+       405.451
+      ],
+      [
+       "choose",
+       405.561
+      ],
+      [
+       "a",
+       406.021
+      ],
+      [
+       "partner",
+       406.101
+      ],
+      [
+       "who",
+       406.701
+      ],
+      [
+       "completes",
+       406.871
+      ],
+      [
+       "your",
+       407.461
+      ],
+      [
+       "defenses",
+       407.621
+      ]
+     ]
     }
    ]
   },
@@ -812,27 +5058,209 @@
     {
      "text": "There are also claims about human pheromones, invisible chemical messages that make people instantly attracted.",
      "start": 409.205,
-     "end": 415.481
+     "end": 415.501,
+     "words": [
+      [
+       "there",
+       409.151
+      ],
+      [
+       "are",
+       409.311
+      ],
+      [
+       "also",
+       409.441
+      ],
+      [
+       "claims",
+       409.771
+      ],
+      [
+       "about",
+       410.171
+      ],
+      [
+       "human",
+       410.611
+      ],
+      [
+       "pheromones",
+       410.981
+      ],
+      [
+       "invisible",
+       412.021
+      ],
+      [
+       "chemical",
+       412.661
+      ],
+      [
+       "messages",
+       413.151
+      ],
+      [
+       "that",
+       413.691
+      ],
+      [
+       "make",
+       413.841
+      ],
+      [
+       "people",
+       414.081
+      ],
+      [
+       "instantly",
+       414.391
+      ],
+      [
+       "attracted",
+       414.941
+      ]
+     ]
     },
     {
      "text": "Many perfume companies love this idea.",
      "start": 416.176,
-     "end": 418.315
+     "end": 418.351,
+     "words": [
+      [
+       "many",
+       416.161
+      ],
+      [
+       "perfume",
+       416.441
+      ],
+      [
+       "companies",
+       416.961
+      ],
+      [
+       "love",
+       417.411
+      ],
+      [
+       "this",
+       417.711
+      ],
+      [
+       "idea",
+       417.911
+      ]
+     ]
     },
     {
      "text": "But the truth is that scientists have not found a clear, proven human sex pheromone yet.",
      "start": 419.535,
-     "end": 425.453
+     "end": 425.485,
+     "words": [
+      [
+       "but",
+       419.485
+      ],
+      [
+       "the",
+       419.635
+      ],
+      [
+       "truth",
+       419.705
+      ],
+      [
+       "is",
+       420.085
+      ],
+      [
+       "that",
+       420.655
+      ],
+      [
+       "scientists",
+       420.835
+      ],
+      [
+       "have",
+       421.585
+      ],
+      [
+       "not",
+       421.765
+      ],
+      [
+       "found",
+       422.135
+      ],
+      [
+       "a",
+       422.495
+      ],
+      [
+       "clear",
+       422.525
+      ],
+      [
+       "proven",
+       423.115
+      ],
+      [
+       "human",
+       423.755
+      ],
+      [
+       "sex",
+       424.305
+      ],
+      [
+       "pheromone",
+       424.675
+      ],
+      [
+       "yet",
+       425.175
+      ]
+     ]
     },
     {
      "text": "Smell matters.",
      "start": 426.112,
-     "end": 427.016
+     "end": 427.055,
+     "words": [
+      [
+       "smell",
+       426.095
+      ],
+      [
+       "matters",
+       426.515
+      ]
+     ]
     },
     {
      "text": "Magic perfumes, probably not.",
      "start": 427.397,
-     "end": 429.846
+     "end": 429.895,
+     "words": [
+      [
+       "magic",
+       427.465
+      ],
+      [
+       "perfumes",
+       427.955
+      ],
+      [
+       "probably",
+       429.045
+      ],
+      [
+       "not",
+       429.555
+      ]
+     ]
     }
    ]
   },
@@ -842,12 +5270,100 @@
     {
      "text": "So attraction is a whole body experience.",
      "start": 431.219,
-     "end": 434.722
+     "end": 434.765,
+     "words": [
+      [
+       "so",
+       431.205
+      ],
+      [
+       "attraction",
+       431.905
+      ],
+      [
+       "is",
+       432.635
+      ],
+      [
+       "a",
+       432.895
+      ],
+      [
+       "whole",
+       432.995
+      ],
+      [
+       "body",
+       433.465
+      ],
+      [
+       "experience",
+       433.895
+      ]
+     ]
     },
     {
      "text": "Your eyes, your ears, and your nose are all sending reports to one place.",
      "start": 435.126,
-     "end": 439.569
+     "end": 441.015,
+     "words": [
+      [
+       "your",
+       435.125
+      ],
+      [
+       "eyes",
+       435.505
+      ],
+      [
+       "your",
+       436.095
+      ],
+      [
+       "ears",
+       436.395
+      ],
+      [
+       "and",
+       437.105
+      ],
+      [
+       "your",
+       437.375
+      ],
+      [
+       "nose",
+       437.525
+      ],
+      [
+       "are",
+       438.105
+      ],
+      [
+       "all",
+       438.305
+      ],
+      [
+       "sending",
+       438.625
+      ],
+      [
+       "reports",
+       439.055
+      ],
+      [
+       "to",
+       439.785
+      ],
+      [
+       "one",
+       439.905
+      ],
+      [
+       "place",
+       440.425
+      ]
+     ]
     }
    ]
   },
@@ -856,8 +5372,18 @@
    "sentences": [
     {
      "text": "Your brain.",
-     "start": 439.763,
-     "end": 440.991
+     "start": 441.568,
+     "end": 442.445,
+     "words": [
+      [
+       "your",
+       441.545
+      ],
+      [
+       "brain",
+       441.735
+      ]
+     ]
     }
    ]
   },
@@ -866,13 +5392,41 @@
    "sentences": [
     {
      "text": "Part Four.",
-     "start": 441.568,
-     "end": 443.838
+     "start": 443.296,
+     "end": 443.915,
+     "words": [
+      [
+       "part",
+       443.305
+      ],
+      [
+       "four",
+       443.495
+      ]
+     ]
     },
     {
      "text": "Your Brain on Fire.",
      "start": 444.336,
-     "end": 446.145
+     "end": 446.185,
+     "words": [
+      [
+       "your",
+       444.315
+      ],
+      [
+       "brain",
+       444.505
+      ],
+      [
+       "on",
+       445.135
+      ],
+      [
+       "fire",
+       445.465
+      ]
+     ]
     }
    ]
   },
@@ -882,7 +5436,69 @@
     {
      "text": "The moment you see someone attractive, your brain lights up like a city at night.",
      "start": 447.589,
-     "end": 452.223
+     "end": 452.265,
+     "words": [
+      [
+       "the",
+       447.585
+      ],
+      [
+       "moment",
+       447.725
+      ],
+      [
+       "you",
+       448.105
+      ],
+      [
+       "see",
+       448.275
+      ],
+      [
+       "someone",
+       448.545
+      ],
+      [
+       "attractive",
+       448.885
+      ],
+      [
+       "your",
+       449.745
+      ],
+      [
+       "brain",
+       449.905
+      ],
+      [
+       "lights",
+       450.335
+      ],
+      [
+       "up",
+       450.885
+      ],
+      [
+       "like",
+       451.085
+      ],
+      [
+       "a",
+       451.275
+      ],
+      [
+       "city",
+       451.315
+      ],
+      [
+       "at",
+       451.825
+      ],
+      [
+       "night",
+       451.915
+      ]
+     ]
     }
    ]
   },
@@ -892,7 +5508,65 @@
     {
      "text": "Deep inside, a small region called the hypothalamus sends a signal to your body.",
      "start": 452.774,
-     "end": 458.415
+     "end": 458.495,
+     "words": [
+      [
+       "deep",
+       453.005
+      ],
+      [
+       "inside",
+       453.355
+      ],
+      [
+       "a",
+       454.335
+      ],
+      [
+       "small",
+       454.395
+      ],
+      [
+       "region",
+       454.925
+      ],
+      [
+       "called",
+       455.275
+      ],
+      [
+       "the",
+       455.705
+      ],
+      [
+       "hypothalamus",
+       455.845
+      ],
+      [
+       "sends",
+       456.995
+      ],
+      [
+       "a",
+       457.285
+      ],
+      [
+       "signal",
+       457.315
+      ],
+      [
+       "to",
+       457.805
+      ],
+      [
+       "your",
+       457.915
+      ],
+      [
+       "body",
+       458.085
+      ]
+     ]
     }
    ]
   },
@@ -902,12 +5576,48 @@
     {
      "text": "Your heart beats faster.",
      "start": 459.001,
-     "end": 460.245
+     "end": 460.291,
+     "words": [
+      [
+       "your",
+       459.041
+      ],
+      [
+       "heart",
+       459.181
+      ],
+      [
+       "beats",
+       459.501
+      ],
+      [
+       "faster",
+       459.731
+      ]
+     ]
     },
     {
      "text": "Your blood pressure rises.",
      "start": 460.658,
-     "end": 462.103
+     "end": 462.131,
+     "words": [
+      [
+       "your",
+       460.641
+      ],
+      [
+       "blood",
+       460.761
+      ],
+      [
+       "pressure",
+       461.131
+      ],
+      [
+       "rises",
+       461.471
+      ]
+     ]
     }
    ]
   },
@@ -917,7 +5627,69 @@
     {
      "text": "Your pupils widen to let in more light, so you can see the person better.",
      "start": 462.468,
-     "end": 467.196
+     "end": 467.231,
+     "words": [
+      [
+       "your",
+       462.621
+      ],
+      [
+       "pupils",
+       462.751
+      ],
+      [
+       "widen",
+       463.401
+      ],
+      [
+       "to",
+       464.141
+      ],
+      [
+       "let",
+       464.291
+      ],
+      [
+       "in",
+       464.511
+      ],
+      [
+       "more",
+       464.651
+      ],
+      [
+       "light",
+       465.051
+      ],
+      [
+       "so",
+       465.711
+      ],
+      [
+       "you",
+       465.851
+      ],
+      [
+       "can",
+       465.981
+      ],
+      [
+       "see",
+       466.121
+      ],
+      [
+       "the",
+       466.461
+      ],
+      [
+       "person",
+       466.541
+      ],
+      [
+       "better",
+       466.901
+      ]
+     ]
     }
    ]
   },
@@ -927,7 +5699,53 @@
     {
      "text": "At the same time, your brain releases a chemical called dopamine.",
      "start": 467.864,
-     "end": 471.967
+     "end": 472.031,
+     "words": [
+      [
+       "at",
+       467.941
+      ],
+      [
+       "the",
+       468.031
+      ],
+      [
+       "same",
+       468.091
+      ],
+      [
+       "time",
+       468.321
+      ],
+      [
+       "your",
+       469.031
+      ],
+      [
+       "brain",
+       469.201
+      ],
+      [
+       "releases",
+       469.641
+      ],
+      [
+       "a",
+       470.031
+      ],
+      [
+       "chemical",
+       470.061
+      ],
+      [
+       "called",
+       470.641
+      ],
+      [
+       "dopamine",
+       471.391
+      ]
+     ]
     }
    ]
   },
@@ -937,22 +5755,194 @@
     {
      "text": "Dopamine is the molecule of wanting.",
      "start": 472.5,
-     "end": 475.465
+     "end": 475.451,
+     "words": [
+      [
+       "dopamine",
+       472.821
+      ],
+      [
+       "is",
+       473.481
+      ],
+      [
+       "the",
+       473.781
+      ],
+      [
+       "molecule",
+       473.851
+      ],
+      [
+       "of",
+       474.681
+      ],
+      [
+       "wanting",
+       474.801
+      ]
+     ]
     },
     {
      "text": "It is the same chemical that is released when you eat something delicious, win a game, or get a notification on your phone.",
-     "start": 476.036,
-     "end": 482.891
+     "start": 475.451,
+     "end": 482.921,
+     "words": [
+      [
+       "it",
+       475.451
+      ],
+      [
+       "is",
+       476.091
+      ],
+      [
+       "the",
+       476.311
+      ],
+      [
+       "same",
+       476.371
+      ],
+      [
+       "chemical",
+       476.801
+      ],
+      [
+       "that",
+       477.311
+      ],
+      [
+       "is",
+       477.421
+      ],
+      [
+       "released",
+       477.511
+      ],
+      [
+       "when",
+       477.931
+      ],
+      [
+       "you",
+       478.071
+      ],
+      [
+       "eat",
+       478.291
+      ],
+      [
+       "something",
+       478.481
+      ],
+      [
+       "delicious",
+       478.911
+      ],
+      [
+       "win",
+       480.031
+      ],
+      [
+       "a",
+       480.161
+      ],
+      [
+       "game",
+       480.241
+      ],
+      [
+       "or",
+       481.051
+      ],
+      [
+       "get",
+       481.251
+      ],
+      [
+       "a",
+       481.431
+      ],
+      [
+       "notification",
+       481.471
+      ],
+      [
+       "on",
+       482.251
+      ],
+      [
+       "your",
+       482.341
+      ],
+      [
+       "phone",
+       482.451
+      ]
+     ]
     },
     {
      "text": "It does not make you happy, exactly.",
      "start": 483.393,
-     "end": 485.697
+     "end": 485.731,
+     "words": [
+      [
+       "it",
+       483.621
+      ],
+      [
+       "does",
+       483.721
+      ],
+      [
+       "not",
+       483.871
+      ],
+      [
+       "make",
+       484.021
+      ],
+      [
+       "you",
+       484.191
+      ],
+      [
+       "happy",
+       484.331
+      ],
+      [
+       "exactly",
+       485.141
+      ]
+     ]
     },
     {
      "text": "It makes you want more.",
      "start": 486.154,
-     "end": 487.807
+     "end": 487.841,
+     "words": [
+      [
+       "it",
+       486.171
+      ],
+      [
+       "makes",
+       486.261
+      ],
+      [
+       "you",
+       486.551
+      ],
+      [
+       "want",
+       486.731
+      ],
+      [
+       "more",
+       487.171
+      ]
+     ]
     }
    ]
   },
@@ -962,12 +5952,120 @@
     {
      "text": "This is why attraction feels like a pull.",
      "start": 488.356,
-     "end": 490.995
+     "end": 491.051,
+     "words": [
+      [
+       "this",
+       488.581
+      ],
+      [
+       "is",
+       488.741
+      ],
+      [
+       "why",
+       488.841
+      ],
+      [
+       "attraction",
+       489.021
+      ],
+      [
+       "feels",
+       489.711
+      ],
+      [
+       "like",
+       490.151
+      ],
+      [
+       "a",
+       490.321
+      ],
+      [
+       "pull",
+       490.931
+      ]
+     ]
     },
     {
      "text": "Your brain has flagged this person as a reward, and it wants you to go after that reward.",
      "start": 491.609,
-     "end": 497.099
+     "end": 497.151,
+     "words": [
+      [
+       "your",
+       491.581
+      ],
+      [
+       "brain",
+       491.721
+      ],
+      [
+       "has",
+       492.161
+      ],
+      [
+       "flagged",
+       492.421
+      ],
+      [
+       "this",
+       493.041
+      ],
+      [
+       "person",
+       493.211
+      ],
+      [
+       "as",
+       493.611
+      ],
+      [
+       "a",
+       493.831
+      ],
+      [
+       "reward",
+       493.861
+      ],
+      [
+       "and",
+       494.891
+      ],
+      [
+       "it",
+       495.011
+      ],
+      [
+       "wants",
+       495.091
+      ],
+      [
+       "you",
+       495.511
+      ],
+      [
+       "to",
+       495.681
+      ],
+      [
+       "go",
+       495.781
+      ],
+      [
+       "after",
+       495.971
+      ],
+      [
+       "that",
+       496.401
+      ],
+      [
+       "reward",
+       496.591
+      ]
+     ]
     }
    ]
   },
@@ -977,17 +6075,211 @@
     {
      "text": "If the attraction grows into something stronger, the brain chemistry becomes even more intense.",
      "start": 498.114,
-     "end": 503.931
+     "end": 503.964,
+     "words": [
+      [
+       "if",
+       498.084
+      ],
+      [
+       "the",
+       498.214
+      ],
+      [
+       "attraction",
+       498.334
+      ],
+      [
+       "grows",
+       498.844
+      ],
+      [
+       "into",
+       499.314
+      ],
+      [
+       "something",
+       499.444
+      ],
+      [
+       "stronger",
+       499.724
+      ],
+      [
+       "the",
+       500.684
+      ],
+      [
+       "brain",
+       500.754
+      ],
+      [
+       "chemistry",
+       501.074
+      ],
+      [
+       "becomes",
+       501.604
+      ],
+      [
+       "even",
+       502.164
+      ],
+      [
+       "more",
+       502.544
+      ],
+      [
+       "intense",
+       503.184
+      ]
+     ]
     },
     {
      "text": "Brain scans of people who are newly in love show something remarkable.",
      "start": 504.575,
-     "end": 508.693
+     "end": 508.734,
+     "words": [
+      [
+       "brain",
+       504.524
+      ],
+      [
+       "scans",
+       504.944
+      ],
+      [
+       "of",
+       505.424
+      ],
+      [
+       "people",
+       505.504
+      ],
+      [
+       "who",
+       505.914
+      ],
+      [
+       "are",
+       506.114
+      ],
+      [
+       "newly",
+       506.204
+      ],
+      [
+       "in",
+       506.754
+      ],
+      [
+       "love",
+       506.834
+      ],
+      [
+       "show",
+       507.244
+      ],
+      [
+       "something",
+       507.614
+      ],
+      [
+       "remarkable",
+       508.014
+      ]
+     ]
     },
     {
      "text": "The same reward circuits that are activated by addictive drugs light up when they look at a photo of their partner.",
      "start": 509.15,
-     "end": 515.083
+     "end": 515.114,
+     "words": [
+      [
+       "the",
+       509.364
+      ],
+      [
+       "same",
+       509.434
+      ],
+      [
+       "reward",
+       509.904
+      ],
+      [
+       "circuits",
+       510.394
+      ],
+      [
+       "that",
+       510.834
+      ],
+      [
+       "are",
+       510.934
+      ],
+      [
+       "activated",
+       511.034
+      ],
+      [
+       "by",
+       511.614
+      ],
+      [
+       "addictive",
+       511.814
+      ],
+      [
+       "drugs",
+       512.264
+      ],
+      [
+       "light",
+       512.834
+      ],
+      [
+       "up",
+       513.264
+      ],
+      [
+       "when",
+       513.504
+      ],
+      [
+       "they",
+       513.644
+      ],
+      [
+       "look",
+       513.724
+      ],
+      [
+       "at",
+       513.944
+      ],
+      [
+       "a",
+       514.004
+      ],
+      [
+       "photo",
+       514.044
+      ],
+      [
+       "of",
+       514.434
+      ],
+      [
+       "their",
+       514.504
+      ],
+      [
+       "partner",
+       514.654
+      ]
+     ]
     }
    ]
   },
@@ -997,27 +6289,201 @@
     {
      "text": "Meanwhile, levels of a chemical called serotonin can drop.",
      "start": 515.965,
-     "end": 519.709
+     "end": 519.744,
+     "words": [
+      [
+       "meanwhile",
+       515.984
+      ],
+      [
+       "levels",
+       516.794
+      ],
+      [
+       "of",
+       517.154
+      ],
+      [
+       "a",
+       517.244
+      ],
+      [
+       "chemical",
+       517.284
+      ],
+      [
+       "called",
+       517.854
+      ],
+      [
+       "serotonin",
+       518.124
+      ],
+      [
+       "can",
+       519.094
+      ],
+      [
+       "drop",
+       519.284
+      ]
+     ]
     },
     {
      "text": "Low serotonin is linked to obsessive thinking.",
      "start": 520.328,
-     "end": 522.966
+     "end": 522.974,
+     "words": [
+      [
+       "low",
+       520.314
+      ],
+      [
+       "serotonin",
+       520.554
+      ],
+      [
+       "is",
+       521.214
+      ],
+      [
+       "linked",
+       521.404
+      ],
+      [
+       "to",
+       521.744
+      ],
+      [
+       "obsessive",
+       521.924
+      ],
+      [
+       "thinking",
+       522.474
+      ]
+     ]
     },
     {
      "text": "That is why, when you fall for someone, you cannot stop thinking about them.",
      "start": 523.611,
-     "end": 527.384
+     "end": 527.444,
+     "words": [
+      [
+       "that",
+       523.584
+      ],
+      [
+       "is",
+       523.734
+      ],
+      [
+       "why",
+       523.854
+      ],
+      [
+       "when",
+       524.194
+      ],
+      [
+       "you",
+       524.404
+      ],
+      [
+       "fall",
+       524.544
+      ],
+      [
+       "for",
+       524.844
+      ],
+      [
+       "someone",
+       524.984
+      ],
+      [
+       "you",
+       525.684
+      ],
+      [
+       "cannot",
+       525.824
+      ],
+      [
+       "stop",
+       526.174
+      ],
+      [
+       "thinking",
+       526.634
+      ],
+      [
+       "about",
+       527.014
+      ],
+      [
+       "them",
+       527.244
+      ]
+     ]
     },
     {
      "text": "You replay every conversation.",
      "start": 528.019,
-     "end": 529.913
+     "end": 530.064,
+     "words": [
+      [
+       "you",
+       528.064
+      ],
+      [
+       "replay",
+       528.174
+      ],
+      [
+       "every",
+       528.904
+      ],
+      [
+       "conversation",
+       529.294
+      ]
+     ]
     },
     {
      "text": "You check your phone again and again.",
-     "start": 529.913,
-     "end": 532.186
+     "start": 530.404,
+     "end": 532.194,
+     "words": [
+      [
+       "you",
+       530.404
+      ],
+      [
+       "check",
+       530.484
+      ],
+      [
+       "your",
+       530.734
+      ],
+      [
+       "phone",
+       530.834
+      ],
+      [
+       "again",
+       531.234
+      ],
+      [
+       "and",
+       531.684
+      ],
+      [
+       "again",
+       531.774
+      ]
+     ]
     }
    ]
   },
@@ -1027,12 +6493,112 @@
     {
      "text": "And the part of the brain responsible for careful judgment and criticism becomes quieter.",
      "start": 532.768,
-     "end": 537.594
+     "end": 537.654,
+     "words": [
+      [
+       "and",
+       532.924
+      ],
+      [
+       "the",
+       533.064
+      ],
+      [
+       "part",
+       533.124
+      ],
+      [
+       "of",
+       533.374
+      ],
+      [
+       "the",
+       533.434
+      ],
+      [
+       "brain",
+       533.494
+      ],
+      [
+       "responsible",
+       533.834
+      ],
+      [
+       "for",
+       534.504
+      ],
+      [
+       "careful",
+       534.644
+      ],
+      [
+       "judgment",
+       535.144
+      ],
+      [
+       "and",
+       535.624
+      ],
+      [
+       "criticism",
+       535.744
+      ],
+      [
+       "becomes",
+       536.434
+      ],
+      [
+       "quieter",
+       536.954
+      ]
+     ]
     },
     {
      "text": "In other words, your brain partly switches off the critic.",
      "start": 538.334,
-     "end": 541.493
+     "end": 541.544,
+     "words": [
+      [
+       "in",
+       538.384
+      ],
+      [
+       "other",
+       538.474
+      ],
+      [
+       "words",
+       538.604
+      ],
+      [
+       "your",
+       539.184
+      ],
+      [
+       "brain",
+       539.374
+      ],
+      [
+       "partly",
+       539.824
+      ],
+      [
+       "switches",
+       540.244
+      ],
+      [
+       "off",
+       540.804
+      ],
+      [
+       "the",
+       541.014
+      ],
+      [
+       "critic",
+       541.074
+      ]
+     ]
     }
    ]
   },
@@ -1042,12 +6608,72 @@
     {
      "text": "Love is not blind.",
      "start": 542.332,
-     "end": 543.886
+     "end": 543.762,
+     "words": [
+      [
+       "love",
+       542.362
+      ],
+      [
+       "is",
+       542.802
+      ],
+      [
+       "not",
+       542.952
+      ],
+      [
+       "blind",
+       543.122
+      ]
+     ]
     },
     {
      "text": "But in the beginning, it does wear very strong glasses.",
      "start": 544.146,
-     "end": 547.255
+     "end": 547.302,
+     "words": [
+      [
+       "but",
+       544.052
+      ],
+      [
+       "in",
+       544.202
+      ],
+      [
+       "the",
+       544.272
+      ],
+      [
+       "beginning",
+       544.342
+      ],
+      [
+       "it",
+       544.842
+      ],
+      [
+       "does",
+       545.132
+      ],
+      [
+       "wear",
+       545.392
+      ],
+      [
+       "very",
+       545.652
+      ],
+      [
+       "strong",
+       546.112
+      ],
+      [
+       "glasses",
+       546.692
+      ]
+     ]
     }
    ]
   },
@@ -1057,12 +6683,40 @@
     {
      "text": "Part Five.",
      "start": 548.575,
-     "end": 549.195
+     "end": 549.192,
+     "words": [
+      [
+       "part",
+       548.552
+      ],
+      [
+       "five",
+       548.742
+      ]
+     ]
     },
     {
      "text": "From Spark to Bond.",
      "start": 549.565,
-     "end": 551.074
+     "end": 551.102,
+     "words": [
+      [
+       "from",
+       549.492
+      ],
+      [
+       "spark",
+       549.752
+      ],
+      [
+       "to",
+       550.482
+      ],
+      [
+       "bond",
+       550.602
+      ]
+     ]
     }
    ]
   },
@@ -1071,23 +6725,139 @@
    "sentences": [
     {
      "text": "Here is a problem.",
-     "start": 551.717,
-     "end": 552.964
+     "start": 552.254,
+     "end": 553.062,
+     "words": [
+      [
+       "here",
+       552.212
+      ],
+      [
+       "is",
+       552.392
+      ],
+      [
+       "a",
+       552.492
+      ],
+      [
+       "problem",
+       552.532
+      ]
+     ]
     },
     {
      "text": "That fire cannot burn forever.",
      "start": 553.444,
-     "end": 555.592
+     "end": 555.582,
+     "words": [
+      [
+       "that",
+       553.412
+      ],
+      [
+       "fire",
+       553.702
+      ],
+      [
+       "cannot",
+       554.422
+      ],
+      [
+       "burn",
+       554.912
+      ],
+      [
+       "forever",
+       555.162
+      ]
+     ]
     },
     {
      "text": "A brain flooded with dopamine and obsession would be exhausted.",
-     "start": 556.122,
-     "end": 559.761
+     "start": 555.582,
+     "end": 559.812,
+     "words": [
+      [
+       "a",
+       555.582
+      ],
+      [
+       "brain",
+       556.212
+      ],
+      [
+       "flooded",
+       556.632
+      ],
+      [
+       "with",
+       557.202
+      ],
+      [
+       "dopamine",
+       557.362
+      ],
+      [
+       "and",
+       558.002
+      ],
+      [
+       "obsession",
+       558.162
+      ],
+      [
+       "would",
+       558.742
+      ],
+      [
+       "be",
+       558.942
+      ],
+      [
+       "exhausted",
+       559.062
+      ]
+     ]
     },
     {
      "text": "You still need to eat, sleep, and work.",
      "start": 560.291,
-     "end": 563.045
+     "end": 563.072,
+     "words": [
+      [
+       "you",
+       560.282
+      ],
+      [
+       "still",
+       560.422
+      ],
+      [
+       "need",
+       560.702
+      ],
+      [
+       "to",
+       560.932
+      ],
+      [
+       "eat",
+       561.272
+      ],
+      [
+       "sleep",
+       561.842
+      ],
+      [
+       "and",
+       562.492
+      ],
+      [
+       "work",
+       562.602
+      ]
+     ]
     }
    ]
   },
@@ -1097,17 +6867,115 @@
     {
      "text": "So over months, the chemistry changes.",
      "start": 563.589,
-     "end": 565.805
+     "end": 565.852,
+     "words": [
+      [
+       "so",
+       563.682
+      ],
+      [
+       "over",
+       563.912
+      ],
+      [
+       "months",
+       564.102
+      ],
+      [
+       "the",
+       564.532
+      ],
+      [
+       "chemistry",
+       564.722
+      ],
+      [
+       "changes",
+       565.232
+      ]
+     ]
     },
     {
      "text": "The wild excitement slowly calms down.",
      "start": 566.414,
-     "end": 568.857
+     "end": 571.482,
+     "words": [
+      [
+       "the",
+       566.392
+      ],
+      [
+       "wild",
+       567.262
+      ],
+      [
+       "excitement",
+       567.762
+      ],
+      [
+       "slowly",
+       570.032
+      ],
+      [
+       "calms",
+       570.912
+      ],
+      [
+       "down",
+       571.202
+      ]
+     ]
     },
     {
      "text": "And if the relationship continues, two new chemicals take center stage.",
-     "start": 569.847,
-     "end": 575.932
+     "start": 571.482,
+     "end": 577.962,
+     "words": [
+      [
+       "and",
+       571.482
+      ],
+      [
+       "if",
+       571.712
+      ],
+      [
+       "the",
+       571.802
+      ],
+      [
+       "relationship",
+       571.862
+      ],
+      [
+       "continues",
+       573.982
+      ],
+      [
+       "two",
+       574.252
+      ],
+      [
+       "new",
+       574.632
+      ],
+      [
+       "chemicals",
+       575.242
+      ],
+      [
+       "take",
+       576.312
+      ],
+      [
+       "center",
+       576.502
+      ],
+      [
+       "stage",
+       577.522
+      ]
+     ]
     }
    ]
   },
@@ -1116,18 +6984,144 @@
    "sentences": [
     {
      "text": "The first is oxytocin, sometimes called the cuddle hormone.",
-     "start": 576.357,
-     "end": 581.595
+     "start": 577.962,
+     "end": 584.142,
+     "words": [
+      [
+       "the",
+       577.962
+      ],
+      [
+       "first",
+       578.182
+      ],
+      [
+       "is",
+       578.462
+      ],
+      [
+       "oxytocin",
+       580.682
+      ],
+      [
+       "sometimes",
+       582.052
+      ],
+      [
+       "called",
+       582.472
+      ],
+      [
+       "the",
+       582.862
+      ],
+      [
+       "cuddle",
+       583.072
+      ],
+      [
+       "hormone",
+       583.582
+      ]
+     ]
     },
     {
      "text": "It is released when people hug, hold hands, or spend close time together.",
-     "start": 582.07,
-     "end": 587.707
+     "start": 584.142,
+     "end": 589.912,
+     "words": [
+      [
+       "it",
+       584.142
+      ],
+      [
+       "is",
+       584.802
+      ],
+      [
+       "released",
+       585.032
+      ],
+      [
+       "when",
+       585.522
+      ],
+      [
+       "people",
+       585.702
+      ],
+      [
+       "hug",
+       585.992
+      ],
+      [
+       "hold",
+       586.822
+      ],
+      [
+       "hands",
+       587.122
+      ],
+      [
+       "or",
+       587.852
+      ],
+      [
+       "spend",
+       588.082
+      ],
+      [
+       "close",
+       588.472
+      ],
+      [
+       "time",
+       588.982
+      ],
+      [
+       "together",
+       589.432
+      ]
+     ]
     },
     {
      "text": "It builds trust and a feeling of safety.",
-     "start": 588.006,
-     "end": 591.477
+     "start": 590.496,
+     "end": 593.056,
+     "words": [
+      [
+       "it",
+       590.506
+      ],
+      [
+       "builds",
+       590.636
+      ],
+      [
+       "trust",
+       590.926
+      ],
+      [
+       "and",
+       591.786
+      ],
+      [
+       "a",
+       591.876
+      ],
+      [
+       "feeling",
+       591.906
+      ],
+      [
+       "of",
+       592.356
+      ],
+      [
+       "safety",
+       592.426
+      ]
+     ]
     }
    ]
   },
@@ -1136,18 +7130,176 @@
    "sentences": [
     {
      "text": "The second is vasopressin, which is especially important in males.",
-     "start": 591.822,
-     "end": 598.484
+     "start": 593.842,
+     "end": 598.526,
+     "words": [
+      [
+       "the",
+       593.816
+      ],
+      [
+       "second",
+       593.886
+      ],
+      [
+       "is",
+       594.676
+      ],
+      [
+       "vasopressin",
+       594.846
+      ],
+      [
+       "which",
+       596.226
+      ],
+      [
+       "is",
+       596.356
+      ],
+      [
+       "especially",
+       596.506
+      ],
+      [
+       "important",
+       597.226
+      ],
+      [
+       "in",
+       597.776
+      ],
+      [
+       "males",
+       597.916
+      ]
+     ]
     },
     {
      "text": "In studies with small rodents called prairie voles, vasopressin helps males form long lasting bonds with a single partner.",
      "start": 599.311,
-     "end": 607.29
+     "end": 607.336,
+     "words": [
+      [
+       "in",
+       599.266
+      ],
+      [
+       "studies",
+       599.436
+      ],
+      [
+       "with",
+       600.016
+      ],
+      [
+       "small",
+       600.146
+      ],
+      [
+       "rodents",
+       600.606
+      ],
+      [
+       "called",
+       601.136
+      ],
+      [
+       "prairie",
+       601.406
+      ],
+      [
+       "voles",
+       601.946
+      ],
+      [
+       "vasopressin",
+       602.756
+      ],
+      [
+       "helps",
+       603.456
+      ],
+      [
+       "males",
+       603.796
+      ],
+      [
+       "form",
+       604.176
+      ],
+      [
+       "long",
+       604.416
+      ],
+      [
+       "lasting",
+       604.876
+      ],
+      [
+       "bonds",
+       605.376
+      ],
+      [
+       "with",
+       606.066
+      ],
+      [
+       "a",
+       606.276
+      ],
+      [
+       "single",
+       606.306
+      ],
+      [
+       "partner",
+       606.816
+      ]
+     ]
     },
     {
      "text": "When scientists blocked it, the bond did not form.",
      "start": 607.97,
-     "end": 611.213
+     "end": 611.266,
+     "words": [
+      [
+       "when",
+       607.916
+      ],
+      [
+       "scientists",
+       608.096
+      ],
+      [
+       "blocked",
+       608.726
+      ],
+      [
+       "it",
+       609.176
+      ],
+      [
+       "the",
+       609.686
+      ],
+      [
+       "bond",
+       609.776
+      ],
+      [
+       "did",
+       610.316
+      ],
+      [
+       "not",
+       610.536
+      ],
+      [
+       "form",
+       610.736
+      ]
+     ]
     }
    ]
   },
@@ -1157,22 +7309,134 @@
     {
      "text": "In humans, the picture is more complicated.",
      "start": 612.225,
-     "end": 614.403
+     "end": 614.416,
+     "words": [
+      [
+       "in",
+       612.206
+      ],
+      [
+       "humans",
+       612.336
+      ],
+      [
+       "the",
+       612.896
+      ],
+      [
+       "picture",
+       612.996
+      ],
+      [
+       "is",
+       613.356
+      ],
+      [
+       "more",
+       613.436
+      ],
+      [
+       "complicated",
+       613.626
+      ]
+     ]
     },
     {
      "text": "But the idea is similar.",
      "start": 614.739,
-     "end": 615.938
+     "end": 616.016,
+     "words": [
+      [
+       "but",
+       614.696
+      ],
+      [
+       "the",
+       614.816
+      ],
+      [
+       "idea",
+       614.956
+      ],
+      [
+       "is",
+       615.236
+      ],
+      [
+       "similar",
+       615.426
+      ]
+     ]
     },
     {
      "text": "Attraction is the spark.",
      "start": 616.515,
-     "end": 618.091
+     "end": 618.146,
+     "words": [
+      [
+       "attraction",
+       616.506
+      ],
+      [
+       "is",
+       617.306
+      ],
+      [
+       "the",
+       617.496
+      ],
+      [
+       "spark",
+       617.566
+      ]
+     ]
     },
     {
      "text": "Bonding is the fire that keeps you warm for years.",
      "start": 618.375,
-     "end": 621.942
+     "end": 621.976,
+     "words": [
+      [
+       "bonding",
+       618.456
+      ],
+      [
+       "is",
+       619.176
+      ],
+      [
+       "the",
+       619.366
+      ],
+      [
+       "fire",
+       619.436
+      ],
+      [
+       "that",
+       620.116
+      ],
+      [
+       "keeps",
+       620.246
+      ],
+      [
+       "you",
+       620.516
+      ],
+      [
+       "warm",
+       620.636
+      ],
+      [
+       "for",
+       621.156
+      ],
+      [
+       "years",
+       621.326
+      ]
+     ]
     }
    ]
   },
@@ -1182,32 +7446,248 @@
     {
      "text": "And there is a good evolutionary reason for this.",
      "start": 622.986,
-     "end": 625.368
+     "end": 625.416,
+     "words": [
+      [
+       "and",
+       622.966
+      ],
+      [
+       "there",
+       623.076
+      ],
+      [
+       "is",
+       623.266
+      ],
+      [
+       "a",
+       623.356
+      ],
+      [
+       "good",
+       623.416
+      ],
+      [
+       "evolutionary",
+       623.736
+      ],
+      [
+       "reason",
+       624.506
+      ],
+      [
+       "for",
+       624.926
+      ],
+      [
+       "this",
+       625.056
+      ]
+     ]
     },
     {
      "text": "Human babies are incredibly helpless.",
      "start": 625.948,
-     "end": 628.333
+     "end": 628.356,
+     "words": [
+      [
+       "human",
+       625.926
+      ],
+      [
+       "babies",
+       626.356
+      ],
+      [
+       "are",
+       626.866
+      ],
+      [
+       "incredibly",
+       627.056
+      ],
+      [
+       "helpless",
+       627.806
+      ]
+     ]
     },
     {
      "text": "They need years of care.",
      "start": 628.723,
-     "end": 630.056
+     "end": 630.113,
+     "words": [
+      [
+       "they",
+       628.693
+      ],
+      [
+       "need",
+       628.823
+      ],
+      [
+       "years",
+       629.093
+      ],
+      [
+       "of",
+       629.573
+      ],
+      [
+       "care",
+       629.663
+      ]
+     ]
     },
     {
      "text": "For our ancestors, children with two caring parents had a better chance of survival.",
      "start": 630.64,
-     "end": 635.167
+     "end": 635.273,
+     "words": [
+      [
+       "for",
+       630.613
+      ],
+      [
+       "our",
+       630.733
+      ],
+      [
+       "ancestors",
+       630.863
+      ],
+      [
+       "children",
+       631.903
+      ],
+      [
+       "with",
+       632.293
+      ],
+      [
+       "two",
+       632.473
+      ],
+      [
+       "caring",
+       632.763
+      ],
+      [
+       "parents",
+       633.163
+      ],
+      [
+       "had",
+       633.533
+      ],
+      [
+       "a",
+       633.713
+      ],
+      [
+       "better",
+       633.763
+      ],
+      [
+       "chance",
+       634.123
+      ],
+      [
+       "of",
+       634.503
+      ],
+      [
+       "survival",
+       634.673
+      ]
+     ]
     },
     {
      "text": "So evolution did not just build men to be attracted to women.",
      "start": 635.965,
-     "end": 639.081
+     "end": 639.203,
+     "words": [
+      [
+       "so",
+       635.933
+      ],
+      [
+       "evolution",
+       636.143
+      ],
+      [
+       "did",
+       636.703
+      ],
+      [
+       "not",
+       636.883
+      ],
+      [
+       "just",
+       637.103
+      ],
+      [
+       "build",
+       637.343
+      ],
+      [
+       "men",
+       637.533
+      ],
+      [
+       "to",
+       637.843
+      ],
+      [
+       "be",
+       637.933
+      ],
+      [
+       "attracted",
+       638.103
+      ],
+      [
+       "to",
+       638.683
+      ],
+      [
+       "women",
+       638.773
+      ]
+     ]
     },
     {
      "text": "It also built them to stay.",
      "start": 639.738,
-     "end": 641.271
+     "end": 641.403,
+     "words": [
+      [
+       "it",
+       639.713
+      ],
+      [
+       "also",
+       639.843
+      ],
+      [
+       "built",
+       640.183
+      ],
+      [
+       "them",
+       640.443
+      ],
+      [
+       "to",
+       640.673
+      ],
+      [
+       "stay",
+       640.823
+      ]
+     ]
     }
    ]
   },
@@ -1217,12 +7697,44 @@
     {
      "text": "Part Six.",
      "start": 642.173,
-     "end": 642.756
+     "end": 642.783,
+     "words": [
+      [
+       "part",
+       642.143
+      ],
+      [
+       "six",
+       642.333
+      ]
+     ]
     },
     {
      "text": "It Is Not Only Biology.",
      "start": 643.323,
-     "end": 645.119
+     "end": 645.213,
+     "words": [
+      [
+       "it",
+       643.353
+      ],
+      [
+       "is",
+       643.433
+      ],
+      [
+       "not",
+       643.583
+      ],
+      [
+       "only",
+       643.853
+      ],
+      [
+       "biology",
+       644.363
+      ]
+     ]
     }
    ]
   },
@@ -1232,12 +7744,108 @@
     {
      "text": "At this point, you might think attraction is just a program.",
      "start": 646.273,
-     "end": 649.204
+     "end": 649.213,
+     "words": [
+      [
+       "at",
+       646.263
+      ],
+      [
+       "this",
+       646.393
+      ],
+      [
+       "point",
+       646.583
+      ],
+      [
+       "you",
+       646.883
+      ],
+      [
+       "might",
+       647.013
+      ],
+      [
+       "think",
+       647.223
+      ],
+      [
+       "attraction",
+       647.493
+      ],
+      [
+       "is",
+       648.073
+      ],
+      [
+       "just",
+       648.293
+      ],
+      [
+       "a",
+       648.503
+      ],
+      [
+       "program",
+       648.543
+      ]
+     ]
     },
     {
      "text": "A set of instructions written in your genes and executed by chemicals.",
      "start": 649.653,
-     "end": 653.297
+     "end": 653.323,
+     "words": [
+      [
+       "a",
+       649.623
+      ],
+      [
+       "set",
+       649.683
+      ],
+      [
+       "of",
+       649.943
+      ],
+      [
+       "instructions",
+       650.013
+      ],
+      [
+       "written",
+       650.713
+      ],
+      [
+       "in",
+       651.073
+      ],
+      [
+       "your",
+       651.183
+      ],
+      [
+       "genes",
+       651.303
+      ],
+      [
+       "and",
+       651.863
+      ],
+      [
+       "executed",
+       652.003
+      ],
+      [
+       "by",
+       652.553
+      ],
+      [
+       "chemicals",
+       652.683
+      ]
+     ]
     }
    ]
   },
@@ -1247,17 +7855,135 @@
     {
      "text": "But that is only half the story.",
      "start": 653.916,
-     "end": 655.617
+     "end": 655.703,
+     "words": [
+      [
+       "but",
+       653.813
+      ],
+      [
+       "that",
+       653.993
+      ],
+      [
+       "is",
+       654.303
+      ],
+      [
+       "only",
+       654.483
+      ],
+      [
+       "half",
+       654.773
+      ],
+      [
+       "the",
+       655.153
+      ],
+      [
+       "story",
+       655.243
+      ]
+     ]
     },
     {
      "text": "Because if attraction were purely biological, everyone would be attracted to exactly the same people.",
      "start": 656.545,
-     "end": 661.907
+     "end": 662.003,
+     "words": [
+      [
+       "because",
+       656.503
+      ],
+      [
+       "if",
+       657.003
+      ],
+      [
+       "attraction",
+       657.133
+      ],
+      [
+       "were",
+       657.633
+      ],
+      [
+       "purely",
+       657.713
+      ],
+      [
+       "biological",
+       658.293
+      ],
+      [
+       "everyone",
+       659.433
+      ],
+      [
+       "would",
+       659.823
+      ],
+      [
+       "be",
+       659.993
+      ],
+      [
+       "attracted",
+       660.103
+      ],
+      [
+       "to",
+       660.583
+      ],
+      [
+       "exactly",
+       660.723
+      ],
+      [
+       "the",
+       661.223
+      ],
+      [
+       "same",
+       661.303
+      ],
+      [
+       "people",
+       661.563
+      ]
+     ]
     },
     {
      "text": "And that is clearly not true.",
      "start": 662.425,
-     "end": 663.933
+     "end": 664.035,
+     "words": [
+      [
+       "and",
+       662.375
+      ],
+      [
+       "that",
+       662.495
+      ],
+      [
+       "is",
+       662.645
+      ],
+      [
+       "clearly",
+       662.775
+      ],
+      [
+       "not",
+       663.305
+      ],
+      [
+       "true",
+       663.645
+      ]
+     ]
     }
    ]
   },
@@ -1267,17 +7993,147 @@
     {
      "text": "Beauty standards change dramatically across cultures and across history.",
      "start": 664.925,
-     "end": 668.589
+     "end": 668.685,
+     "words": [
+      [
+       "beauty",
+       664.835
+      ],
+      [
+       "standards",
+       665.235
+      ],
+      [
+       "change",
+       665.765
+      ],
+      [
+       "dramatically",
+       666.135
+      ],
+      [
+       "across",
+       666.805
+      ],
+      [
+       "cultures",
+       667.135
+      ],
+      [
+       "and",
+       667.685
+      ],
+      [
+       "across",
+       667.895
+      ],
+      [
+       "history",
+       668.205
+      ]
+     ]
     },
     {
      "text": "In some times and places, a fuller body was a sign of wealth and good food.",
      "start": 668.974,
-     "end": 673.173
+     "end": 673.215,
+     "words": [
+      [
+       "in",
+       669.145
+      ],
+      [
+       "some",
+       669.215
+      ],
+      [
+       "times",
+       669.455
+      ],
+      [
+       "and",
+       669.895
+      ],
+      [
+       "places",
+       669.995
+      ],
+      [
+       "a",
+       670.625
+      ],
+      [
+       "fuller",
+       670.755
+      ],
+      [
+       "body",
+       671.115
+      ],
+      [
+       "was",
+       671.475
+      ],
+      [
+       "a",
+       671.635
+      ],
+      [
+       "sign",
+       671.665
+      ],
+      [
+       "of",
+       671.905
+      ],
+      [
+       "wealth",
+       671.995
+      ],
+      [
+       "and",
+       672.465
+      ],
+      [
+       "good",
+       672.595
+      ],
+      [
+       "food",
+       672.755
+      ]
+     ]
     },
     {
      "text": "In others, thinness became the ideal.",
      "start": 673.64,
-     "end": 675.672
+     "end": 675.795,
+     "words": [
+      [
+       "in",
+       673.615
+      ],
+      [
+       "others",
+       673.735
+      ],
+      [
+       "thinness",
+       674.315
+      ],
+      [
+       "became",
+       674.895
+      ],
+      [
+       "the",
+       675.225
+      ],
+      [
+       "ideal",
+       675.355
+      ]
+     ]
     }
    ]
   },
@@ -1287,7 +8143,61 @@
     {
      "text": "Fashion, media, and the people around you constantly shape what you find attractive.",
      "start": 676.583,
-     "end": 681.058
+     "end": 681.175,
+     "words": [
+      [
+       "fashion",
+       676.475
+      ],
+      [
+       "media",
+       677.285
+      ],
+      [
+       "and",
+       677.875
+      ],
+      [
+       "the",
+       677.965
+      ],
+      [
+       "people",
+       678.025
+      ],
+      [
+       "around",
+       678.305
+      ],
+      [
+       "you",
+       678.665
+      ],
+      [
+       "constantly",
+       679.055
+      ],
+      [
+       "shape",
+       679.655
+      ],
+      [
+       "what",
+       680.125
+      ],
+      [
+       "you",
+       680.305
+      ],
+      [
+       "find",
+       680.365
+      ],
+      [
+       "attractive",
+       680.645
+      ]
+     ]
     }
    ]
   },
@@ -1297,27 +8207,205 @@
     {
      "text": "Then there is familiarity.",
      "start": 682.022,
-     "end": 683.557
+     "end": 683.605,
+     "words": [
+      [
+       "then",
+       681.985
+      ],
+      [
+       "there",
+       682.415
+      ],
+      [
+       "is",
+       682.595
+      ],
+      [
+       "familiarity",
+       682.735
+      ]
+     ]
     },
     {
      "text": "Psychologists call it the mere exposure effect.",
      "start": 684.223,
-     "end": 686.931
+     "end": 686.975,
+     "words": [
+      [
+       "psychologists",
+       684.215
+      ],
+      [
+       "call",
+       684.775
+      ],
+      [
+       "it",
+       684.985
+      ],
+      [
+       "the",
+       685.295
+      ],
+      [
+       "mere",
+       685.425
+      ],
+      [
+       "exposure",
+       685.805
+      ],
+      [
+       "effect",
+       686.555
+      ]
+     ]
     },
     {
      "text": "The more often you see someone, the more you tend to like them.",
      "start": 687.529,
-     "end": 690.262
+     "end": 690.315,
+     "words": [
+      [
+       "the",
+       687.495
+      ],
+      [
+       "more",
+       687.555
+      ],
+      [
+       "often",
+       687.745
+      ],
+      [
+       "you",
+       688.005
+      ],
+      [
+       "see",
+       688.105
+      ],
+      [
+       "someone",
+       688.335
+      ],
+      [
+       "the",
+       689.015
+      ],
+      [
+       "more",
+       689.095
+      ],
+      [
+       "you",
+       689.445
+      ],
+      [
+       "tend",
+       689.585
+      ],
+      [
+       "to",
+       689.825
+      ],
+      [
+       "like",
+       689.915
+      ],
+      [
+       "them",
+       690.155
+      ]
+     ]
     },
     {
      "text": "This is why so many people fall for a classmate, a neighbor, or a coworker.",
      "start": 690.993,
-     "end": 695.469
+     "end": 695.515,
+     "words": [
+      [
+       "this",
+       690.995
+      ],
+      [
+       "is",
+       691.325
+      ],
+      [
+       "why",
+       691.475
+      ],
+      [
+       "so",
+       691.625
+      ],
+      [
+       "many",
+       691.915
+      ],
+      [
+       "people",
+       692.195
+      ],
+      [
+       "fall",
+       692.485
+      ],
+      [
+       "for",
+       692.795
+      ],
+      [
+       "a",
+       692.985
+      ],
+      [
+       "classmate",
+       693.045
+      ],
+      [
+       "a",
+       693.975
+      ],
+      [
+       "neighbor",
+       694.035
+      ],
+      [
+       "or",
+       694.695
+      ],
+      [
+       "a",
+       694.895
+      ],
+      [
+       "coworker",
+       694.925
+      ]
+     ]
     },
     {
      "text": "Being close matters.",
      "start": 696.019,
-     "end": 697.266
+     "end": 697.315,
+     "words": [
+      [
+       "being",
+       695.995
+      ],
+      [
+       "close",
+       696.215
+      ],
+      [
+       "matters",
+       696.735
+      ]
+     ]
     }
    ]
   },
@@ -1327,17 +8415,175 @@
     {
      "text": "And then there is personality.",
      "start": 698.218,
-     "end": 699.749
+     "end": 699.818,
+     "words": [
+      [
+       "and",
+       698.158
+      ],
+      [
+       "then",
+       698.348
+      ],
+      [
+       "there",
+       698.608
+      ],
+      [
+       "is",
+       698.868
+      ],
+      [
+       "personality",
+       698.978
+      ]
+     ]
     },
     {
      "text": "In large studies across dozens of countries, when people were asked what they want most in a long term partner, the top answers were not looks or money.",
      "start": 700.314,
-     "end": 710.04
+     "end": 708.168,
+     "words": [
+      [
+       "in",
+       700.318
+      ],
+      [
+       "large",
+       700.408
+      ],
+      [
+       "studies",
+       700.798
+      ],
+      [
+       "across",
+       701.218
+      ],
+      [
+       "dozens",
+       701.568
+      ],
+      [
+       "of",
+       702.008
+      ],
+      [
+       "countries",
+       702.088
+      ],
+      [
+       "when",
+       702.848
+      ],
+      [
+       "people",
+       703.008
+      ],
+      [
+       "were",
+       703.268
+      ],
+      [
+       "asked",
+       703.438
+      ],
+      [
+       "what",
+       703.708
+      ],
+      [
+       "they",
+       703.908
+      ],
+      [
+       "want",
+       703.998
+      ],
+      [
+       "most",
+       704.258
+      ],
+      [
+       "in",
+       704.648
+      ],
+      [
+       "a",
+       704.758
+      ],
+      [
+       "long",
+       704.788
+      ],
+      [
+       "term",
+       705.028
+      ],
+      [
+       "partner",
+       705.228
+      ],
+      [
+       "the",
+       705.968
+      ],
+      [
+       "top",
+       706.088
+      ],
+      [
+       "answers",
+       706.358
+      ],
+      [
+       "were",
+       706.758
+      ],
+      [
+       "not",
+       706.938
+      ],
+      [
+       "looks",
+       707.148
+      ],
+      [
+       "or",
+       707.648
+      ],
+      [
+       "money",
+       707.778
+      ]
+     ]
     },
     {
      "text": "They were kindness and intelligence.",
-     "start": 710.52,
-     "end": 713.04
+     "start": 708.712,
+     "end": 711.588,
+     "words": [
+      [
+       "they",
+       708.718
+      ],
+      [
+       "were",
+       708.858
+      ],
+      [
+       "kindness",
+       709.008
+      ],
+      [
+       "and",
+       710.478
+      ],
+      [
+       "intelligence",
+       710.648
+      ]
+     ]
     }
    ]
   },
@@ -1346,13 +8592,157 @@
    "sentences": [
     {
      "text": "A smile, a sense of humor, a warm voice, the way someone treats a stranger.",
-     "start": 713.536,
-     "end": 717.733
+     "start": 712.403,
+     "end": 717.828,
+     "words": [
+      [
+       "a",
+       712.458
+      ],
+      [
+       "smile",
+       712.508
+      ],
+      [
+       "a",
+       713.518
+      ],
+      [
+       "sense",
+       713.568
+      ],
+      [
+       "of",
+       713.888
+      ],
+      [
+       "humor",
+       713.968
+      ],
+      [
+       "a",
+       714.568
+      ],
+      [
+       "warm",
+       714.628
+      ],
+      [
+       "voice",
+       715.248
+      ],
+      [
+       "the",
+       716.028
+      ],
+      [
+       "way",
+       716.118
+      ],
+      [
+       "someone",
+       716.328
+      ],
+      [
+       "treats",
+       716.698
+      ],
+      [
+       "a",
+       717.048
+      ],
+      [
+       "stranger",
+       717.078
+      ]
+     ]
     },
     {
      "text": "These things can make a person more attractive over time, even if they did not stand out at first glance.",
      "start": 718.333,
-     "end": 724.8
+     "end": 724.818,
+     "words": [
+      [
+       "these",
+       718.508
+      ],
+      [
+       "things",
+       718.828
+      ],
+      [
+       "can",
+       719.178
+      ],
+      [
+       "make",
+       719.288
+      ],
+      [
+       "a",
+       719.488
+      ],
+      [
+       "person",
+       719.538
+      ],
+      [
+       "more",
+       719.938
+      ],
+      [
+       "attractive",
+       720.318
+      ],
+      [
+       "over",
+       721.148
+      ],
+      [
+       "time",
+       721.418
+      ],
+      [
+       "even",
+       722.368
+      ],
+      [
+       "if",
+       722.638
+      ],
+      [
+       "they",
+       722.828
+      ],
+      [
+       "did",
+       722.978
+      ],
+      [
+       "not",
+       723.158
+      ],
+      [
+       "stand",
+       723.338
+      ],
+      [
+       "out",
+       723.708
+      ],
+      [
+       "at",
+       724.008
+      ],
+      [
+       "first",
+       724.118
+      ],
+      [
+       "glance",
+       724.398
+      ]
+     ]
     }
    ]
   },
@@ -1362,17 +8752,107 @@
     {
      "text": "So attraction is a conversation between two forces.",
      "start": 725.625,
-     "end": 729.171
+     "end": 729.208,
+     "words": [
+      [
+       "so",
+       725.788
+      ],
+      [
+       "attraction",
+       726.008
+      ],
+      [
+       "is",
+       726.588
+      ],
+      [
+       "a",
+       726.788
+      ],
+      [
+       "conversation",
+       726.838
+      ],
+      [
+       "between",
+       727.818
+      ],
+      [
+       "two",
+       728.218
+      ],
+      [
+       "forces",
+       728.598
+      ]
+     ]
     },
     {
      "text": "Ancient biology on one side.",
      "start": 729.851,
-     "end": 731.748
+     "end": 731.778,
+     "words": [
+      [
+       "ancient",
+       729.848
+      ],
+      [
+       "biology",
+       730.348
+      ],
+      [
+       "on",
+       730.968
+      ],
+      [
+       "one",
+       731.098
+      ],
+      [
+       "side",
+       731.328
+      ]
+     ]
     },
     {
      "text": "Your personal life and culture on the other.",
      "start": 732.339,
-     "end": 734.631
+     "end": 734.708,
+     "words": [
+      [
+       "your",
+       732.318
+      ],
+      [
+       "personal",
+       732.508
+      ],
+      [
+       "life",
+       733.018
+      ],
+      [
+       "and",
+       733.498
+      ],
+      [
+       "culture",
+       733.628
+      ],
+      [
+       "on",
+       734.168
+      ],
+      [
+       "the",
+       734.268
+      ],
+      [
+       "other",
+       734.418
+      ]
+     ]
     }
    ]
   },
@@ -1382,12 +8862,44 @@
     {
      "text": "Part Seven.",
      "start": 735.953,
-     "end": 736.507
+     "end": 736.578,
+     "words": [
+      [
+       "part",
+       735.908
+      ],
+      [
+       "seven",
+       736.148
+      ]
+     ]
     },
     {
      "text": "You Are Not a Robot.",
      "start": 737.329,
-     "end": 738.928
+     "end": 738.958,
+     "words": [
+      [
+       "you",
+       737.358
+      ],
+      [
+       "are",
+       737.498
+      ],
+      [
+       "not",
+       737.558
+      ],
+      [
+       "a",
+       738.338
+      ],
+      [
+       "robot",
+       738.398
+      ]
+     ]
     }
    ]
   },
@@ -1397,17 +8909,115 @@
     {
      "text": "It is also important to remember that these are averages.",
      "start": 739.777,
-     "end": 742.996
+     "end": 743.027,
+     "words": [
+      [
+       "it",
+       739.927
+      ],
+      [
+       "is",
+       740.017
+      ],
+      [
+       "also",
+       740.147
+      ],
+      [
+       "important",
+       740.437
+      ],
+      [
+       "to",
+       740.857
+      ],
+      [
+       "remember",
+       740.917
+      ],
+      [
+       "that",
+       741.317
+      ],
+      [
+       "these",
+       741.487
+      ],
+      [
+       "are",
+       741.867
+      ],
+      [
+       "averages",
+       742.357
+      ]
+     ]
     },
     {
      "text": "Patterns across thousands of people.",
      "start": 743.531,
-     "end": 745.382
+     "end": 745.447,
+     "words": [
+      [
+       "patterns",
+       743.487
+      ],
+      [
+       "across",
+       744.017
+      ],
+      [
+       "thousands",
+       744.387
+      ],
+      [
+       "of",
+       745.007
+      ],
+      [
+       "people",
+       745.067
+      ]
+     ]
     },
     {
      "text": "They are not rules for any single person.",
      "start": 746.035,
-     "end": 748.335
+     "end": 748.437,
+     "words": [
+      [
+       "they",
+       746.177
+      ],
+      [
+       "are",
+       746.287
+      ],
+      [
+       "not",
+       746.347
+      ],
+      [
+       "rules",
+       746.507
+      ],
+      [
+       "for",
+       747.087
+      ],
+      [
+       "any",
+       747.247
+      ],
+      [
+       "single",
+       747.457
+      ],
+      [
+       "person",
+       747.917
+      ]
+     ]
     }
    ]
   },
@@ -1417,22 +9027,150 @@
     {
      "text": "Humans are wonderfully diverse.",
      "start": 749.234,
-     "end": 750.968
+     "end": 750.997,
+     "words": [
+      [
+       "humans",
+       749.217
+      ],
+      [
+       "are",
+       749.617
+      ],
+      [
+       "wonderfully",
+       749.737
+      ],
+      [
+       "diverse",
+       750.437
+      ]
+     ]
     },
     {
      "text": "Some men are attracted to men.",
      "start": 751.531,
-     "end": 753.07
+     "end": 753.147,
+     "words": [
+      [
+       "some",
+       751.517
+      ],
+      [
+       "men",
+       751.767
+      ],
+      [
+       "are",
+       752.237
+      ],
+      [
+       "attracted",
+       752.357
+      ],
+      [
+       "to",
+       752.727
+      ],
+      [
+       "men",
+       752.807
+      ]
+     ]
     },
     {
      "text": "Some people feel little attraction at all.",
      "start": 753.736,
-     "end": 755.429
+     "end": 755.457,
+     "words": [
+      [
+       "some",
+       753.717
+      ],
+      [
+       "people",
+       753.937
+      ],
+      [
+       "feel",
+       754.167
+      ],
+      [
+       "little",
+       754.397
+      ],
+      [
+       "attraction",
+       754.597
+      ],
+      [
+       "at",
+       755.077
+      ],
+      [
+       "all",
+       755.157
+      ]
+     ]
     },
     {
      "text": "Many people find themselves drawn to someone who does not match any checklist.",
      "start": 755.93,
-     "end": 760.007
+     "end": 760.067,
+     "words": [
+      [
+       "many",
+       756.167
+      ],
+      [
+       "people",
+       756.447
+      ],
+      [
+       "find",
+       756.707
+      ],
+      [
+       "themselves",
+       757.017
+      ],
+      [
+       "drawn",
+       757.397
+      ],
+      [
+       "to",
+       757.747
+      ],
+      [
+       "someone",
+       757.807
+      ],
+      [
+       "who",
+       758.187
+      ],
+      [
+       "does",
+       758.327
+      ],
+      [
+       "not",
+       758.497
+      ],
+      [
+       "match",
+       758.757
+      ],
+      [
+       "any",
+       759.097
+      ],
+      [
+       "checklist",
+       759.457
+      ]
+     ]
     }
    ]
   },
@@ -1442,12 +9180,128 @@
     {
      "text": "Evolution gave us tendencies, not orders.",
      "start": 760.957,
-     "end": 763.749
+     "end": 763.767,
+     "words": [
+      [
+       "evolution",
+       760.947
+      ],
+      [
+       "gave",
+       761.467
+      ],
+      [
+       "us",
+       761.647
+      ],
+      [
+       "tendencies",
+       761.807
+      ],
+      [
+       "not",
+       762.887
+      ],
+      [
+       "orders",
+       763.117
+      ]
+     ]
     },
     {
      "text": "And our big, complex brains allow us to choose, to reflect, and to love in ways that go far beyond our genes.",
      "start": 764.264,
-     "end": 771.46
+     "end": 771.497,
+     "words": [
+      [
+       "and",
+       764.227
+      ],
+      [
+       "our",
+       764.347
+      ],
+      [
+       "big",
+       764.457
+      ],
+      [
+       "complex",
+       764.927
+      ],
+      [
+       "brains",
+       765.637
+      ],
+      [
+       "allow",
+       766.197
+      ],
+      [
+       "us",
+       766.507
+      ],
+      [
+       "to",
+       766.607
+      ],
+      [
+       "choose",
+       766.687
+      ],
+      [
+       "to",
+       767.557
+      ],
+      [
+       "reflect",
+       767.667
+      ],
+      [
+       "and",
+       768.697
+      ],
+      [
+       "to",
+       768.787
+      ],
+      [
+       "love",
+       768.867
+      ],
+      [
+       "in",
+       769.237
+      ],
+      [
+       "ways",
+       769.367
+      ],
+      [
+       "that",
+       769.767
+      ],
+      [
+       "go",
+       769.857
+      ],
+      [
+       "far",
+       770.017
+      ],
+      [
+       "beyond",
+       770.487
+      ],
+      [
+       "our",
+       770.897
+      ],
+      [
+       "genes",
+       770.997
+      ]
+     ]
     }
    ]
   },
@@ -1457,12 +9311,124 @@
     {
      "text": "That is what makes human attraction so fascinating.",
      "start": 772.658,
-     "end": 775.243
+     "end": 775.247,
+     "words": [
+      [
+       "that",
+       772.617
+      ],
+      [
+       "is",
+       772.787
+      ],
+      [
+       "what",
+       772.897
+      ],
+      [
+       "makes",
+       773.027
+      ],
+      [
+       "human",
+       773.307
+      ],
+      [
+       "attraction",
+       773.547
+      ],
+      [
+       "so",
+       774.137
+      ],
+      [
+       "fascinating",
+       774.467
+      ]
+     ]
     },
     {
      "text": "It is the meeting point of a billion years of evolution and a single moment in your own life.",
      "start": 775.986,
-     "end": 781.087
+     "end": 781.216,
+     "words": [
+      [
+       "it",
+       775.946
+      ],
+      [
+       "is",
+       776.056
+      ],
+      [
+       "the",
+       776.186
+      ],
+      [
+       "meeting",
+       776.246
+      ],
+      [
+       "point",
+       776.726
+      ],
+      [
+       "of",
+       777.196
+      ],
+      [
+       "a",
+       777.276
+      ],
+      [
+       "billion",
+       777.336
+      ],
+      [
+       "years",
+       777.906
+      ],
+      [
+       "of",
+       778.286
+      ],
+      [
+       "evolution",
+       778.356
+      ],
+      [
+       "and",
+       779.236
+      ],
+      [
+       "a",
+       779.406
+      ],
+      [
+       "single",
+       779.436
+      ],
+      [
+       "moment",
+       779.956
+      ],
+      [
+       "in",
+       780.426
+      ],
+      [
+       "your",
+       780.536
+      ],
+      [
+       "own",
+       780.726
+      ],
+      [
+       "life",
+       780.836
+      ]
+     ]
     }
    ]
   },
@@ -1472,7 +9438,13 @@
     {
      "text": "Epilogue.",
      "start": 782.094,
-     "end": 782.558
+     "end": 782.606,
+     "words": [
+      [
+       "epilogue",
+       782.086
+      ]
+     ]
     }
    ]
   },
@@ -1482,12 +9454,72 @@
     {
      "text": "So let us go back to that street.",
      "start": 783.508,
-     "end": 785.151
+     "end": 785.176,
+     "words": [
+      [
+       "so",
+       783.596
+      ],
+      [
+       "let",
+       783.746
+      ],
+      [
+       "us",
+       783.886
+      ],
+      [
+       "go",
+       784.006
+      ],
+      [
+       "back",
+       784.116
+      ],
+      [
+       "to",
+       784.396
+      ],
+      [
+       "that",
+       784.506
+      ],
+      [
+       "street",
+       784.676
+      ]
+     ]
     },
     {
      "text": "Hundreds of faces pass you by.",
      "start": 785.764,
-     "end": 787.673
+     "end": 787.726,
+     "words": [
+      [
+       "hundreds",
+       785.916
+      ],
+      [
+       "of",
+       786.506
+      ],
+      [
+       "faces",
+       786.576
+      ],
+      [
+       "pass",
+       787.076
+      ],
+      [
+       "you",
+       787.336
+      ],
+      [
+       "by",
+       787.426
+      ]
+     ]
     }
    ]
   },
@@ -1496,8 +9528,38 @@
    "sentences": [
     {
      "text": "And then one of them stops you.",
-     "start": 788.424,
-     "end": 789.939
+     "start": 788.238,
+     "end": 790.086,
+     "words": [
+      [
+       "and",
+       788.256
+      ],
+      [
+       "then",
+       788.536
+      ],
+      [
+       "one",
+       788.656
+      ],
+      [
+       "of",
+       788.876
+      ],
+      [
+       "them",
+       788.996
+      ],
+      [
+       "stops",
+       789.466
+      ],
+      [
+       "you",
+       789.916
+      ]
+     ]
     }
    ]
   },
@@ -1507,7 +9569,65 @@
     {
      "text": "In that one second, your eyes read a face built by hormones and genes.",
      "start": 790.736,
-     "end": 795.051
+     "end": 795.086,
+     "words": [
+      [
+       "in",
+       790.876
+      ],
+      [
+       "that",
+       791.006
+      ],
+      [
+       "one",
+       791.146
+      ],
+      [
+       "second",
+       791.486
+      ],
+      [
+       "your",
+       791.906
+      ],
+      [
+       "eyes",
+       792.176
+      ],
+      [
+       "read",
+       792.626
+      ],
+      [
+       "a",
+       792.806
+      ],
+      [
+       "face",
+       792.846
+      ],
+      [
+       "built",
+       793.236
+      ],
+      [
+       "by",
+       793.546
+      ],
+      [
+       "hormones",
+       793.706
+      ],
+      [
+       "and",
+       794.426
+      ],
+      [
+       "genes",
+       794.546
+      ]
+     ]
     }
    ]
   },
@@ -1517,7 +9637,57 @@
     {
      "text": "Your brain compares it to millions of faces you have seen before.",
      "start": 795.605,
-     "end": 798.708
+     "end": 798.716,
+     "words": [
+      [
+       "your",
+       795.576
+      ],
+      [
+       "brain",
+       795.716
+      ],
+      [
+       "compares",
+       796.096
+      ],
+      [
+       "it",
+       796.546
+      ],
+      [
+       "to",
+       796.616
+      ],
+      [
+       "millions",
+       796.706
+      ],
+      [
+       "of",
+       797.296
+      ],
+      [
+       "faces",
+       797.356
+      ],
+      [
+       "you",
+       797.796
+      ],
+      [
+       "have",
+       797.906
+      ],
+      [
+       "seen",
+       798.006
+      ],
+      [
+       "before",
+       798.216
+      ]
+     ]
     }
    ]
   },
@@ -1527,7 +9697,53 @@
     {
      "text": "Your ears and your nose collect clues you will never notice.",
      "start": 799.16,
-     "end": 802.295
+     "end": 802.326,
+     "words": [
+      [
+       "your",
+       799.356
+      ],
+      [
+       "ears",
+       799.456
+      ],
+      [
+       "and",
+       800.026
+      ],
+      [
+       "your",
+       800.156
+      ],
+      [
+       "nose",
+       800.266
+      ],
+      [
+       "collect",
+       800.666
+      ],
+      [
+       "clues",
+       800.956
+      ],
+      [
+       "you",
+       801.356
+      ],
+      [
+       "will",
+       801.426
+      ],
+      [
+       "never",
+       801.566
+      ],
+      [
+       "notice",
+       801.906
+      ]
+     ]
     }
    ]
   },
@@ -1537,12 +9753,60 @@
     {
      "text": "Dopamine floods your reward system.",
      "start": 802.971,
-     "end": 804.992
+     "end": 805.096,
+     "words": [
+      [
+       "dopamine",
+       802.956
+      ],
+      [
+       "floods",
+       803.676
+      ],
+      [
+       "your",
+       804.186
+      ],
+      [
+       "reward",
+       804.286
+      ],
+      [
+       "system",
+       804.706
+      ]
+     ]
     },
     {
      "text": "Your heart beats a little faster.",
      "start": 805.516,
-     "end": 806.882
+     "end": 806.956,
+     "words": [
+      [
+       "your",
+       805.486
+      ],
+      [
+       "heart",
+       805.596
+      ],
+      [
+       "beats",
+       805.886
+      ],
+      [
+       "a",
+       806.206
+      ],
+      [
+       "little",
+       806.256
+      ],
+      [
+       "faster",
+       806.456
+      ]
+     ]
     }
    ]
   },
@@ -1552,7 +9816,69 @@
     {
      "text": "An ancient story, written over a billion years, plays out inside you in an instant.",
      "start": 807.677,
-     "end": 812.24
+     "end": 813.157,
+     "words": [
+      [
+       "an",
+       807.747
+      ],
+      [
+       "ancient",
+       807.837
+      ],
+      [
+       "story",
+       808.357
+      ],
+      [
+       "written",
+       809.257
+      ],
+      [
+       "over",
+       809.497
+      ],
+      [
+       "a",
+       809.747
+      ],
+      [
+       "billion",
+       809.777
+      ],
+      [
+       "years",
+       810.407
+      ],
+      [
+       "plays",
+       811.067
+      ],
+      [
+       "out",
+       811.407
+      ],
+      [
+       "inside",
+       811.607
+      ],
+      [
+       "you",
+       812.077
+      ],
+      [
+       "in",
+       812.417
+      ],
+      [
+       "an",
+       812.537
+      ],
+      [
+       "instant",
+       812.637
+      ]
+     ]
     }
    ]
   },
@@ -1561,8 +9887,50 @@
    "sentences": [
     {
      "text": "But what happens next is not written in your genes.",
-     "start": 812.459,
-     "end": 816.565
+     "start": 813.99,
+     "end": 816.607,
+     "words": [
+      [
+       "but",
+       813.917
+      ],
+      [
+       "what",
+       814.067
+      ],
+      [
+       "happens",
+       814.217
+      ],
+      [
+       "next",
+       814.577
+      ],
+      [
+       "is",
+       815.207
+      ],
+      [
+       "not",
+       815.367
+      ],
+      [
+       "written",
+       815.617
+      ],
+      [
+       "in",
+       815.887
+      ],
+      [
+       "your",
+       815.977
+      ],
+      [
+       "genes",
+       816.137
+      ]
+     ]
     }
    ]
   },
@@ -1572,17 +9940,67 @@
     {
      "text": "Do you smile?",
      "start": 817.25,
-     "end": 817.811
+     "end": 817.907,
+     "words": [
+      [
+       "do",
+       817.177
+      ],
+      [
+       "you",
+       817.297
+      ],
+      [
+       "smile",
+       817.407
+      ]
+     ]
     },
     {
      "text": "Do you say hello?",
      "start": 818.432,
-     "end": 819.106
+     "end": 819.177,
+     "words": [
+      [
+       "do",
+       818.377
+      ],
+      [
+       "you",
+       818.507
+      ],
+      [
+       "say",
+       818.607
+      ],
+      [
+       "hello",
+       818.757
+      ]
+     ]
     },
     {
      "text": "Do you walk away?",
      "start": 819.782,
-     "end": 820.587
+     "end": 820.657,
+     "words": [
+      [
+       "do",
+       819.827
+      ],
+      [
+       "you",
+       819.957
+      ],
+      [
+       "walk",
+       820.047
+      ],
+      [
+       "away",
+       820.247
+      ]
+     ]
     }
    ]
   },
@@ -1592,7 +10010,33 @@
     {
      "text": "That part is up to you.",
      "start": 821.584,
-     "end": 823.104
+     "end": 823.027,
+     "words": [
+      [
+       "that",
+       821.537
+      ],
+      [
+       "part",
+       821.737
+      ],
+      [
+       "is",
+       822.337
+      ],
+      [
+       "up",
+       822.487
+      ],
+      [
+       "to",
+       822.597
+      ],
+      [
+       "you",
+       822.687
+      ]
+     ]
     }
    ]
   },
