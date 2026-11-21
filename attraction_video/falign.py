@@ -4,13 +4,13 @@ then rewrites timeline.json with exact sentence start/end times."""
 import json, re, subprocess
 import numpy as np
 from pocketsphinx import Decoder
-from story import SHOTS
+from cfg import SHOTS, TLF, NARR, AOUT, HOOK
 
 SR = 16000
-raw = subprocess.run(["ffmpeg", "-v", "error", "-i", "narration.mp3", "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"], capture_output=True).stdout
+raw = subprocess.run(["ffmpeg", "-v", "error", "-i", NARR, "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"], capture_output=True).stdout
 pcm = np.frombuffer(raw, np.int16)
-TL = json.load(open("timeline.json"))
-_o = subprocess.run(["ffmpeg", "-i", "narration.mp3", "-af", "silencedetect=n=-35dB:d=0.18", "-f", "null", "-"], capture_output=True, text=True).stderr
+TL = json.load(open(TLF))
+_o = subprocess.run(["ffmpeg", "-i", NARR, "-af", "silencedetect=n=-35dB:d=0.18", "-f", "null", "-"], capture_output=True, text=True).stderr
 ONSETS = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", _o)]
 sents = []
 for si, (sp, ss) in enumerate(SHOTS):
@@ -65,4 +65,4 @@ for j, s in enumerate(sents):
         TL["timeline"][s["shot"]]["sentences"][s["k"]].update(start=round(st, 3), end=round(en, 3), words=wl)
 dev = np.array(dev)
 print("aligned", len(out), "of", len(sents), " mean|dev| %.2fs  max %.2fs" % (np.abs(dev).mean(), np.abs(dev).max()))
-json.dump(TL, open("timeline.json", "w"), indent=1)
+json.dump(TL, open(TLF, "w"), indent=1)

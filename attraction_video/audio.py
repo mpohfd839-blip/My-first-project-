@@ -3,6 +3,7 @@ import math, subprocess, wave
 import numpy as np
 from scipy.signal import butter, sosfilt, oaconvolve
 import render as R
+from cfg import NARR, AOUT
 
 SR = 44100
 TOTAL = R.TOTAL
@@ -355,7 +356,7 @@ bed = music * .8 + sfx * .9
 wet = oaconvolve(bed, ir)[:N]
 bed = bed * .8 + wet * .4
 
-raw = subprocess.run(["ffmpeg", "-v", "error", "-i", "narration.mp3", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
+raw = subprocess.run(["ffmpeg", "-v", "error", "-i", NARR, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
 nar = np.frombuffer(raw, np.float32).astype(np.float64)
 narr = np.zeros(N); narr[:min(N, len(nar))] = nar[:N]
 narr = narr / (np.max(np.abs(narr)) + 1e-9) * 0.9
@@ -372,7 +373,7 @@ mix = np.tanh(mix * 1.05) / np.tanh(1.05)
 side = wet * .04 * (np.max(np.abs(mix)) / (np.max(np.abs(wet)) + 1e-9))
 st = np.stack([mix + side, mix - side], 1)
 pcm = (np.clip(st, -1, 1) * 32767).astype(np.int16)
-with wave.open("final_audio_raw.wav", "wb") as w:
+with wave.open(AOUT + "_raw.wav", "wb") as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes())
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "final_audio_raw.wav", "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "final_audio.m4a"], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", AOUT + "_raw.wav", "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", AOUT + ".m4a"], check=True)
 print("audio", TOTAL)

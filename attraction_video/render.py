@@ -6,7 +6,7 @@ usage: render.py a b out.mp4 | --still t1,t2,... | --info
 import functools, json, math, os, random, re, subprocess, sys, time
 import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
-from story import SHOTS
+from cfg import SHOTS, TLF, NARR, AOUT, HOOK
 
 W, H, FPS = 1920, 1080, 24
 BG = (28, 16, 58)
@@ -17,7 +17,7 @@ NUN8 = "fonts/nunito-latin-800-normal.woff"
 YEL, CYA, MAG, ORA = (255, 214, 80), (70, 230, 240), (255, 90, 190), (255, 140, 90)
 PALETTE = [YEL, CYA, MAG, ORA, (180, 120, 255), (255, 255, 255)]
 
-TL = json.load(open("timeline.json"))
+TL = json.load(open(TLF))
 AUD = TL["duration"]
 SPECS = [sp for sp, _ in SHOTS]
 SEG = []
@@ -28,7 +28,7 @@ for i, (sp, lines) in enumerate(SHOTS):
     else:
         t0 = SEG[-1]["sents"][-1]["end"] + 0.8
     SEG.append(dict(i=i, start=t0, sents=ss))
-TOTAL = SEG[-1]["start"] + 12.0
+TOTAL = SEG[-1]["start"] + SPECS[-1].get("tail", 12.0)
 for i, s_ in enumerate(SEG):
     s_["end"] = SEG[i + 1]["start"] if i + 1 < len(SEG) else TOTAL
 NF = int(TOTAL * FPS)
@@ -579,7 +579,7 @@ def draw_head(layer, spec, s, t, gt, dur):
     ws = head_words(text)
     size = 92 if len(text) < 22 else 74
     sprites = [text_sprite(w, FRED, size, YEL if h else (255, 255, 255), (10, 4, 30), 14, stroke=5) for w, h in ws]
-    gap = -2 * (14 * 3 + 5 + 10) + int(size * 0.26)   # cancel sprite padding, keep a word space
+    gap = -2 * (14 * 3 + 5 + 10) + int(size * 0.4)   # cancel sprite padding, keep a word space
     total = sum(sp.width for sp in sprites) + gap * (len(sprites) - 1)
     x = W / 2 - total / 2
     y = H * 0.13 + math.sin(gt * 1.6) * 4
@@ -820,6 +820,9 @@ def shot_frame(i, t, gt):
     if "tint" in spec:
         k = ease((t - 0.5) / 2)
         img = Image.blend(img, ImageChops.multiply(img, Image.new("RGB", (W, H), spec["tint"])), 0.45 * k)
+    if spec.get("hide"):      # teaser: the answer stays blurred and dark
+        img = img.resize((W // 8, H // 8), Image.BILINEAR).filter(ImageFilter.GaussianBlur(3)).resize((W, H), Image.BICUBIC)
+        img = Image.blend(img, Image.new("RGB", (W, H), BG), 0.35)
     if spec.get("dim"):
         img = Image.blend(img, Image.new("RGB", (W, H), BG), spec["dim"])
     img = img.convert("RGBA")
@@ -926,6 +929,8 @@ def render_frame(fi):
     if i > 0:
         chap = SPECS[i].get("chapter") or SPECS[i - 1].get("chapter") or SPECS[i].get("endcard")
         tr = 0.55 if chap else 0.4
+        if HOOK:
+            chap, tr = True, 0.25
         if t < tr:
             p = SEG[i - 1]
             prev = shot_frame(i - 1, gt - p["start"], gt)
@@ -940,8 +945,8 @@ def render_frame(fi):
                 img = Image.blend(prev, img, k)
     img = ImageChops.multiply(img, VIG)
     # subtitles disabled on request: only key labels and call-outs are shown
-    if gt < 0.8:
-        img = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), img, ease(gt / 0.8))
+    if gt < (0.15 if HOOK else 0.8):
+        img = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), img, ease(gt / (0.15 if HOOK else 0.8)))
     if TOTAL - gt < 1.5:
         img = Image.blend(Image.new("RGB", (W, H), (0, 0, 0)), img, max(0, (TOTAL - gt) / 1.5))
     return img

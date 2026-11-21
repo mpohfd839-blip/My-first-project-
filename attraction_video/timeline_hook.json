@@ -1,0 +1,565 @@
+{
+ "duration": 36.624,
+ "timeline": [
+  {
+   "shot": 0,
+   "sentences": [
+    {
+     "text": "In a fraction of a second,",
+     "start": 0.372,
+     "end": 2.39,
+     "words": [
+      [
+       "in",
+       0.35
+      ],
+      [
+       "a",
+       0.49
+      ],
+      [
+       "fraction",
+       0.82
+      ],
+      [
+       "of",
+       1.48
+      ],
+      [
+       "a",
+       1.65
+      ],
+      [
+       "second",
+       1.72
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 1,
+   "sentences": [
+    {
+     "text": "your brain makes a decision about her.",
+     "start": 2.65,
+     "end": 4.81,
+     "words": [
+      [
+       "your",
+       2.65
+      ],
+      [
+       "brain",
+       2.84
+      ],
+      [
+       "makes",
+       3.24
+      ],
+      [
+       "a",
+       3.53
+      ],
+      [
+       "decision",
+       3.65
+      ],
+      [
+       "about",
+       4.25
+      ],
+      [
+       "her",
+       4.51
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 2,
+   "sentences": [
+    {
+     "text": "Your pupils widen.",
+     "start": 5.019,
+     "end": 6.48,
+     "words": [
+      [
+       "your",
+       5.26
+      ],
+      [
+       "pupils",
+       5.36
+      ],
+      [
+       "widen",
+       5.99
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 3,
+   "sentences": [
+    {
+     "text": "Your heart rate jumps.",
+     "start": 6.732,
+     "end": 8.14,
+     "words": [
+      [
+       "your",
+       6.72
+      ],
+      [
+       "heart",
+       6.82
+      ],
+      [
+       "rate",
+       7.25
+      ],
+      [
+       "jumps",
+       7.48
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 4,
+   "sentences": [
+    {
+     "text": "And the same reward circuits that light up for addictive drugs\u2026",
+     "start": 8.52,
+     "end": 12.43,
+     "words": [
+      [
+       "and",
+       8.52
+      ],
+      [
+       "the",
+       8.68
+      ],
+      [
+       "same",
+       8.77
+      ],
+      [
+       "reward",
+       9.15
+      ],
+      [
+       "circuits",
+       10.02
+      ],
+      [
+       "that",
+       10.54
+      ],
+      [
+       "light",
+       10.69
+      ],
+      [
+       "up",
+       11.07
+      ],
+      [
+       "for",
+       11.21
+      ],
+      [
+       "addictive",
+       11.4
+      ],
+      [
+       "drugs",
+       11.87
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 5,
+   "sentences": [
+    {
+     "text": "start firing.",
+     "start": 12.604,
+     "end": 13.85,
+     "words": [
+      [
+       "start",
+       12.58
+      ],
+      [
+       "firing",
+       13.36
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 6,
+   "sentences": [
+    {
+     "text": "You didn't choose any of this.",
+     "start": 14.319,
+     "end": 15.74,
+     "words": [
+      [
+       "you",
+       14.31
+      ],
+      [
+       "didn't",
+       14.48
+      ],
+      [
+       "choose",
+       14.66
+      ],
+      [
+       "any",
+       15.1
+      ],
+      [
+       "of",
+       15.37
+      ],
+      [
+       "this",
+       15.45
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 7,
+   "sentences": [
+    {
+     "text": "Something else chose for you.",
+     "start": 15.94,
+     "end": 17.69,
+     "words": [
+      [
+       "something",
+       15.94
+      ],
+      [
+       "else",
+       16.32
+      ],
+      [
+       "chose",
+       16.69
+      ],
+      [
+       "for",
+       17.06
+      ],
+      [
+       "you",
+       17.42
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 8,
+   "sentences": [
+    {
+     "text": "A billion years of evolution.",
+     "start": 18.24,
+     "end": 20.18,
+     "words": [
+      [
+       "a",
+       18.22
+      ],
+      [
+       "billion",
+       18.3
+      ],
+      [
+       "years",
+       19.04
+      ],
+      [
+       "of",
+       19.41
+      ],
+      [
+       "evolution",
+       19.49
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 9,
+   "sentences": [
+    {
+     "text": "Invisible clues your nose picks up without telling you.",
+     "start": 20.55,
+     "end": 23.52,
+     "words": [
+      [
+       "invisible",
+       20.55
+      ],
+      [
+       "clues",
+       21.27
+      ],
+      [
+       "your",
+       21.73
+      ],
+      [
+       "nose",
+       21.88
+      ],
+      [
+       "picks",
+       22.3
+      ],
+      [
+       "up",
+       22.56
+      ],
+      [
+       "without",
+       22.7
+      ],
+      [
+       "telling",
+       22.98
+      ],
+      [
+       "you",
+       23.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 10,
+   "sentences": [
+    {
+     "text": "And a brain that quietly switches off its own critic.",
+     "start": 23.954,
+     "end": 27.384,
+     "words": [
+      [
+       "and",
+       23.914
+      ],
+      [
+       "a",
+       24.034
+      ],
+      [
+       "brain",
+       24.064
+      ],
+      [
+       "that",
+       24.604
+      ],
+      [
+       "quietly",
+       24.794
+      ],
+      [
+       "switches",
+       25.594
+      ],
+      [
+       "off",
+       26.004
+      ],
+      [
+       "its",
+       26.214
+      ],
+      [
+       "own",
+       26.454
+      ],
+      [
+       "critic",
+       26.814
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 11,
+   "sentences": [
+    {
+     "text": "By the end of this video, you'll know exactly why her\u2026",
+     "start": 27.997,
+     "end": 31.184,
+     "words": [
+      [
+       "by",
+       27.984
+      ],
+      [
+       "the",
+       28.144
+      ],
+      [
+       "end",
+       28.274
+      ],
+      [
+       "of",
+       28.364
+      ],
+      [
+       "this",
+       28.424
+      ],
+      [
+       "video",
+       28.574
+      ],
+      [
+       "you'll",
+       29.254
+      ],
+      [
+       "know",
+       29.434
+      ],
+      [
+       "exactly",
+       29.624
+      ],
+      [
+       "why",
+       30.324
+      ],
+      [
+       "her",
+       30.624
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 12,
+   "sentences": [
+    {
+     "text": "and not someone else.",
+     "start": 31.184,
+     "end": 32.464,
+     "words": [
+      [
+       "and",
+       31.184
+      ],
+      [
+       "not",
+       31.454
+      ],
+      [
+       "someone",
+       31.744
+      ],
+      [
+       "else",
+       32.104
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 13,
+   "sentences": [
+    {
+     "text": "And the last reason?",
+     "start": 32.891,
+     "end": 33.694,
+     "words": [
+      [
+       "and",
+       32.844
+      ],
+      [
+       "the",
+       32.964
+      ],
+      [
+       "last",
+       33.024
+      ],
+      [
+       "reason",
+       33.354
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 14,
+   "sentences": [
+    {
+     "text": "It's the one almost nobody talks about.",
+     "start": 33.956,
+     "end": 36.324,
+     "words": [
+      [
+       "it's",
+       34.014
+      ],
+      [
+       "the",
+       34.164
+      ],
+      [
+       "one",
+       34.234
+      ],
+      [
+       "almost",
+       34.474
+      ],
+      [
+       "nobody",
+       34.864
+      ],
+      [
+       "talks",
+       35.564
+      ],
+      [
+       "about",
+       35.974
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "shot": 15,
+   "sentences": []
+  }
+ ]
+}

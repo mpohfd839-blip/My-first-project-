@@ -1,7 +1,7 @@
 """Align story sentences to narration audio using silence detection + DP.
 Writes timeline.json: list of {shot, sentences:[{text,start,end}]}"""
 import json, re, subprocess, sys
-from story import SHOTS
+from cfg import SHOTS, TLF, NARR, AOUT, HOOK
 
 AUDIO = sys.argv[1]
 out = subprocess.run(["ffmpeg", "-i", AUDIO, "-af", "silencedetect=n=-35dB:d=0.18", "-f", "null", "-"],
@@ -103,7 +103,7 @@ for si, (spec, lines) in enumerate(SHOTS):
     timeline.append({"shot": si, "sentences": []})
 for (si, txt), tt in zip(sents, times):
     timeline[si]["sentences"].append({"text": txt, "start": round(tt[0], 3), "end": round(tt[1], 3)})
-json.dump({"duration": dur, "timeline": timeline}, open("timeline.json", "w"), indent=1)
+json.dump({"duration": dur, "timeline": timeline}, open(TLF, "w"), indent=1)
 for (si, txt), tt in list(zip(sents, times))[:25]:
     print(f"{tt[0]:7.2f} {tt[1]:7.2f}  {txt}")
 print("...")
