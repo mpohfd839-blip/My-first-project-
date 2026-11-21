@@ -218,14 +218,30 @@ def put(layer, im, cx, cy, scale=1.0, alpha=1.0, rot=0.0):
 
 # ------------------------------------------------------------------ camera
 class Cam:
-    def __init__(self, name, spec, t, dur, gt):
+    def __init__(self, name, spec, t, dur, gt, seg=None):
         im = src(name)
         self.iw, self.ih = im.size
         z0, z1, cx0, cy0, cx1, cy1 = spec["cam"]
-        p = ease(t / max(dur, 0.1))
-        z = z0 + (z1 - z0) * p
-        cx = (cx0 + (cx1 - cx0) * p) * self.iw
-        cy = (cy0 + (cy1 - cy0) * p) * self.ih
+        sp = split_point(spec, seg, dur) if seg else None
+        if sp is None:
+            p = ease(t / max(dur, 0.1))
+            z = z0 + (z1 - z0) * p
+            cx = (cx0 + (cx1 - cx0) * p) * self.iw
+            cy = (cy0 + (cy1 - cy0) * p) * self.ih
+        else:
+            # long shot: first move until the split, then a quick camera push to a new framing
+            zm, cxm, cym = z1, cx1, cy1
+            if t < sp:
+                p = ease(t / sp)
+                z = z0 + (zm - z0) * p; cx = cx0 + (cxm - cx0) * p; cy = cy0 + (cym - cy0) * p
+            else:
+                dx = 0.1 if cxm <= 0.5 else -0.1
+                zt, cxt, cyt = zm * 1.3, cxm + dx, cym
+                k = ease_out((t - sp) / 0.7)
+                drift = (t - sp) / max(dur - sp, 0.1)
+                z = zm + (zt - zm) * k + zm * 0.08 * drift
+                cx = cxm + (cxt - cxm) * k; cy = cym
+            cx *= self.iw; cy *= self.ih
         vw0 = min(self.iw, self.ih * 16 / 9)
         vw = vw0 / z
         vh = vw * 9 / 16
@@ -258,6 +274,19 @@ class Cam:
         px, py = c * px - sn * py, sn * px + c * py
         s = W / self.vw
         return W / 2 + px * s, H / 2 + py * s
+
+
+def s_of(gt, t):
+    return SEG[shot_at(gt - 0.0001) if t >= 0 else 0]
+
+
+def split_point(spec, s, dur):
+    """For shots longer than 9 s, the local time of the sentence boundary closest to the middle."""
+    if dur < 9 or spec.get("chapter") or spec.get("endcard") or spec.get("quad") or len(s["sents"]) < 2:
+        return None
+    cands = [se["start"] - s["start"] for se in s["sents"][1:]]
+    best = min(cands, key=lambda c: abs(c - dur / 2))
+    return best if 3 < best < dur - 3 else None
 
 
 RNG = np.random.RandomState(5)
@@ -731,7 +760,9 @@ def shot_frame(i, t, gt):
     if spec.get("endcard"):
         return endcard_frame(spec, s, t, gt, dur)
     name = spec["img"]
-    cam = Cam(name, spec, t, dur, gt)
+    if not os.path.exists(f"assets/{name}.jpg"):
+        name = spec.get("fb", "S54_endcard_bg")      # image not delivered yet
+    cam = Cam(name, spec, t, dur, gt, s)
     img = src(name).transform((W, H), Image.AFFINE, cam.coeffs(), Image.BICUBIC, fillcolor=BG)
     img = ImageChops.add(img, twinkle(name, cam, gt))
     if "pulse" in spec:
